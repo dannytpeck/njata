@@ -1,0 +1,161 @@
+#PLAYER
+Version      5
+Name         Izanagi~
+Sex          1
+Class        12
+Subclass     0
+Race         8
+Subrace      0
+Age          0 29 8 610
+Languages    1 1
+Level        2
+Played       1176
+Room         8082
+HpManaMove   7 43 115 115 53 120
+Gold         4
+Exp          2613
+Height       69
+Weight       163
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168778&2
+AffectedBy   16
+Position     112
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Resistant    1
+Susceptible  2
+Mentalstate  0
+Password     5a900fcb4b6b7ad3ea9a751b4d2d15b7fd0c721fe0393af7809f902626e116e5~
+Title         the Adventurer~
+Flags        512
+PKills       0
+PDeaths      0
+MKills       2
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     10 20 18 8 10 10 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 36 100 10
+Site         68.179.250.176
+Skill        1 'aid'
+Skill        1 'climb'
+Tongue       100 'common'
+Skill        1 'cook'
+Weapon       11 'daggers'
+Spell        1 'detect magic'
+Skill        1 'dig'
+Skill        1 'forage'
+Skill        2 'forge'
+Tongue       100 'russa'
+Tongue       100 'siru'
+Weapon       1 'slings'
+Skill        1 'study'
+Killed       8007 1
+Killed       8103 1
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         8112
+WearLoc      6
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8111
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8107
+WearLoc      1
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8130
+WearLoc      7
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         412
+Level        1
+Values       12 1 10 2 2 0
+End
+
+#OBJECT
+Vnum         431
+Level        1
+End
+
+#OBJECT
+Name         iron dagger~
+ShortDescr   iron dagger~
+Description  iron dagger is lying here.~
+Vnum         430
+WearLoc      24
+ItemType     5
+Level        1
+Cost         119
+Values       12 1 12 2 2 0
+End
+
+#OBJECT
+Vnum         10333
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         426
+WearLoc      23
+Level        1
+Values       0 0 22 0 0 0
+End
+
+#OBJECT
+Vnum         8001
+Level        1
+Values       10 287 -1 -1 0 0
+Spell 1      'word of recall'
+End
+
+#OBJECT
+Vnum         8000
+Level        1
+Values       11 211 29 12 0 0
+Spell 1      'sanctuary'
+Spell 2      'bless'
+Spell 3      'armor'
+End
+
+#MOBILE
+Vnum	8010
+Room	8085
+Description A neck tag says 'I belong to Izanagi'.
+~
+Position 12
+Flags 786691
+EndMobile
+#END

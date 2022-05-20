@@ -1,0 +1,76 @@
+#PLAYER
+Version      5
+Name         Paedokorne~
+Sex          1
+Class        7
+Subclass     0
+Race         24
+Subrace      0
+Age          0 18 13 610
+Languages    1 1
+Level        2
+Played       1081
+Room         401
+HpManaMove   27 29 110 110 112 112
+Gold         324
+Exp          2010
+Height       60
+Weight       163
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168776&2
+AffectedBy   16
+Position     112
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Mentalstate  0
+Password     73dd911b24d03cc781f4aa4d2f7c8b23d79b545e26df28ea608a8e3def08b5ba~
+Title         the Mountable~
+Flags        514
+PKills       0
+PDeaths      0
+MKills       1
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     7 9 18 7 7 18 18
+AttrMod      0 0 0 0 0 0 0
+Condition    0 26 48 10
+Site         76.114.126.101
+Tongue       100 'common'
+Skill        1 'forage'
+Skill        1 'kick'
+Tongue       100 'siru'
+Tongue       100 'wildtongue'
+Killed       8103 1
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+WearLoc      6
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         412
+WearLoc      24
+Level        1
+Values       12 1 10 2 2 0
+End
+
+#END

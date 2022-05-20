@@ -1,0 +1,299 @@
+Name        Bard~
+Class       0
+Races     0
+AttrPrime   25
+AttrSecond   3
+AttrDeficient   0
+Weapon      10312
+Guild       3028
+Thac0       18
+Thac32      8
+Hpmin       10
+Hpmax       14
+Mana        1
+Expbase     1000
+Affected    0
+Resist	 0
+Suscept	 0
+Skill 'acid blast' 0 100
+Skill 'acid breath' 0 100
+Skill 'aid' 0 100
+Skill 'alertness' 0 100
+Skill 'animate dead' 0 100
+Skill 'antimagic shell' 0 100
+Skill 'aqua breath' 0 100
+Skill 'archery' 0 100
+Skill 'armor' 0 100
+Skill 'askravaardi' 0 100
+Skill 'astral walk' 0 100
+Skill 'axes' 0 100
+Skill 'backstab' 0 100
+Skill 'bash' 0 100
+Skill 'benediction' 0 100
+Skill 'benefic aura' 0 100
+Skill 'berserk' 0 100
+Skill 'bethsaidean touch' 0 100
+Skill 'bite' 0 100
+Skill 'black fist' 0 100
+Skill 'black hand' 0 100
+Skill 'black lightning' 0 100
+Skill 'blazebane' 0 100
+Skill 'blazeward' 0 100
+Skill 'bless' 0 100
+Skill 'blind' 0 100
+Skill 'blitz' 0 100
+Skill 'block' 0 100
+Skill 'blowguns' 0 100
+Skill 'boulder' 0 100
+Skill 'brew' 0 100
+Skill 'burning hands' 0 100
+Skill 'call lightning' 0 100
+Skill 'caolidan' 0 100
+Skill 'cause critical' 0 100
+Skill 'cause light' 0 100
+Skill 'cause serious' 0 100
+Skill 'caustic fount' 0 100
+Skill 'change sex' 0 100
+Skill 'charged beacon' 0 100
+Skill 'charm person' 0 100
+Skill 'chill' 0 100
+Skill 'chya' 0 100
+Skill 'circle' 0 100
+Skill 'claw' 0 100
+Skill 'climb' 0 100
+Skill 'colistani' 0 100
+Skill 'colour spray' 0 100
+Skill 'continual light' 0 100
+Skill 'control weather' 0 100
+Skill 'cook' 0 100
+Skill 'corustenya' 0 100
+Skill 'create fire' 0 100
+Skill 'create food' 0 100
+Skill 'create spring' 0 100
+Skill 'create symbol' 0 100
+Skill 'create water' 0 100
+Skill 'cuff' 0 100
+Skill 'cure' 0 100
+Skill 'curse' 0 100
+Skill 'daggers' 1 100
+Skill 'dardi' 0 100
+Skill 'demonskin' 0 100
+Skill 'detect evil' 0 100
+Skill 'detect hidden' 0 100
+Skill 'detect invis' 0 100
+Skill 'detect magic' 0 100
+Skill 'detect poison' 0 100
+Skill 'detect traps' 0 100
+Skill 'detrap' 0 100
+Skill 'dig' 0 100
+Skill 'disarm' 0 100
+Skill 'disenchant weapon' 0 100
+Skill 'dispel evil' 0 100
+Skill 'dispel magic' 0 100
+Skill 'divinity' 0 100
+Skill 'dodge' 0 100
+Skill 'doorbash' 0 100
+Skill 'dorish' 0 100
+Skill 'dragon wit' 0 100
+Skill 'dragonskin' 0 100
+Skill 'drain' 0 100
+Skill 'dream' 0 100
+Skill 'dual wield' 0 100
+Skill 'earthquake' 0 100
+Skill 'elbow' 0 100
+Skill 'eldritch sphere' 0 100
+Skill 'elven beauty' 0 100
+Skill 'enchant weapon' 0 100
+Skill 'energy drain' 0 100
+Skill 'enhanced damage' 0 100
+Skill 'ethereal fist' 0 100
+Skill 'ethereal funnel' 0 100
+Skill 'ethereal shield' 0 100
+Skill 'expurgation' 0 100
+Skill 'extradimensional portal' 0 100
+Skill 'faerie fog' 0 100
+Skill 'fahn' 0 100
+Skill 'farsight' 0 100
+Skill 'fatigue' 0 100
+Skill 'fenradya' 0 100
+Skill 'fifth attack' 0 100
+Skill 'fire breath' 0 100
+Skill 'fireball' 0 100
+Skill 'fireshield' 0 100
+Skill 'flamestrike' 0 100
+Skill 'flare' 0 100
+Skill 'fletch' 0 100
+Skill 'flight' 0 100
+Skill 'float' 0 100
+Skill 'focus' 0 100
+Skill 'forage' 0 100
+Skill 'forge' 0 100
+Skill 'fortify' 0 100
+Skill 'fourth attack' 0 100
+Skill 'frost breath' 0 100
+Skill 'ftaghn' 0 100
+Skill 'galvanic whip' 0 100
+Skill 'gas breath' 0 100
+Skill 'gate' 0 100
+Skill 'gouge' 0 100
+Skill 'grega' 0 100
+Skill 'grip' 0 100
+Skill 'grounding' 0 100
+Skill 'haggle' 0 100
+Skill 'hand to hand' 0 100
+Skill 'harm' 0 100
+Skill 'headbutt' 0 100
+Skill 'heal' 0 100
+Skill 'helical flow' 0 100
+Skill 'hezekiahs cure' 0 100
+Skill 'hide' 0 100
+Skill 'hitall' 0 100
+Skill 'holy sanctity' 0 100
+Skill 'iceshield' 0 100
+Skill 'identify' 0 100
+Skill 'illusory bolt' 0 100
+Skill 'indignation' 0 100
+Skill 'infravision' 0 100
+Skill 'inner warmth' 0 100
+Skill 'invis' 0 100
+Skill 'jab' 0 100
+Skill 'kick' 0 100
+Skill 'kindred strength' 0 100
+Skill 'knee' 0 100
+Skill 'knit' 0 100
+Skill 'knock' 0 100
+Skill 'know alignment' 0 100
+Skill 'lavandai' 0 100
+Skill 'leap' 0 100
+Skill 'lethargy' 0 100
+Skill 'lightning bolt' 0 100
+Skill 'lightning bolt' 0 100
+Skill 'lightning breath' 0 100
+Skill 'locate object' 0 100
+Skill 'lunge' 0 100
+Skill 'maces and hammers' 0 100
+Skill 'magnetic thrust' 0 100
+Skill 'major invocation' 0 100
+Skill 'mass invis' 0 100
+Skill 'meditate' 0 100
+Skill 'midas touch' 0 100
+Skill 'mij' 0 100
+Skill 'minor invocation' 0 100
+Skill 'mount' 0 100
+Skill 'necromantic touch' 0 100
+Skill 'neutralize poison' 0 100
+Skill 'nostrum' 0 100
+Skill 'numb' 0 100
+Skill 'parry' 0 100
+Skill 'pass door' 0 100
+Skill 'peek' 0 100
+Skill 'pelt' 0 100
+Skill 'pick lock' 0 100
+Skill 'plant pass' 0 100
+Skill 'poison' 0 100
+Skill 'poison weapon' 0 100
+Skill 'polearms' 0 100
+Skill 'polymorph' 0 100
+Skill 'portal' 0 100
+Skill 'possess' 0 100
+Skill 'protection' 0 100
+Skill 'pummel' 0 100
+Skill 'punch' 0 100
+Skill 'punt' 0 100
+Skill 'quantum spike' 0 100
+Skill 'quickening' 0 100
+Skill 'razorbait' 0 100
+Skill 'rebuild' 0 100
+Skill 'recharge' 0 100
+Skill 'refresh' 0 100
+Skill 'rejuvenate' 0 100
+Skill 'remove blindness' 0 100
+Skill 'remove curse' 0 100
+Skill 'remove invis' 0 100
+Skill 'remove trap' 0 100
+Skill 'rescue' 0 100
+Skill 'resilience' 0 100
+Skill 'restoration' 0 100
+Skill 'restore mana' 0 100
+Skill 'roundhouse' 0 100
+Skill 'russa' 0 100
+Skill 'sacral divinity' 0 100
+Skill 'sagacity' 0 100
+Skill 'sanctuary' 0 100
+Skill 'sauloon' 0 100
+Skill 'scan' 0 100
+Skill 'scorching surge' 0 100
+Skill 'scribe' 0 100
+Skill 'scry' 0 100
+Skill 'sear' 0 100
+Skill 'second attack' 0 100
+Skill 'shadowform' 0 100
+Skill 'shield' 0 100
+Skill 'shocking grasp' 0 100
+Skill 'shockshield' 0 100
+Skill 'shoulder' 0 100
+Skill 'shriek' 0 100
+Skill 'shriek' 0 100
+Skill 'shrink' 0 100
+Skill 'sicken' 0 100
+Skill 'simgh' 0 100
+Skill 'siru' 0 100
+Skill 'sleep' 0 100
+Skill 'slice' 0 100
+Skill 'slings' 1 100
+Skill 'slink' 0 100
+Skill 'sneak' 0 100
+Skill 'soak' 0 100
+Skill 'solar flight' 0 100
+Skill 'solese' 0 100
+Skill 'solomonic invocation' 0 100
+Skill 'sonic resonance' 0 100
+Skill 'spears' 0 100
+Skill 'spectral furor' 0 100
+Skill 'spinkick' 0 100
+Skill 'spiral blast' 0 100
+Skill 'spiritual wrath' 0 100
+Skill 'spurn' 0 100
+Skill 'staves' 0 100
+Skill 'steal' 0 100
+Skill 'sting' 0 100
+Skill 'stone skin' 0 100
+Skill 'strike' 0 100
+Skill 'study' 0 100
+Skill 'stun' 0 100
+Skill 'sulfurous spray' 0 100
+Skill 'summon' 0 100
+Skill 'swat' 0 100
+Skill 'swipe' 0 100
+Skill 'swordbait' 0 100
+Skill 'swords' 1 100
+Skill 'tail' 0 100
+Skill 'teleport' 0 100
+Skill 'tend' 0 100
+Skill 'third attack' 0 100
+Skill 'track' 0 100
+Skill 'trance' 0 100
+Skill 'transport' 0 100
+Skill 'trip' 0 100
+Skill 'trollish vigor' 0 100
+Skill 'true sight' 0 100
+Skill 'tumble' 0 100
+Skill 'unknown' 0 100
+Skill 'unravel defense' 0 100
+Skill 'uplift' 0 100
+Skill 'uppercut' 0 100
+Skill 'valao' 0 100
+Skill 'valiance' 0 100
+Skill 'vaolumin' 0 100
+Skill 'vault' 0 100
+Skill 'vedric' 0 100
+Skill 'ventriloquate' 0 100
+Skill 'weaken' 0 100
+Skill 'whips' 1 100
+Skill 'wildtongue' 0 100
+Skill 'windslash' 0 100
+Skill 'winter mist' 0 100
+Skill 'wolof' 0 100
+Skill 'word of recall' 0 100
+Skill 'yranib' 0 100
+End

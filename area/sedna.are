@@ -1,0 +1,4069 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Village of Sedna~
+Author       Alyarta~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 60
+Economy      0 31250010
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       5100
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       5101
+Keywords   Edwin master carpenter~
+Short      Edwin The Master Carpenter~
+Long       Edwin the Master Carpenter stands here before you.
+~
+Desc       Edwin The Master Carpenter Is a tall and kinda burly man. He has been working
+on weapons and armor for almost his entire life.
+~
+Race       human~
+Class      blacksmith~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel pacifist prototype~
+Stats1     0 40 0 0 2000 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+Speaks     caolidan~
+Speaking   caolidan~
+ShopData   9 5 4 58 0 130 50 0 23
+#ENDMOBILE
+
+#MOBILE
+Vnum       5102
+Keywords   Rowan bronze worker~
+Short      Rowan The Bronzeworker~
+Long       Rowan the Bronze Worker stares at you intently.
+~
+Desc       Rowan The Bronzeworker is a large burley man. Who has been crafting elagant
+items out of bronze.
+~
+Race       human~
+Class      blacksmith~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel pacifist prototype~
+Stats1     0 40 0 0 2000 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+Speaks     caolidan~
+Speaking   caolidan~
+ShopData   11 15 0 0 0 130 50 0 23
+#ENDMOBILE
+
+#MOBILE
+Vnum       5103
+Keywords   Lassi bar bartender~
+Short      Lassi~
+Long       Lassi the bartender stands behind the bar, selling drinks.
+~
+Desc       Lassi is a very eleagant woman. Who can whip up a drink or a meal is a matter
+of seconds. She has long brown hair that's currently in a bun. She also has
+blue eyes.
+~
+Race       human~
+Class      baker~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel pacifist prototype~
+Stats1     0 40 0 0 2000 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+Speaks     caolidan~
+Speaking   caolidan~
+ShopData   19 0 0 0 0 130 50 0 23
+#MUDPROG
+Progtype  greet_prog~
+Arglist   50~
+Comlist   say Hello to ya, pull up a seat and have a drink!
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  greet_prog~
+Arglist   25~
+Comlist   say Times are tough lately, might I suggest one of our fine spirits?
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       5104
+Keywords   Colman inn keeper innkeeper~
+Short      Colman~
+Long       Colman The Innkeeper looks at you curiously.
+~
+Desc       Colman is an odd looking fellow. He has been working the inn since it started..
+He has been known to give out protections too the superstious as well as rooms.
+~
+Race       human~
+Class      enchanter~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel pacifist prototype~
+Stats1     0 40 0 0 2000 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+Speaks     caolidan~
+Speaking   caolidan~
+ShopData   0 0 0 0 0 130 50 0 23
+#MUDPROG
+Progtype  speech_prog~
+Arglist   'rent room one'~
+Comlist   if ovnuminv(5110) < 1
+  say Sorry, friend. Room number one has already been rented.
+else
+  say Here you go, enjoy your stay!
+  give one $n
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   'rent room two'~
+Comlist   if ovnuminv(5111) < 1
+  say Sorry, friend. Room number two has already been rented.
+else
+  say Here you go, enjoy your stay!
+  give two $n
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   'rent room three'~
+Comlist   if ovnuminv(5112) < 1
+  say Sorry, friend. Room number three has already been rented.
+else
+  say Here you go, enjoy your stay!
+  give three $n
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  greet_prog~
+Arglist   100~
+Comlist   say Hallo, would you like an inn room to stay in for awhile?
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       5149
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       5199
+Keywords   lastmob~
+Short      a newly created lastmob~
+Long       Some god abandoned a newly created lastmob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     5100
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5101
+Keywords strange wardrobe~
+Type     furniture~
+Short    a strange wardrobe~
+Long     A strange wardrobe is here, pushed up against the wall.~
+Values   0 0 0 0 0 0
+Stats    20000 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5102
+Keywords water~
+Type     drinkcon~
+Short    a cup of water~
+Long     A cup of refeshing cold water~
+WFlags   take hold~
+Values   100 3 0 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5103
+Keywords beer~
+Type     drinkcon~
+Short    a foamy glass of beer~
+Long     A glass of ice cold beer~
+WFlags   take hold~
+Values   3 5 1 0 0 0
+Stats    1 20 2 0 0
+Affect       -1 -1 10 65 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5104
+Keywords Ale~
+Type     drinkcon~
+Short    a glass of Ale~
+Long     a glass of Ale on the rocks.~
+WFlags   take hold~
+Values   3 3 4 0 0 0
+Stats    1 20 2 0 0
+Affect       -1 -1 30 65 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5105
+Keywords Whiskey~
+Type     drinkcon~
+Short    a shot of Whiskey~
+Long     a shot of Whiskey~
+WFlags   take hold~
+Values   1 1 5 0 0 0
+Stats    1 20 2 0 0
+Affect       -1 -1 50 65 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5106
+Keywords Hot Tea~
+Type     drinkcon~
+Short    a cup of Hot Tea~
+Long     a cup of Hot Tea~
+WFlags   take hold~
+Values   3 3 11 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5107
+Keywords Coffee~
+Type     drinkcon~
+Short    a hot cup of Coffee~
+Long     a hot cup of Coffee~
+WFlags   take hold~
+Values   3 3 12 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5110
+Keywords key innroom one~
+Type     key~
+Short    an innroom key labelled 'one'~
+Long     an innroom key labelled 'one' is here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5111
+Keywords key innroom two~
+Type     key~
+Short    an innroom key labelled 'two'~
+Long     an innroom key labelled 'two' is here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5112
+Keywords key innroom three~
+Type     key~
+Short    an innroom key labelled 'three'~
+Long     an innroom key labelled 'three' is here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5149
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5199
+Keywords lastobj~
+Type     trash~
+Short    a newly created lastobj~
+Long     Some god dropped a newly created lastobj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     5100
+Name     Sedna Town Square~
+Sector   city~
+Flags    nomob~
+Desc     This is the town square. It is where most of the important meetings take
+place as well as just a normal meeting ground. You can find something 
+always happening here. As you around you see a [sign] in the middle of 
+the town square.
+~
+#EXIT
+Direction north~
+ToRoom    5137
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5104
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5101
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5108
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5109
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ----------------------------------------------------------------------
+This is the Zany institude of the Demented!!
+ 
+It has been around for years teaching people how to play Njata.
+People have come from all over to play. but before you can 
+continue you need to know everything the game has to offer.
+so continue on to learn how to leave this place.
+----------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sign~
+ExDesc       ---------------------------------------------------------------------------
+Welcome traveler to the town of Sedna!! You will find that we have 
+everything you will ever need. If you need a drink The Bear's Paw
+Tavern to your right will do the trick. Want another weapon or maybe
+some better armor? Edwin the Carpenter will be your best bet to the north
+In need of some kind of container to hold more things or want some more 
+shiny things? Roman the Bronze-smith to the west would be your guy.
+Need a letter sent? Then Catherine the Courier would who you want to
+talk to south from here. She will get it in there in no time
+ 
+May your time spent here be a merry one!!! 
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5101
+Name     Outskirts of Sedna~
+Sector   city~
+Desc     You have just entered  the town of Sedna via the southern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town 
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local 
+tavern.
+~
+#EXIT
+Direction north~
+ToRoom    5100
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5103
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5102
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5102
+Name     Road South of Sedna~
+Sector   forest~
+Desc     You have just entered  the town of Sedna via the southern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town 
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local
+tavern.
+~
+#EXIT
+Direction north~
+ToRoom    5101
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8089
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5103
+Name     Courier~
+Sector   inside~
+Flags    nomob indoors~
+Desc     This is the shack of Catherine the local Courier. She delivers mail all
+over the place. If you want something sent she will make sure that it 
+gets to it's destination in one piece in a timely manner. Which is that it 
+gets there at all! As you can see she is not in at the moment. Probably 
+out making a delivery. There is a  [sign] on the door.
+~
+#EXIT
+Direction west~
+ToRoom    5101
+#ENDEXIT
+
+#EXDESC
+ExDescKey    sign~
+ExDesc       ---------------------------------------------------------------------------
+Out Delivering!!!
+Be Back Later!!!
+ Leave message by door or just wait for me to come back!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5104
+Name     Commonroom of Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors~
+Desc     You have just entered the Bear's Paw Tavern. Something is always going
+on here. Whether it be people trying to show off how strong they are. Or 
+how much liquor they can drink. You will always find the locals in here
+You will also find a table of poker going on. Though a lot of people have 
+seemed to be less interested in it do to people cheating with magic. Or 
+being accused of doing so. The next room to the East, is where the bar 
+is for you to order from as well as a staircase to the rooms above.
+The tavern has a log cabin type feel to it.
+~
+#EXIT
+Direction north~
+ToRoom    5107
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5105
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5100
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5105
+Name     Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors~
+Desc     This here is the bar. You can order all kinds of drinks as well 
+as some nice home cooked meal. Just tell the bartender what it
+is you want. If  you head upstairs, you can rent a room as well as for the 
+superstitious get buy some potions of protection up there as well. The tavern
+has
+a log cabin type feel to it. 
+~
+#EXIT
+Direction north~
+ToRoom    5106
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5104
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    5143
+#ENDEXIT
+
+Reset M 0 5103 1 5105
+  Reset G 0 5106 1
+  Reset G 0 5102 1
+  Reset G 0 5103 1
+  Reset G 0 5104 1
+  Reset G 0 5107 1
+  Reset G 0 5105 1
+#ENDROOM
+
+#ROOM
+Vnum     5106
+Name     Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors~
+Desc     This is the common room. It's where all the towns people congregate 
+into to drink their favorite beverage or eat their favorite meal. And catch 
+up on the local rumors as well as the current events. The room itself is
+a large room made out of wood it has a log cabin type feel to it.
+~
+#EXIT
+Direction south~
+ToRoom    5105
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5107
+#ENDEXIT
+
+#EXIT
+Direction somewhere~
+ToRoom    21000
+Keywords  wardrobe~
+Flags     hidden can_enter auto~
+#ENDEXIT
+
+Reset M 0 21059 2 5106
+Reset O 0 5101 1 5106
+#ENDROOM
+
+#ROOM
+Vnum     5107
+Name     Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors~
+Desc     This is the common room. It's where all the towns people congregate 
+into to drink their favorite beverage or eat their favorite meal. And catch
+up on the local rumors as well as the current events. The room itself is
+a large room made out of wood it has a log cabin type feel to it.
+~
+#EXIT
+Direction east~
+ToRoom    5106
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5104
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5108
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+ means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5100
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5118
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5109
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5137
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5108
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5100
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5110
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5136
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5114
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5111
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5133
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5135
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5134
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5113
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5112
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5132
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5116
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5113
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is
+regarded with a mix of fear and relief. It is a wellspring of freshwater,
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5117
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5114
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5118
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5116
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5115
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5131
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5129
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5130
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5113
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5116
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5122
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5114
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5117
+Name     Sedna Pond~
+Sector   r1~
+Flags    nomob~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5119
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5121
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5118
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+ means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5108
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5119
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5119
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+ means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5118
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5120
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5121
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5119
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5142
+Flags     isdoor closed locked~
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5117
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5121
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5122
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5122
+Name     Path Around the Pond~
+Sector   city~
+Flags    indoors~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5129
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5121
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5141
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5123
+Name     Under Sedna Pond~
+Sector   underwater~
+Desc     You have just dived beneath the water of the pond. Unfortunately all 
+you can see around you the blue water that surrounds you. You notice 
+that you are not quite sure which direction to go in. 
+~
+#EXIT
+Direction north~
+ToRoom    5124
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    5113
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5124
+Name     Under Sedna Pond~
+Sector   underwater~
+Desc     You have just dived beneath the water of the pond. Unfortunately all 
+you can see around you the blue water that surrounds you. You notice 
+that you are not quite sure which direction to go in. 
+~
+#EXIT
+Direction north~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5125
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5125
+Name     Under Sedna Pond    ~
+Sector   underwater~
+Desc     You have just dived beneath the water of the pond. Unfortunately all 
+you can see around you the blue water that surrounds you. You notice 
+that you are not quite sure which direction to go in. 
+~
+#EXIT
+Direction north~
+ToRoom    5126
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5123
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5126
+Name     Under Sedna Pond    ~
+Sector   underwater~
+Desc     You have just dived beneath the water of the pond. Unfortunately all 
+you can see around you the blue water that surrounds you. You notice 
+that you are not quite sure which direction to go in. 
+~
+#EXIT
+Direction north~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5127
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5123
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5127
+Name     Under Sedna Pond    ~
+Sector   underwater~
+Desc     You have just found the enterce to the cave. Do you go forth or do you decide
+to stay outside. The choice is your and yours alone. good luck
+ 
+As you look around you notice that for some reason the entrance to the cave
+doesn't seem to be filling with water. Like there is some sort of magical
+barrier that is preventing water from entering.
+~
+#EXIT
+Direction north~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5126
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5128
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section one of the Underground Labyrinth. As you enter 
+this section you notice that the water just seems to stop at the entrance.
+As if there was a magical barrier stopping the water. You also notice
+that it is really dry in here. As you look around it appears that there 
+is something ever odd about this place. But, you can't seem put your
+finger on it, (hypothetically of course!). You also see a  [plaque]  on the
+wall.
+~
+#EXIT
+Direction north~
+ToRoom    5150
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5127
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plague~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Welcome to the Underground Labyrinth!!.
+ 
+This is the first section. Can you make it out alive?
+This plaque was put up to let you know that you went backwards!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5129
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5130
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5122
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5130
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5131
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5129
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5115
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5131
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5132
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5130
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5132
+Name     Path Around the Pond~
+Sector   city~
+Flags    nomob~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5133
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5131
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5133
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5138
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5134
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5132
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5134
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5140
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5135
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5133
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5111
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5135
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5134
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5136
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5111
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5136
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5135
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5137
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5110
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5137
+Name     Path Around the Pond~
+Sector   city~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5136
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5100
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5109
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5138
+Name     Outskirts of Sedna~
+Sector   city~
+Desc     You have just entered  the town of Sedna via the northern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local 
+tavern.
+~
+#EXIT
+Direction north~
+ToRoom    5139
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5133
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5139
+Name     North of Sedna~
+Sector   city~
+Desc     You have just entered  the town of Sedna via the northern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town 
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local
+tavern.
+~
+#EXIT
+Direction south~
+ToRoom    5138
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5140
+Name     Carpenter~
+Sector   inside~
+Flags    indoors~
+Desc     The is the shop of Edwin. He is a Master Carpenter. He is known 
+for making sophisticated while still being practical weapons and 
+armor. As you enter the shop you see  [staffs] ,  [spears,]  and other 
+ types of weapons made out of wood lining the walls.  [Bolts]  and 
+ [arrows]  on his desk. As well as various pieces of  [leather]  armor 
+ hanging on the wall. 
+~
+#EXIT
+Direction west~
+ToRoom    5134
+#ENDEXIT
+
+Reset M 0 5101 1 5140
+#EXDESC
+ExDescKey    staff~
+ExDesc       A long single piece of wood who's length is 6'0 and 3 in diameter. It
+has a rugged look to it like it can take a beating and last forever. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    spear~
+ExDesc       Same as the staff 6' long and 3 in diameter it also have a 1'  long spear
+head on it. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    bolt~
+ExDesc       These tiny pieces maybe small but they pack a mean punch.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    arrow~
+ExDesc       these intricate pieces of art work are very elegant and incredible useful
+they are long slender pieces of intricate wood. With really elegant 
+feathers on them.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    leather~
+ExDesc       These bad boys are the lesser of his craftsmanship. Very durable and 
+functional. These things don't have as nice a look as the rest of the stuff 
+he makes.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5141
+Name     Bronzeworker's Shop ~
+Sector   inside~
+Flags    indoors~
+Desc     This is the shop of Rowan. He is the best at making really intricate pieces 
+of art out of bronze. As you enter the shop you see a slew of bronze pieces 
+hanging from the wall. Sitting on the floor and covering the top of his desk.
+Such, wonderful useful things like a highly decorated  [cup].  A set of 
+shinny  [horse shoes],  a slew of  [pots]  on the wall. A bunch of  [plates]  
+and [utensils] litter the floor. There is also [jewelery] of all kinds on his
+desk. He stairs at you with intent waiting to see what it is you want to buy. 
+~
+#EXIT
+Direction east~
+ToRoom    5122
+#ENDEXIT
+
+Reset M 0 5102 1 5141
+#EXDESC
+ExDescKey    cup~
+ExDesc       &YThis is an incredibly fancy cup, that has an intricate design. and is gem
+incrusted.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    horse shoes~
+ExDesc       &YThis a set of very durable and shiny horse shoes. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    pots~
+ExDesc       &YThis a set very strong but bland looking pots
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    plates~
+ExDesc       &Ythe Plates you are looking at have a nice red circle going around the 
+edge of them. As well as, a picture of a sun setting in the middle of them.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    utensils~
+ExDesc       &YA set of dull unpolished utensils of various usage.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    jewelery~
+ExDesc       &YA bunch of various fancy looking jewelry very from rings to bracelets
+and every thing else you can think of.  
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5142
+Name     Abandoned Shack~
+Sector   inside~
+Flags    indoors~
+Desc     This is a dilapidated building. No ones knows why it's still here or 
+what it was ever used for in the first place. It's just an old falling 
+apart building that people refuse to take down for fear of the unknown. 
+~
+#EXIT
+Direction east~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5143
+Name     Inn Common Room~
+Sector   inside~
+Flags    indoors~
+Desc     After going upstairs. You enter into the common area. The rooms are
+numbered 1 through 3 going in the pattern of n, e, w. this place is bland
+with nothing really to look at other then the three inn room doors. To
+rent an inn room, tell Colman which room you'd like to rent. e.g [sayto
+colman rent room one] would allow you to rent the north inn room.
+~
+#EXIT
+Direction north~
+ToRoom    5144
+Key       5110
+Keywords  door one~
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5145
+Key       5111
+Keywords  door two~
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5146
+Key       5112
+Keywords  door three~
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    5105
+#ENDEXIT
+
+Reset M 0 5104 1 5143
+  Reset G 0 5110 1
+  Reset G 0 5112 1
+  Reset G 0 5111 1
+Reset D 0 5143 0 2
+Reset D 0 5143 1 2
+Reset D 0 5143 3 2
+#ENDROOM
+
+#ROOM
+Vnum     5144
+Name     Inn Room #1~
+Sector   inside~
+Flags    indoors~
+Desc     This is one of three inn rooms. They are all the same. There is a bed in
+the far corner and nothing else. It makes a perfect place to sleep and 
+store stuff for a short time. Just remember to take all your stuff before 
+you leave. Because you never know who might get the room after you.
+~
+#EXIT
+Direction south~
+ToRoom    5143
+Key       5110
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+Reset D 0 5144 2 2
+#ENDROOM
+
+#ROOM
+Vnum     5145
+Name     Inn Room #2~
+Sector   inside~
+Flags    indoors~
+Desc     This is one of three inn rooms. They are all the same. There is a bed in
+the far corner and nothing else. It makes a perfect place to sleep and 
+store stuff for a short time. Just remember to take all your stuff before 
+you leave. Because you never know who might get the room after you.
+~
+#EXIT
+Direction west~
+ToRoom    5143
+Key       5111
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+Reset D 0 5145 3 2
+#ENDROOM
+
+#ROOM
+Vnum     5146
+Name     Inn Room #3~
+Sector   inside~
+Flags    indoors~
+Desc     This is one of three inn rooms. They are all the same. There is a bed in
+the far corner and nothing else. It makes a perfect place to sleep and 
+store stuff for a short time. Just remember to take all your stuff before
+you leave. Because you never know who might get the room after you.
+~
+#EXIT
+Direction east~
+ToRoom    5143
+Key       5112
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+Reset D 0 5146 1 2
+#ENDROOM
+
+#ROOM
+Vnum     5149
+Name     Floating in a void~
+Sector   city~
+Flags    nomob~
+#ENDROOM
+
+#ROOM
+Vnum     5150
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors~
+Desc     Welcome to section one of the Underground Labyrinth. As you enter 
+this section you notice that the water just seems to stop at the entrance.
+As if there was a magical barrier stopping the water. You also notice
+that it is really dry in here. As you look around it appears that there 
+is something ever odd about this place. But, you can't seem put your
+finger on it, (hypothetically of course!). 
+~
+#EXIT
+Direction north~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5151
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5151
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors~
+Desc     Welcome to section one of the Underground Labyrinth. As you enter 
+this section you notice that the water just seems to stop at the entrance.
+As if there was a magical barrier stopping the water. You also notice
+that it is really dry in here. As you look around it appears that there 
+is something ever odd about this place. But, you can't seem put your
+finger on it, (hypothetically of course!). 
+~
+#EXIT
+Direction north~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5152
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5152
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5152
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section one of the Underground Labyrinth. As you enter 
+this section you notice that the water just seems to stop at the entrance.
+As if there was a magical barrier stopping the water. You also notice
+that it is really dry in here. As you look around it appears that there 
+is something ever odd about this place. But, you can't seem put your
+finger on it, (hypothetically of course!). 
+~
+#EXIT
+Direction north~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5153
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5153
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section one of the Underground Labyrinth. As you enter 
+this section you notice that the water just seems to stop at the entrance.
+As if there was a magical barrier stopping the water. You also notice
+that it is really dry in here. As you look around it appears that there
+is something ever odd about this place. But, you can't seem put your
+finger on it, (hypothetically of course!).
+~
+#EXIT
+Direction north~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5154
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5154
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section one of the Underground Labyrinth. As you enter 
+this section you notice that the water just seems to stop at the entrance.
+As if there was a magical barrier stopping the water. You also notice
+that it is really dry in here. As you look around it appears that there 
+is something ever odd about this place. But, you can't seem put your
+finger on it, (hypothetically of course!).
+~
+#EXIT
+Direction north~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5155
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section two of the Underground Labyrinth. As 
+you enter this section you notice that the only thing that really
+changed between section one and section two is the wall color. 
+Instead of a gray wall now it's blue. Other then that not much
+else. You also see a  [plaque]  on the wall.
+~
+#EXIT
+Direction north~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5156
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5155
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Welcome to the Underground Labyrinth!!
+ 
+This is the second section. Can you make it out alive?
+This plaque was put up to let you know that you went backwards!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5156
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors~
+Desc     Welcome to section two of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section one and section two is the wall color.
+Instead of a gray wall now it's blue. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5157
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5157
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section two of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section one and section two is the wall color.
+Instead of a gray wall now it's blue. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5158
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5155
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5158
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section two of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section one and section two is the wall color. 
+Instead of a gray wall now it's blue. Other then that not much 
+else
+~
+#EXIT
+Direction north~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5159
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5159
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors~
+Desc     Welcome to section two of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section one and section two is the wall color.
+Instead of a gray wall now it's blue. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5160
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5155
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5160
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors~
+Desc     Welcome to section two of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section one and section two is the wall color
+Instead of a gray wall now it's blue. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5155
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5161
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section three of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section two and section three is the wall color.
+Instead of a blue wall now it's green. Other then that not much 
+else. You also see a  [plaque]  on the wall.
+~
+#EXIT
+Direction north~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5162
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5161
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Welcome to the Underground Labyrinth!!
+ 
+This is the third section. Can you make it out alive?
+This plaque was put up to let you know that you went backwards!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5162
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section three of the Underground Labyrinth. As you enter 
+this section you notice that the only that really changed between section
+two and section three is the wall color. Instead of a blue wall now it's green.
+Other then that not much else.
+Welcome to section three of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section two and section three is the wall color.
+Instead of a blue wall now it's green. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5163
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5161
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5163
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section three of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section two and section three is the wall color.
+Instead of a blue wall now it's green. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5164
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5161
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5164
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section three of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section two and section three is the wall color. 
+Instead of a blue wall now it's green. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5165
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5165
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section three of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section two and section three is the wall color. 
+Instead of a blue wall now it's green. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5166
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5161
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5166
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section three of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really
+changed between section two and section three is the wall color.
+Instead of a blue wall now it's green. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5161
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5167
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5167
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors~
+Desc     Welcome to section four of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section three and section four is the wall color.
+Instead of a green wall now it's brown. Other then that not much 
+else. You also see a  [plaque]  on the wall.
+~
+#EXIT
+Direction north~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5168
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5167
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Welcome to the Underground Labyrinth!!
+ 
+This is the fourth section. Can you make it out alive?
+This plaque was put up to let you know that you went backwards!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5168
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section four of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section three and section four is the wall color.
+Instead of a green wall now it's brown. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5169
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5169
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section four of the Underground Labyrinth. As you
+enter this section you notice that the only thing that really 
+changed between section three and section four is the wall color. 
+Instead of a green wall now it's brown. Other then that not much
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5170
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5167
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5170
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section four of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section three and section four is the wall color. 
+Instead of a green wall now it's brown. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5171
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5167
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5171
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section four of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section three and section four is the wall color. 
+Instead of a green wall now it's brown. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5172
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5167
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5172
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section four of the Underground Labyrinth. As you enter 
+this section you notice that the only that really changed between section
+three and section four is the wall color. Instead of a green wall now it's
+brown.
+Other then that not much else.
+Welcome to section four of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section three and section four is the wall color.
+Instead of a green wall now it's brown. Other then that not much
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5167
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5173
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section five of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really
+changed between section four and section five is the wall color. 
+Instead of a brown wall now it's red. Other then that not much 
+else. You also see a  [plaque]  on the wall.
+~
+#EXIT
+Direction north~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5174
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Welcome to the Underground Labyrinth!!
+ 
+This is the fifth section. Can you make it out alive?
+This plaque was put up to let you know that you went backwards!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5174
+Name     Underground Labyrinth~
+Sector   inside~
+Desc     Welcome to section five of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section four and section five is the wall color. 
+Instead of a brown wall now it's red. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5175
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5173
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5175
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors~
+Desc     Welcome to section five of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section four and section five is the wall color. 
+Instead of a brown wall now it's red. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5176
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5173
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5176
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     Welcome to section five of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section four and section five is the wall color. 
+Instead of a brown wall now it's red. Other then that not much
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5177
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5177
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     Welcome to section five of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section four and section five is the wall color. 
+Instead of a brown wall now it's red. Other then that not much
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5178
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5173
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5178
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     Welcome to section five of the Underground Labyrinth. As you enter 
+this section you notice that the only that really changed between section
+four and section five is the wall color. Instead of a brown wall now it's red.
+Other then that not much else.
+Welcome to section five of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really
+changed between section four and section five is the wall color.
+Instead of a brown wall now it's red. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5173
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5173
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5179
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    prototype~
+Desc     Welcome to section six of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section five and section six is the wall color. 
+Instead of a red wall now it's black. Other then that not much 
+else. You also see a  [plaque]  on the wall.
+~
+#EXIT
+Direction north~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5180
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5179
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Welcome to the Underground Labyrinth!!
+ 
+This is the sixth section. Can you make it out alive?
+This plaque was put up to let you know that you went backwards!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5180
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    prototype~
+Desc     Welcome to section six of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section five and section six is the wall color. 
+Instead of a red wall now it's black. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5181
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5181
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     Welcome to section six of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section five and section six is the wall color. 
+Instead of a red wall now it's black. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5182
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5179
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5182
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     Welcome to section six of the Underground Labyrinth. As you
+enter this section you notice that the only thing that really 
+changed between section five and section six is the wall color.
+Instead of a red wall now it's black. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5183
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5179
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5183
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     Welcome to section six of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section five and section six is the wall color. 
+Instead of a red wall now it's black. Other then that not much 
+else.
+~
+#EXIT
+Direction north~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5184
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5179
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5184
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     Welcome to section six of the Underground Labyrinth. As you 
+enter this section you notice that the only thing that really 
+changed between section five and section six is the wall color. 
+Instead of a red wall now it's black. Other then that not much 
+else. 
+~
+#EXIT
+Direction north~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5188
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5179
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5185
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     You have just found the path way to the treasure room. Unfortunately it
+is also hidden behind a maze... But from what you can see it seems easier
+then the last ones you had to do... The walls are also painted yellow in here.
+I guess they are that way so you know you entered a completely different area. 
+~
+#EXIT
+Direction north~
+ToRoom    5186
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5185
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5185
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5185
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5186
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     You have just found the path way to the treasure room. Unfortunately it
+is also hidden behind a maze... But from what you can see it seems easier
+then the last ones you had to do... The walls are also painted yellow in here
+I guess they are that way so you know you entered a completely different area. 
+~
+#EXIT
+Direction north~
+ToRoom    5187
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5185
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5185
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5185
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5187
+Name     Treasure Room~
+Sector   inside~
+Flags    indoors prototype~
+Desc     You have Finally found the Treasure Room. It covered from head to toe 
+with gold as far as the eye can see. The room is also filled with chests. That 
+seem to be here just for you. 
+~
+#EXIT
+Direction east~
+ToRoom    5189
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5188
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is the room of the vial monster who has decided to call the the 
+Labyrinth home upon entering you see that this room is more elaborate
+then any other room in the dungeon. There is a bright red  [rug]  lying on
+the floor as well as  [paintings]  lining the wall. Which for some reason
+this room was kept pristine without a single spec of dust on anything..
+which for all accounts is completely unexplainable. You also see a  [plaque] on
+the wall.
+~
+#EXIT
+Direction north~
+ToRoom    5189
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5185
+Flags     isdoor secret hidden~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5128
+#ENDEXIT
+
+#EXDESC
+ExDescKey    rug~
+ExDesc       &RUpon looking at the rug you notice that it's an elegant circular rug with with
+gold thread lining the middle of.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    painting~
+ExDesc       As you look at the paiting you notice that they are portraits of some fancy
+magic users. As you look closer at one you also get the feeling that the eyes
+are actually moving with you
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+You have finally made it to the end of the dungeon. Just one more room
+and you are home free. Also if you are wondering the treasure room isn't
+here. It's located some place else. uhG! AnOther choicE Another blaSted
+paTh to the treasure room. Hopefully you can find it before you leave. 
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5189
+Name     Underground Labyrinth ~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is the last room in the dungeon. You can use the key you got off the
+monster you just defeated. It will take you back to the Village of Sedna. 
+Upon entering you see that this room is more elaborate then any other room 
+in the dungeon. There is a bright red  [rug]  lying on the floor as well as
+[paintings]  lining the wall. Which for some reason this room was kept 
+pristine without a single spec of dust on anything..Which for all accounts is
+completely unexplainable... For Some reason it appears as tho this room and
+the last are identical. 
+~
+#EXIT
+Direction north~
+ToRoom    5142
+Flags     isdoor closed locked pickproof nopassdoor bashproof~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5188
+#ENDEXIT
+
+#EXDESC
+ExDescKey    painting~
+ExDesc       As you look at the paiting you notice that they are portraits of some fancy
+magic users. As you look closer at one you also get the feeling that the eyes
+are actually moving with you.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    rug~
+ExDesc       &RUpon looking at the rug you notice that it's an elegant circular rug with with
+gold thread lining the middle of.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5199
+Name     Lastroom~
+Sector   city~
+Flags    nomob~
+Reset M 0 5199 1 5199
+Reset O 0 5199 1 5199
+#ENDROOM
+
+#ENDAREA

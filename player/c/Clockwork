@@ -1,0 +1,349 @@
+#PLAYER
+Version      5
+Name         Clockwork~
+Description  Very tousled hair gives this man the perpetual appearance of someone  who
+just woke up.  Though he has large dark half-circles under his eyes,  his
+face is blemish-free but his cheeks and slightly pointed chin are  always
+dusted with a small ammount of grey facial hair; despite appearing to 
+only be in his early twenties.  He stands at only five feet; and though
+his  body isn't heavily muscled it is very lithe and toned, with powerful
+hands  that have a number of visible veins in them, along with several
+scars.  His  legs, though short and relatively slender have a considerable
+amount of  muscle to them. Fairly high cheekbones and straight, healthy
+white teeth complete his image.     His eyes glow bright green making them
+visible even in complete darkness. Both his eyes are very heavily rimmed
+in red, making him look very unwell.   Protruding from his back is a small
+heart shaped handle made out of a silvery metal which continuously winds
+down, causing a faint ticking sound to echo around the area.
+ 
+ 
+~
+Sex          1
+Class        9
+Subclass     0
+Race         15
+Subrace      0
+Age          0 16 5 608
+Languages    1 1
+Level        17
+Played       162236
+Room         407
+HpManaMove   347 348 90 459 376 346
+Gold         714536
+Exp          4752150
+Height       62
+Weight       137
+SkinColor    0
+BodyShape    0
+Act          1644168808&2
+AffectedBy   8388608
+Position     112
+Style        2
+Practice     1
+SavingThrows 0 0 0 0 0
+Alignment    -1000
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        70
+Wimpy        65
+Resistant    256
+Susceptible  3
+Mentalstate  -4
+Password     04a6c1fb399d43b43ba1abc85ea56f7434ff6ec1ff8c891ea90f008ac58c931c~
+Title        .&Y Zoie forces you to 'lunge ass'&r~
+Boards       5 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0 
+Flags        514
+PKills       0
+PDeaths      0
+MKills       1112
+MDeaths      7
+IllegalPK    0
+Timezone     -1
+AttrPerm     18 7 7 12 12 18 10
+AttrMod      0 0 0 0 0 2 0
+Condition    0 0 0 26
+Site         (Link-Dead)
+Skill        1 'aid'
+Spell        100 'armor'
+Weapon       1 'axes'
+Spell        95 'black hand'
+Spell        100 'blazebane'
+Spell        36 'blazeward'
+Spell        78 'bless'
+Spell        1 'blindness'
+Spell        100 'burning hands'
+Skill        1 'climb'
+Spell        87 'colour spray'
+Tongue       100 'common'
+Skill        90 'cook'
+Spell        100 'create fire'
+Spell        100 'create food'
+Spell        100 'create water'
+Spell        100 'cure'
+Spell        1 'curse'
+Weapon       100 'daggers'
+Spell        2 'detect magic'
+Spell        100 'detect poison'
+Skill        1 'dig'
+Spell        1 'dispel magic'
+Spell        90 'elven beauty'
+Spell        100 'faerie fire'
+Spell        61 'faerie fog'
+Spell        100 'fireball'
+Spell        84 'fireshield'
+Spell        65 'flamestrike'
+Skill        100 'forage'
+Skill        16 'forge'
+Weapon       100 'hand to hand'
+Spell        100 'lethargy'
+Skill        70 'lunge'
+Weapon       100 'maces and hammers'
+Spell        100 'mend'
+Skill        100 'parry'
+Weapon       1 'polearms'
+Skill        73 'punch'
+Spell        100 'refresh'
+Spell        66 'rejuvenate'
+Skill        1 'rescue'
+Spell        100 'sear'
+Skill        100 'second attack'
+Skill        44 'shoulder'
+Weapon       1 'spears'
+Weapon       1 'staves'
+Weapon       100 'swords'
+Spell        100 'weaken'
+Weapon       1 'whips'
+AffectData   'elven beauty' 276   2  25 0
+Killed       1531 4
+Killed       1504 4
+Killed       6506 2
+Killed       6501 9
+Killed       1503 6
+Killed       1532 9
+Killed       1505 5
+Killed       1530 22
+Killed       1566 3
+Killed       1535 1
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10302
+WearLoc      8
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         21060
+WearLoc      17
+Level        6
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Vnum         21059
+WearLoc      1
+Level        7
+Values       4 5 0 0 0 0
+End
+
+#OBJECT
+Vnum         7300
+Level        1
+Values       60 1 -1 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8000
+Level        1
+Values       9 211 29 12 0 0
+Spell 1      'sanctuary'
+Spell 2      'bless'
+Spell 3      'armor'
+End
+
+#OBJECT
+Nest         1
+Count        2
+Vnum         8000
+Level        1
+Values       12 211 29 12 0 0
+Spell 1      'sanctuary'
+Spell 2      'bless'
+Spell 3      'armor'
+End
+
+#OBJECT
+Nest         1
+Count        5
+Vnum         8000
+Level        1
+Values       10 211 29 12 0 0
+Spell 1      'sanctuary'
+Spell 2      'bless'
+Spell 3      'armor'
+End
+
+#OBJECT
+Nest         1
+Vnum         410
+Level        1
+Values       12 1 10 1 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8000
+Level        1
+Values       11 211 29 12 0 0
+Spell 1      'sanctuary'
+Spell 2      'bless'
+Spell 3      'armor'
+End
+
+#OBJECT
+Nest         1
+Vnum         21025
+End
+
+#OBJECT
+Nest         1
+Name         skin rename~
+ShortDescr   the skin of the corpse of Clockwork~
+Description  The skin of the corpse of Clockwork lies here.~
+Vnum         23
+End
+
+#OBJECT
+Nest         1
+Vnum         28
+Level        1
+Cost         0
+End
+
+#OBJECT
+Nest         1
+Vnum         431
+Level        1
+End
+
+#OBJECT
+Nest         1
+Vnum         1535
+Level        13
+Values       12 4 12 3 0 0
+End
+
+#OBJECT
+Vnum         21061
+WearLoc      19
+Level        9
+Values       3 4 0 0 0 0
+End
+
+#OBJECT
+Vnum         21064
+WearLoc      13
+Level        10
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Vnum         21064
+WearLoc      14
+Level        10
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Vnum         21062
+WearLoc      9
+Level        10
+Values       4 5 0 0 0 0
+End
+
+#OBJECT
+Vnum         10305
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         1536
+WearLoc      2
+Level        13
+Values       6 9 0 0 0 0
+End
+
+#OBJECT
+Vnum         21063
+WearLoc      11
+Level        13
+Values       5 5 0 0 0 0
+End
+
+#OBJECT
+Vnum         21058
+WearLoc      6
+Level        11
+Values       5 6 0 0 0 0
+End
+
+#OBJECT
+Vnum         21065
+WearLoc      26
+Level        6
+Values       7 7 0 0 0 0
+End
+
+#OBJECT
+Vnum         10314
+Level        1
+Values       15 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         1508
+WearLoc      15
+Level        15
+Values       3 3 0 0 0 0
+End
+
+#OBJECT
+Vnum         1509
+WearLoc      4
+Level        15
+Values       3 3 0 0 0 0
+End
+
+#OBJECT
+Vnum         1508
+WearLoc      16
+Level        14
+Values       3 3 0 0 0 0
+End
+
+#OBJECT
+Vnum         2106
+WearLoc      24
+Level        7
+Values       12 7 14 2 2 0
+End
+
+#MOBILE
+Vnum	21060
+Room	21002
+Description The hunting dog constantly sniffs the ground, searching for its prey.
+A neck tag says 'I belong to Clockwork'.
+~
+Position 12
+Flags 259
+EndMobile
+#END

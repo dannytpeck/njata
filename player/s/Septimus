@@ -1,0 +1,60 @@
+#PLAYER
+Version      5
+Name         Septimus~
+Sex          1
+Class        12
+Race         25
+Subrace      0
+Age          0 2 6 607
+Languages    1 1
+Level        2
+Played       416
+Room         400
+HpManaMove   28 28 106 106 22 110
+Gold         31
+Exp          2116
+Height          69
+Weight          145
+Act          570427000
+AffectedBy   5242880
+Position     106
+Style     2
+Practice     5
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	       0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        130
+Resistant    1048576
+Mentalstate  0
+Password     bf4585396a9a9ed0d109ab4c3d45d73dddf5965fc8dd17c68203251c4495de20~
+Title         the Spell Student~
+Flags        0
+PKills       0
+PDeaths      0
+MKills       1
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     9 17 18 9 16 9 9
+AttrMod      0 0 0 0 0 0 0
+Condition    0 43 48 10
+Site         96.233.183.23
+Tongue       100 'common'
+Tongue       100 'ftaghn'
+Tongue       100 'sauloon'
+Killed       3501 1
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+WearLoc      23
+Values       5 5 0 0 0 0
+End
+
+#END

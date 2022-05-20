@@ -1,0 +1,572 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         {PROTO} Wulfen's area in progress~
+Author       Wulfen~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 0
+Flags        prototype~
+#ENDAREADATA
+
+#MOBILE
+Vnum       1300
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       1301
+Keywords   Deirdre Shopkeeper Keeper~
+Short      Deirdre, the Blacksmith~
+Long       Deirdre the Shopkeeper stands here, polishing a dagger.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea nowander noassist pacifist noattack prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+ShopData   0 0 0 0 0 120 90 0 23
+#MUDPROG
+Progtype  greet_prog~
+Arglist   100~
+Comlist   say UGH! I can't stand this anymore. That stupid ghost keeps wailing and+
+moaning, and it's keeping out the customers!
+mpsleep 7
+sigh
+mpsleep 5
+glare $n
+mpsleep 3
+say You! Get over here, I need a &Rfavor&D.
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       1302
+Keywords   Big Eddie Butcher ShopKeeper Keeper~
+Short      Big Eddie, the Butcher~
+Long       Big Eddie, the Butcher hovers over a large slab of meat.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       1303
+Keywords   Apprentice Selma~
+Short      Selma, the Apprentice~
+Long       Selma the Apprentice stands here, heating some iron.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       1304
+Keywords   Apprentice Madison~
+Short      Madison, the Apprentice~
+Long       Madison the Apprentice hovers over a steaming cauldron.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       1305
+Keywords   Apprentice Renee~
+Short      Renee, the Apprentice~
+Long       Renee the Apprentice hammers viciously on a slab of metal.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       1499
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     1300
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1301
+Keywords Statue Priest~
+Type     furniture~
+Short    the statue of a priest~
+Long     The statue of a priest glowers above the town square.~
+Flags    glow prototype nolocate~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1302
+Keywords clockworks clockwork's bag win~
+Type     container~
+Short    Clockwork's &rBag &Yof &RWin&D~
+Long     Clockwork's &rBag &Yof &RWin&D floats here, pwning your face!~
+WFlags   take hold~
+Values   5000 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1303
+Keywords Wishing Well~
+Type     fountain~
+Short    the Wishing Well~
+Long     The Wishing Well sits here on a strong foundation.~
+Flags    prototype~
+Values   50 50 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1499
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     1300
+Name     Alklyu Town Square~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    1301
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1305
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1304
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1303
+#ENDEXIT
+
+Reset O 0 1301 1 1300
+#ENDROOM
+
+#ROOM
+Vnum     1301
+Name     The Northern Diamondwalk~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    1302
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1300
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    1305
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    1303
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1302
+Name     North Main Street~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    1301
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1303
+Name     The Western Diamondwalk~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    1300
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    1301
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    1307
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    1304
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1304
+Name     The Southern Diamondwalk~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    1300
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    1305
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    1303
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1305
+Name     The Eastern Diamondwalk~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction west~
+ToRoom    1300
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    1306
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    1301
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    1304
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1306
+Name     East Hammock~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    1308
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    1305
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1307
+Name     West Hammock~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction southeast~
+ToRoom    1303
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1308
+Name     East Hammock~
+Sector   city~
+Flags    nomob prototype~
+#EXIT
+Direction east~
+ToRoom    1313
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1306
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    1311
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    1309
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1309
+Name     Before the Wishing Well~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    1310
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    1308
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1310
+Name     The Wishing Well~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    1309
+#ENDEXIT
+
+Reset O 0 1303 1 1310
+#ENDROOM
+
+#ROOM
+Vnum     1311
+Name     The Fast Fighter~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    1316
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    1317
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    1312
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    1308
+#ENDEXIT
+
+Reset M 0 1301 1 1311
+#ENDROOM
+
+#ROOM
+Vnum     1312
+Name     The First Forging Room~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction southeast~
+ToRoom    1311
+#ENDEXIT
+
+Reset M 0 1303 1 1312
+#ENDROOM
+
+#ROOM
+Vnum     1313
+Name     East Hammock~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    1314
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1308
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1314
+Name     Big Eddie's Butcher Shop~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    1313
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    1315
+#ENDEXIT
+
+Reset M 0 1302 1 1314
+#ENDROOM
+
+#ROOM
+Vnum     1315
+Name     The Slaughter Cellar~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction up~
+ToRoom    1314
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1316
+Name     The Second Forging Room~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    1311
+#ENDEXIT
+
+Reset M 0 1304 1 1316
+#ENDROOM
+
+#ROOM
+Vnum     1317
+Name     The Third Forging Room~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction southwest~
+ToRoom    1311
+#ENDEXIT
+
+Reset M 0 1305 1 1317
+#ENDROOM
+
+#ROOM
+Vnum     1499
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ENDAREA

@@ -1,0 +1,1575 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Port Town of Immak~
+Author       Zoie~
+WeatherX     0
+WeatherY     0
+Ranges       0 10 0 60
+Economy      0 151961
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       1400
+Keywords   Bjorn Tailor~
+Short      Bjorn the Tailor~
+Long       Bjorn the tailor is here, showing off his wares.
+~
+Race       dwarf~
+Class      bard~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel pacifist~
+Stats1     0 1 0 0 100000 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+ShopData   11 9 0 0 0 120 90 0 23
+#MUDPROG
+Progtype  greet_prog~
+Arglist   100~
+Comlist   say Hello there $n! I offer some of the highest quality goods, at the lowest+
+prices!
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       1401
+Keywords   Nissa Smith Blacksmith~
+Short      Nissa the Smith~
+Long       Nissa the Smith is here, hammering away on her anvil.
+~
+Race       dwarf~
+Class      chevalier~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel practice pacifist~
+Stats1     0 50 0 0 50000 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    18 13 13 18 13 13 13
+Saves      0 0 0
+ShopData   70 0 0 0 0 120 90 0 23
+#MUDPROG
+Progtype  greet_prog~
+Arglist   50~
+Comlist   say I can always use more wood for my forge. Got any you're willing to+
+sell?
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  rand_prog~
+Arglist   100~
+Comlist   mpjunk chopped
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       1402
+Keywords   Yrsa Shopkeeper Shop~
+Short      Yrsa the Shopkeeper~
+Long       Yrsa the Shopkeeper is here, greeting customers.
+~
+Race       dwarf~
+Class      bard~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel pacifist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 18 13 13 13
+Saves      0 0 0
+ShopData   0 0 0 0 0 120 90 0 23
+#MUDPROG
+Progtype  greet_prog~
+Arglist   100~
+Comlist   if istagged($n, metYrsa)
+  say Fancy seeing you here again, $n!
+else
+  say Howdy, stranger!
+  mptag $n metYrsa
+endif
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       1403
+Keywords   Harald Barkeeper~
+Short      Harald the Barkeeper~
+Long       Harald the Barkeeper is here, polishing a glass.
+~
+Race       dwarf~
+Class      ranger~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel train practice pacifist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+ShopData   0 0 0 0 0 120 90 0 23
+#MUDPROG
+Progtype  greet_prog~
+Arglist   100~
+Comlist   whisper $n Hey there, interested in some ale? I'll sell it to ya for a low+
+price.
+mpsleep 6
+mpecho Harald then puts his current glass down, and starts polishing a new+
+one.
+mpsleep 5
+whisper $n I can also teach you some of the tricks of the trade, if you know+
+what I mean.
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       1404
+Keywords   Ymir Junk Merchant~
+Short      Ymir the Junk Merchant~
+Long       Ymir the Junk Merchant is here, looking shifty.
+~
+Race       dwarf~
+Class      ranger~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel train practice pacifist~
+Stats1     0 1 0 0 50000 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+ShopData   71 0 0 0 0 120 90 0 23
+#ENDMOBILE
+
+#MOBILE
+Vnum       1410
+Keywords   plain brown horse~
+Short      a plain brown horse~
+Long       A plain brown horse with a black mane is standing here.
+~
+Desc       A strong, proud, and properly groomed manor horse meets your gaze.
+You are just dying for a ride, aren't you?
+~
+Race       horse~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel mountable pacifist~
+Affected   detect_invis detect_hidden~
+Stats1     200 1 0 1 1000 0
+Stats2     9 3 100
+Stats3     3 3 2
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+Bodyparts  head legs heart brains guts eye tail~
+#ENDMOBILE
+
+#MOBILE
+Vnum       1449
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     1400
+Keywords stone well~
+Type     fountain~
+Short    an old stone well~
+Long     &wAn old well made of stone is here.~
+Values   50 50 0 0 0 0
+Stats    500 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1401
+Keywords weatherbeaten sign~
+Type     furniture~
+Short    a weatherbeaten sign~
+Long     A weatherbeaten sign is hammered into the ground here.~
+Values   0 0 0 0 0 0
+Stats    5000 0 0 0 0
+#EXDESC
+ExDescKey    weatherbeaten sign~
+ExDesc       -----------------
+Welcome to Immak!
+-----------------
+~
+#ENDEXDESC
+
+#ENDOBJECT
+
+#OBJECT
+Vnum     1402
+Keywords jaunty felt cap~
+Type     armor~
+Short    a jaunty felt cap~
+Long     A jaunty cap made of felt is here on the ground.~
+Flags    inventory~
+WFlags   take head~
+Values   0 0 0 0 0 0
+Stats    1 325 100 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1403
+Keywords suede doublet~
+Type     armor~
+Short    a suede doublet~
+Long     A doublet made of soft suede is lying here.~
+Flags    inventory~
+WFlags   take body~
+Values   0 0 0 0 0 0
+Stats    1 400 40 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1410
+Keywords heavy iron broadsword sword~
+Type     weapon~
+Short    a heavy iron broadsword~
+Long     A heavy broadsword made of iron is lying here.~
+Flags    inventory~
+WFlags   take wield~
+Values   12 1 10 1 1 0
+Stats    1 200 50 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1411
+Keywords wooden wood quarterstaff staff~
+Type     weapon~
+Short    a long wooden quarterstaff~
+Long     A long quarterstaff made of wood is here.~
+Flags    inventory~
+WFlags   take wield~
+Values   12 1 10 4 11 0
+Stats    1 200 20 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1412
+Keywords bronze knife~
+Type     weapon~
+Short    a bronze knife~
+Long     A knife made of bronze is lying here.~
+Flags    inventory~
+WFlags   take wield~
+Values   12 1 10 2 2 0
+Stats    1 200 20 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1413
+Keywords brass knuckles knuckle~
+Type     weapon~
+Short    a pair of brass knuckles~
+Long     A pair of brass knuckles is lying here on the ground.~
+Flags    inventory~
+WFlags   take wield~
+Values   12 1 10 0 0 0
+Stats    1 200 20 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1414
+Keywords leather whip~
+Type     weapon~
+Short    a leather whip~
+Long     A leather whip is coiled up here on the ground.~
+Flags    inventory~
+WFlags   take wield~
+Values   12 1 10 5 3 0
+Stats    1 200 20 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1415
+Keywords bronze light mace~
+Type     weapon~
+Short    a bronze light mace~
+Long     A light mace made of bronze is lying here.~
+Flags    inventory~
+WFlags   take wield~
+Values   12 1 10 4 5 0
+Stats    1 200 20 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1420
+Keywords smoked dried fish~
+Type     meat~
+Short    smoked dried fish~
+Long     Some dried and smoked fish is on the ground here.~
+Flags    inventory~
+WFlags   take~
+Values   24 0 0 0 0 0
+Stats    1 40 4 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1421
+Keywords leather waterskin water skin~
+Type     drinkcon~
+Short    a waterskin~
+Long     You see a waterskin made of leather here on the ground.~
+Flags    inventory~
+WFlags   take~
+Values   15 15 0 0 0 0
+Stats    1 30 3 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1422
+Keywords seashell necklace sea shell~
+Type     armor~
+Short    a seashell necklace~
+Long     A necklace made of seashells is here.~
+Flags    inventory~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    1 50 5 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1423
+Keywords backpack leather~
+Type     container~
+Short    a leather backpack~
+Long     A backpack made from brown leather lies here.~
+WFlags   take back~
+Values   50 0 0 0 0 0
+Stats    1 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1425
+Keywords flagon ale~
+Type     drinkcon~
+Short    a flagon of ale~
+Long     Someone has forgotten their flagon of ale here.~
+Flags    inventory~
+WFlags   take hold~
+Values   10 2 4 0 0 0
+Stats    1 15 1 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1426
+Keywords torch~
+Type     light~
+Short    a torch~
+Long     A piece of wood, partly wrapped in cloth is here.~
+Flags    inventory~
+WFlags   take hold~
+Values   0 0 24 0 0 0
+Stats    1 2 2 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1430
+Keywords iron~
+Type     ingot~
+Short    an iron ingot~
+Long     An iron ingot is lying here.~
+Flags    inventory~
+WFlags   take wield~
+Values   12 1 12 0 0 0
+Stats    1 100 5 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1431
+Keywords hammer smith smithing~
+Type     hammer~
+Short    a smithing hammer~
+Long     Someone has left a smithing hammer here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    4 50 5 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1432
+Keywords woodcutting axe~
+Type     axe~
+Short    a woodcutting axe~
+Long     A woodcutting axe is lying here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    4 50 5 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1435
+Keywords old fishing pole~
+Type     fishingpole~
+Short    an old fishing pole~
+Long     An old ratty fishing pole is here on the ground.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 100 10 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1436
+Keywords bait worms~
+Type     fish~
+Short    some bait worms~
+Long     A pile of bait worms is here.~
+WFlags   take~
+Values   0 0 0 0 0 0
+Stats    1 20 2 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1440
+Keywords ancient cave paintings~
+Type     furniture~
+Short    ancient cave paintings~
+Long     Ancient cave paintings adorn the walls near the rear of the cave.~
+Values   0 0 0 45 0 0
+Stats    5000 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1441
+Keywords leather divan~
+Type     furniture~
+Short    a leather divan~
+Long     A divan upholstered in burgundy leather is here.~
+Values   2 0 2 0 0 0
+Stats    25 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     1449
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     1400
+Name     Village Square of Immak~
+Sector   city~
+Flags    nomob~
+Desc     A cobblestoned village square is here with a sturdy old well in the middle,
+benches line the edges of the cobblestoned square for travellers and
+townsfolk alike to take a load off. To the north is the blacksmith and
+tailor's shop, as well as the road out of town. To the south, a road leads
+to the docks.
+~
+#EXIT
+Direction north~
+ToRoom    1401
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1436
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1405
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1439
+#ENDEXIT
+
+Reset O 0 1400 1 1400
+#EXDESC
+ExDescKey    bench benches~
+ExDesc       Sturdy benches made of wood painted white are here lining the edges of the
+cobblestone square.
+~
+#ENDEXDESC
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   test~
+Comlist   mpaward $n 500
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     1401
+Name     Immak~
+Sector   city~
+Desc     The town of Immak stretches before you, to the north is a well travelled
+road leading away from the town and into the forests. The air smells of
+sea salt, and the sound of a hammer and anvil come from the east, where
+the blacksmith has her shop set up. To the west is a clothier, and to the
+south lay the village square.
+~
+#EXIT
+Direction north~
+ToRoom    1404
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1403
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1400
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1402
+#ENDEXIT
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   test~
+Comlist   mea $n You are a $n.sex $n.race $n.class that has attained level $n.level.
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     1402
+Name     Immak Clothing Store~
+Sector   inside~
+Desc     Inside this wooden building is an assortment of textiles, as well as a loom
+and supplies to sew many an outfit. Some outfits hang on the walls, mostly
+to demonstrate the abilities of the tailor here.
+~
+#EXIT
+Direction east~
+ToRoom    1401
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1424
+Desc      door
+~
+Keywords  door~
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset M 0 1400 1 1402
+  Reset G 0 1402 1
+  Reset G 0 1403 1
+Reset D 0 1402 3 1
+#ENDROOM
+
+#ROOM
+Vnum     1403
+Name     Immak Blacksmith~
+Sector   inside~
+Flags    indoors forge~
+Desc     This building is made of stone and is quite hot and loud, the forge
+radiates an intense heat that seems not to bother the woman at it. The
+clanging of her hammer echoes off the walls, only briefly stopping when
+she takes a customer's order.
+~
+#EXIT
+Direction west~
+ToRoom    1401
+#ENDEXIT
+
+Reset M 0 1401 1 1403
+  Reset G 0 1413 1
+  Reset G 0 1410 1
+  Reset G 0 1415 1
+  Reset G 0 1411 1
+  Reset G 0 1414 1
+  Reset G 0 1412 1
+  Reset G 0 1431 1
+  Reset G 0 1430 1
+#ENDROOM
+
+#ROOM
+Vnum     1404
+Name     Road North of Immak~
+Sector   city~
+Flags    nomob~
+Desc     A well travelled road leads north-south. To the north is a large forest,
+and to the south is the dwarven port town of Immak. The ground is hard
+packed dirt, flanked on either side by grasslands.
+~
+#EXIT
+Direction north~
+ToRoom    1435
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1401
+#ENDEXIT
+
+Reset O 0 1401 1 1404
+#ENDROOM
+
+#ROOM
+Vnum     1405
+Name     Immak~
+Sector   city~
+Desc     A hardpacked road travels north-south here, the village square is to the
+north and the docks, general store, and pub are to the south. The smell of
+the sea is fairly strong here.
+~
+#EXIT
+Direction north~
+ToRoom    1400
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1406
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1407
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1422
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1406
+Name     Immak General Store~
+Sector   inside~
+Desc     This wooden building holds a plentiful multitude of crates, barrels and
+kegs. Travelling supplies are the specialty here, with smoked fish and
+seashell knickknacks being the most plentiful.
+~
+#EXIT
+Direction west~
+ToRoom    1405
+#ENDEXIT
+
+Reset M 0 1402 1 1406
+  Reset G 0 28 1
+  Reset G 0 1422 1
+  Reset G 0 1426 1
+  Reset G 0 1421 1
+  Reset G 0 1420 1
+  Reset G 0 1423 1
+#ENDROOM
+
+#ROOM
+Vnum     1407
+Name     Immak~
+Sector   city~
+Desc     Many footprints have hardened the dirt here to a very smooth throughfare.
+The noise of the docks to the south can be heard from here, only slightly
+noisier than the pub to the west. To the east, carts of merchandise sit
+outside of the general store, where travellers and residents alike can
+stock up on supplies for journeys taken by sea or by land.
+~
+#EXIT
+Direction north~
+ToRoom    1405
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1410
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1408
+Name     Immak Docks~
+Sector   city~
+Desc     The docks are a noisy place, full of sailors pulling in ships, hauling
+cargo onto and off of said ships, and the occasional beggar looking for a
+handout. The sounds and smells of the ocean can still be heard and smelled
+over it all, however.
+~
+#EXIT
+Direction east~
+ToRoom    1410
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1409
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1417
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1409
+Name     Shoreline of Wislyu~
+Sector   ocean~
+Desc     The sea meets the land here on the shoreline of Wislyu. Boats pass through
+here on their way to and from Immak.
+~
+#EXIT
+Direction north~
+ToRoom    1408
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1411
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1415
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1418
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1410
+Name     Immak Docks~
+Sector   city~
+Desc     The docks are a noisy place, full of sailors pulling in ships, hauling
+cargo onto and off of said ships, and the occasional beggar looking for a
+handout. The sounds and smells of the ocean can still be heard and smelled
+over it all, however.
+~
+#EXIT
+Direction north~
+ToRoom    1407
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1412
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1411
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1408
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1411
+Name     Shoreline of Wislyu~
+Sector   ocean~
+Desc     The sea meets the land here on the shoreline of Wislyu. Boats pass through
+here on their way to and from Immak.
+~
+#EXIT
+Direction north~
+ToRoom    1410
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1413
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1416
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1409
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1412
+Name     Immak Docks~
+Sector   city~
+Desc     The docks are a noisy place, full of sailors pulling in ships, hauling
+cargo onto and off of said ships, and the occasional beggar looking for a
+handout. The sounds and smells of the ocean can still be heard and smelled
+over it all, however.
+~
+#EXIT
+Direction north~
+ToRoom    1441
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1427
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1413
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1410
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1413
+Name     Shoreline of Wislyu~
+Sector   ocean~
+Desc     The sea meets the land here on the shoreline of Wislyu. Boats pass through
+here on their way to and from Immak.
+~
+#EXIT
+Direction north~
+ToRoom    1412
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1426
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1414
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1411
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1414
+Name     In the Ocean~
+Sector   ocean~
+Desc     The oceans rock back and forth. To the north is the country of Wislyu on
+the continent of Colista.
+~
+#EXIT
+Direction north~
+ToRoom    1413
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1434
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1416
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1415
+Name     In the Ocean~
+Sector   ocean~
+Desc     The oceans rock back and forth. To the north is the country of Wislyu on
+the continent of Colista.
+~
+#EXIT
+Direction north~
+ToRoom    1409
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1416
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1419
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1416
+Name     In the Ocean~
+Sector   ocean~
+Desc     The oceans rock back and forth. To the north is the country of Wislyu on
+the continent of Colista.
+~
+#EXIT
+Direction north~
+ToRoom    1411
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1414
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1415
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1417
+Name     On the Beach~
+Sector   desert~
+Desc     This is a quiet strip of beach, away from the noise of the docks and pub.
+To the northwest is a passage through the fields, and waves from the sea
+crash against the beach to the south.
+~
+#EXIT
+Direction east~
+ToRoom    1408
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1418
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    1420
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1418
+Name     Shoreline of Wislyu~
+Sector   ocean~
+Desc     The sea meets the land here on the shoreline of Wislyu. Boats pass through
+here on their way to and from Immak. To the west, you can reach the Cove
+of the Naiad Queen.
+~
+#EXIT
+Direction north~
+ToRoom    1417
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1409
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1419
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1425
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1419
+Name     In the Ocean~
+Sector   ocean~
+Desc     The oceans rock back and forth. To the north is the country of Wislyu on
+the continent of Colista.
+~
+#EXIT
+Direction north~
+ToRoom    1418
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1415
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1420
+Name     A Narrow Footpath~
+Sector   field~
+Desc     A narrow footpath here travels through the plains. To the south, the
+footpath meets the sands of the beach. To the north, the footpath
+continues.
+~
+#EXIT
+Direction north~
+ToRoom    1421
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    1417
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1421
+Name     A Narrow Footpath~
+Sector   field~
+Desc     A narrow footpath travels north and south here, the grass is pressed down
+by the footsteps of the occasional traveller who wishes to skirt the edge
+of Immak for one reason or another.
+~
+#EXIT
+Direction north~
+ToRoom    1423
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1420
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1422
+Name     Immak Pub~
+Sector   inside~
+Desc     Boisterous drinkers enjoy themselves in Immak's pub at all hours of the day
+and night. Gambling and drinking can be found here, as much as one could
+ever want. A staircase leads up to some rooms that are occasionally rented
+by passersby on their way to the north or who may be awaiting a sea
+voyage. Harald is also a retired adventurer, willing to show newbies some
+of his old tricks.
+~
+#EXIT
+Direction east~
+ToRoom    1405
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1438
+#ENDEXIT
+
+Reset M 0 1403 1 1422
+  Reset G 0 1425 1
+#ENDROOM
+
+#ROOM
+Vnum     1423
+Name     A Narrow Footpath~
+Sector   field~
+Desc     A narrow footpath travels northeast and south here, the grass is pressed
+down by the footsteps of the occasional traveller who wishes to skirt the
+edge of Immak for one reason or another.
+~
+#EXIT
+Direction east~
+ToRoom    1442
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1421
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    1424
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1424
+Name     Behind the Clothing Store~
+Sector   field~
+Desc     A narrow footpath travels southeast and east here, the grass is pressed
+down by the footsteps of the occasional traveller who wishes to skirt the
+edge of Immak. The backdoor of the Tailor's shop is here to the east.
+~
+#EXIT
+Direction east~
+ToRoom    1402
+Keywords  door~
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    1423
+#ENDEXIT
+
+Reset D 0 1424 1 1
+#ENDROOM
+
+#ROOM
+Vnum     1425
+Name     Cove of the Naiad Queen~
+Sector   underground~
+Desc     The cove of the Naiad queen echoes the sounds of waves crashing against the
+entrance. While no one lives here, you see many coins. Some are tarnished
+from age, others from the sea and elements.
+~
+#EXIT
+Direction east~
+ToRoom    1418
+#ENDEXIT
+
+Reset O 0 1440 1 1425
+#ENDROOM
+
+#ROOM
+Vnum     1426
+Name     Mouth of the Merroc River~
+Sector   ocean~
+Desc     The relative calm of the ocean is met by the surge of the river flowing
+right into it. To the south lay endless expanse of ocean, and to the
+north, the river leads inland.
+~
+#EXIT
+Direction north~
+ToRoom    1427
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1434
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1413
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1427
+Name     The Merroc River~
+Sector   water_swim~
+Desc     The river moves rapidly from north to south, hastily making its way to the
+sea.
+~
+#EXIT
+Direction north~
+ToRoom    1428
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1426
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1412
+#ENDEXIT
+
+#EXDESC
+ExDescKey    desc_freezing~
+ExDesc       The Merroc River has completely frozen over due to the intense cold
+weather. The surface is solid enough to walk across at the moment.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     1428
+Name     The Merroc River~
+Sector   water_swim~
+Desc     The river moves rapidly from north to south, hastily making its way to the
+sea.
+~
+#EXIT
+Direction north~
+ToRoom    1429
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1427
+#ENDEXIT
+
+#EXDESC
+ExDescKey    desc_freezing~
+ExDesc       The Merroc River has completely frozen over due to the intense cold
+weather. The surface is solid enough to walk across at the moment.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     1429
+Name     The Merroc River~
+Sector   water_swim~
+Desc     The river moves rapidly from north to south, hastily making its way to the
+sea.
+~
+#EXIT
+Direction north~
+ToRoom    1431
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1428
+#ENDEXIT
+
+#EXDESC
+ExDescKey    desc_freezing~
+ExDesc       The Merroc River has completely frozen over due to the intense cold
+weather. The surface is solid enough to walk across at the moment.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     1430
+Name     The River~
+Sector   inside~
+#EXIT
+Direction south~
+ToRoom    1429
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1431
+Name     Bridge over Merroc River~
+Sector   city~
+Desc     This sturdy stone bridge crosses the speedy Merroc River. It flows from
+north to south, hastily making its way to the sea. Most of the time,
+energetic travelers can be seen crossing the bridge at all times of day
+and night. The Silzar's Road is safer than ever.
+~
+#EXIT
+Direction north~
+ToRoom    1432
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    1437
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1429
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1436
+#ENDEXIT
+
+#EXDESC
+ExDescKey    desc_freezing~
+ExDesc       The bridge is partially unnecessary at the moment as the Merroc River has
+completely frozen over. Parts of the shining ice peek out through clumps
+of snow.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     1432
+Name     The Merroc River~
+Sector   water_swim~
+Desc     The river moves rapidly from north to south, hastily making its way to the
+sea.
+~
+#EXIT
+Direction south~
+ToRoom    1431
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    1433
+#ENDEXIT
+
+#EXDESC
+ExDescKey    desc_freezing~
+ExDesc       The Merroc River has completely frozen over due to the intense cold
+weather. The surface is solid enough to walk across at the moment.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     1433
+Name     The Merroc River~
+Sector   water_swim~
+Desc     The river moves rapidly from north to south, hastily making its way to the
+sea.
+The river moves rapidly from northeast to southwest, hastily making its way to
+the sea.
+~
+#EXIT
+Direction southwest~
+ToRoom    1432
+#ENDEXIT
+
+#EXDESC
+ExDescKey    desc_freezing~
+ExDesc       The Merroc River has completely frozen over due to the intense cold
+weather. The surface is solid enough to walk across at the moment.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     1434
+Name     In the Ocean~
+Sector   ocean~
+Desc     The oceans rock back and forth. To the north is the country of Wislyu on
+the continent of Colista.
+~
+#EXIT
+Direction north~
+ToRoom    1426
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1414
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1435
+Name     Road South of the Immak Woods~
+Sector   field~
+Flags    prototype~
+Desc     A well travelled road leads north-south. To the north is a 
+large forest, and to the south is the dwarven port town of 
+Immak. The ground is hard packed dirt, flanked on either side 
+by grasslands. 
+~
+#EXIT
+Direction north~
+ToRoom    8000
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1404
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1436
+Name     Eastern Immak Road~
+Sector   city~
+Flags    prototype~
+Desc     This road runs through Immak and connects the Village Square off to the
+west with the Merroc River Bridge to the east. It looks very well
+travelled by a variety of individuals. To the north and south are small
+homes, probably belonging to tradesman that make their home here in Immak.
+~
+#EXIT
+Direction east~
+ToRoom    1431
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1400
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1437
+Name     Road East of Immak~
+Sector   field~
+Flags    prototype~
+Desc     A hardpacked path here runs east-west. To the west is the Merroc River
+Bridge leading into Immak. To the east, the road continues onward to the
+neighboring nation.
+~
+#EXIT
+Direction east~
+ToRoom    1440
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1431
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1438
+Name     Immak Pub's Lounge~
+Sector   inside~
+Flags    prototype~
+Desc     This is a fairly well-appointed lounge with two couches, three chairs,
+and a nice floor rug. The corner of the room has a oaken table with four
+stools around it, primarily for playing games, judging from the chess
+board and two decks of cards. A fireplace crackles in the corner.
+~
+#EXIT
+Direction east~
+ToRoom    1422
+#ENDEXIT
+
+Reset O 0 1441 1 1438
+#ENDROOM
+
+#ROOM
+Vnum     1439
+Name     Road~
+Sector   city~
+Flags    prototype~
+Desc     This is a road leading west.
+~
+#EXIT
+Direction east~
+ToRoom    1400
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1442
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1440
+Name     East-West Road~
+Sector   field~
+Flags    nomob prototype~
+Desc     A hardpacked path here runs east-west. To the west appears to be the
+dwarven village of Immak. Continuing east leads to some sort of thick
+woods.
+~
+#EXIT
+Direction east~
+ToRoom    6130
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1437
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1441
+Name     Ymir's Shoppe of Odds and Ends~
+Sector   inside~
+Flags    prototype~
+Desc     This shop is cluttered and messy. You can barely see the owner amidst the
+many piles of mismatched paraphenelia littered about!
+~
+#EXIT
+Direction south~
+ToRoom    1412
+#ENDEXIT
+
+Reset M 0 1404 1 1441
+  Reset G 0 1432 1
+  Reset G 0 1435 1
+  Reset G 0 1436 1
+#ENDROOM
+
+#ROOM
+Vnum     1442
+Name     Road~
+Sector   city~
+Flags    prototype~
+Desc     This is a road leading west. It appears to connect to some sort of
+footpath.
+~
+#EXIT
+Direction east~
+ToRoom    1439
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1423
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     1449
+Name     Floating in a void~
+Sector   city~
+Flags    nomob~
+#ENDROOM
+
+#ENDAREA

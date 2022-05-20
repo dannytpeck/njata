@@ -1,0 +1,2370 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Immak Woods~
+Author       Shadwen~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 60
+Economy      0 31250280
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       8000
+Keywords   Tiger Lily~
+Short      Arch Druid Tiger Lily~
+Long       The Arch-Druid, Tiger Lily stands here.
+~
+Desc       This Druid is of Elven descent. She stands a modest 5 feet 4 inches tall
+and carries a Bronzewood longbow. Her pitch black hair drops below her
+waist, and her chocolate brown eyes look as though they could pierce
+through the thickest of chainmail. A wooden whistle dangles from her
+neck, accompanied by a few sharks teeth. A quiver is slung over her
+shoulder, holding a seemingly endless amount of arrows.
+~
+Race       elf~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea pacifist~
+Stats1     0 55 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+ShopData   0 0 0 0 0 90 60 0 23
+#ENDMOBILE
+
+#MOBILE
+Vnum       8001
+Keywords   Thorne, The Cursed.~
+Short      Thorne, The Cursed.~
+Long       Thorne, The Cursed stands here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel nowander pacifist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8003
+Keywords   doe~
+Short      a doe~
+Long       A doe wanders here.
+~
+Desc       This doe stands a solid 4 feet tall with small horns protruding from the
+top of its head. Its hooves are unusually large for how small its legs
+are. The shade of its skin is an off-brown, with white speckles all over
+its body.
+~
+Race       human~
+Class      monk~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 2 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8004
+Keywords   unicorn guardian~
+Short      The Unicorn, Guardian of the Grove~
+Long       The Unicorn, Guardian of the Grove, stands here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea train nowander pacifist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8005
+Keywords   gray squirrel~
+Short      a gray squirrel~
+Long       A gray squirrel is here, chittering away.
+~
+Desc       This grayish squirrel scampers about playfully on the ground, its big,
+fluffy tail wagging back and forth mimicking a dogs'. It peers around
+excitedly, as if everything were a spectacle. Its two back paws are
+slightly larger than the two front paws, most likely due to the amount it
+uses them.
+~
+Race       animal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 5 14 60 0 800
+Stats2     1 1 50
+Stats3     0 0 0
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8006
+Keywords   Erik Stableman~
+Short      Erik the Stableman~
+Long       Erik the Stableman is here, tending to the horses.
+~
+Race       dwarf~
+Class      chevalier~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel pacifist~
+Stats1     0 50 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8007
+Keywords   raccoon~
+Short      a raccoon~
+Long       A raccoon is here, eyeing you warily.
+~
+Race       animal~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc stayarea~
+Stats1     0 5 14 60 0 800
+Stats2     10 5 10
+Stats3     0 0 0
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8010
+Keywords   chestnut mare~
+Short      the chestnut mare~
+Long       A chestnut mare with a red mane is standing here.
+~
+Race       horse~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel pet mountable mounted~
+Stats1     0 2 0 80 0 0
+Stats2     2 10 20
+Stats3     1 4 3
+Stats4     0 0 1 0 0
+Attribs    19 13 13 13 13 13 25
+Saves      0 0 0
+Bodyparts  head legs heart brains guts feet ear eye tail~
+Suscept    charm~
+Attacks    kick~
+Defenses   dodge~
+#ENDMOBILE
+
+#MOBILE
+Vnum       8020
+Keywords   giant worker ant~
+Short      A giant worker ant~
+Long       A giant worker ant is here, awaiting orders.
+~
+Race       insect~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea~
+Stats1     0 5 18 8 2 100
+Stats2     1 1 30
+Stats3     1 4 1
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8021
+Keywords   giant ant drone~
+Short      a giant ant drone~
+Long       A giant ant drone is here, carrying food.
+~
+Race       insect~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc aggressive stayarea~
+Stats1     0 5 15 5 2 600
+Stats2     5 5 55
+Stats3     1 4 3
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8022
+Keywords   giant soldier ant~
+Short      a giant soldier ant~
+Long       A giant soldier ant is here, clicking its mandibles and ready to fight.
+~
+Race       insect~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc aggressive stayarea~
+Stats1     0 8 12 2 2 2000
+Stats2     8 8 88
+Stats3     1 4 9
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8023
+Keywords   ant larvae~
+Short      the ant larvae~
+Long       Ant larvae covers the walls of this room.
+~
+Race       insect~
+Class      bard~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea nowander noassist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8024
+Keywords   ant queen of the colony~
+Short      The Queen of the Colony~
+Long       The Queen of the Colony is here, laying hundreds of eggs.
+~
+Desc       She looks ageless, as do all druids.  She smiles a beautiful smile at you.
+~
+Race       insect~
+Class      queen~
+Position   standing~
+DefPos     standing~
+Gender     female~
+Actflags   npc sentinel stayarea nowander~
+Affected   protect~
+Stats1     1000 10 7 0 50 15000
+Stats2     13 13 130
+Stats3     1 4 7
+Stats4     0 0 0 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8030
+Keywords   heavily armed bandit~
+Short      a heavily armed bandit~
+Long       A heavily armed bandit is here, sharpening his blades.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel aggressive~
+Affected   infrared~
+Stats1     -600 5 18 7 100 300
+Stats2     1 7 70
+Stats3     1 7 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+Bodyparts  head arms legs heart guts hands feet ear eye~
+Defenses   dodge disarm~
+#ENDMOBILE
+
+#MOBILE
+Vnum       8099
+Keywords   lastmob~
+Short      a newly created lastmob~
+Long       Some god abandoned a newly created lastmob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     8000
+Keywords Newbie Potion~
+Type     potion~
+Short    A Newbie Potion~
+Long     A shimmering potion lies here.~
+Flags    magic~
+WFlags   take~
+Values   10 -1 -1 -1 0 0
+Stats    1 120 12 0 0
+Spells   'sanctuary' 'bless' 'armor'
+#ENDOBJECT
+
+#OBJECT
+Vnum     8001
+Keywords Potion of Glass Slippers~
+Type     potion~
+Short    Potion of Glass Slippers~
+Long     a potion of recall lies here.~
+WFlags   take~
+Values   10 -1 -1 -1 0 0
+Stats    1 100 10 0 0
+Spells   'word of recall' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum     8030
+Keywords wickedly curved knife~
+Type     weapon~
+Short    a wickedly curved knife~
+Long     A wickedly curved knife lies here.~
+WFlags   take wield~
+Values   0 2 4 2 2 0
+Stats    3 1000 100 5 0
+Affect       -1 -1 1 18 0
+Affect       -1 -1 1 19 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8031
+Keywords blackened brigandine cuirass~
+Type     armor~
+Short    a blackened iron brigandine cuirass~
+Long     A brigandine cuirass made of blackened iron has been left here.~
+WFlags   take body~
+Values   6 6 0 0 0 0
+Stats    4 1000 100 5 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8099
+Keywords lastobj~
+Type     trash~
+Short    a newly created lastobj~
+Long     Some god dropped a newly created lastobj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     8000
+Name     Immak Woods~
+Sector   forest~
+Desc     Coming across some thick dark grass, tall, beautiful redwoods become
+visible swaying in the wind. The leaves on the ground can be heard
+crunching under the pressure of the scurrying woodland creatures. The
+sweet succulent smell of honey drifts calmly through the atmosphere,
+accompanied by the harmonic sound of chirping birds.
+~
+#EXIT
+Direction north~
+ToRoom    8001
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    1435
+#ENDEXIT
+
+Reset M 0 8007 3 8000
+#ENDROOM
+
+#ROOM
+Vnum     8001
+Name     Immak Woods~
+Sector   forest~
+Desc     Coming across some thick dark grass, tall, beautiful redwoods become
+visible swaying in the wind. The leaves on the ground can be heard
+crunching under the pressure of the scurrying woodland creatures. The
+sweet succulent smell of honey drifts calmly through the atmosphere,
+accompanied by the harmonic sound of chirping birds.
+~
+#EXIT
+Direction east~
+ToRoom    8002
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8000
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8003
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8002
+Name     The Druid Shack~
+Sector   inside~
+Flags    nomob~
+Desc     A bearskin rug lays on the floor here, taking up a decent amount of space.
+Quite a few pieces of weaponry and armor pervade the walls, hung by wooden
+stakes, and polished to shiny perfection. A huge pot with a ladel rests in
+the northwest part of the shack, no doubt used for brewing potions for
+wary travellers that tend to pass by. There are numerous candles spread
+about for convenient lighting purposes, and a lantern placed directly
+above the pot.
+~
+#EXIT
+Direction west~
+ToRoom    8001
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8073
+Flags     secret hidden~
+#ENDEXIT
+
+Reset M 0 8000 1 8002
+  Reset G 0 8000 1
+  Reset G 0 8001 1
+#ENDROOM
+
+#ROOM
+Vnum     8003
+Name     Immak Woods~
+Sector   forest~
+Desc     Coming across some thick dark grass, tall, beautiful redwoods become
+visible swaying in the wind. The leaves on the ground can be heard
+crunching under the pressure of the scurrying woodland creatures. The
+sweet succulent smell of honey drifts calmly through the atmosphere,
+accompanied by the harmonic sound of chirping birds.
+~
+#EXIT
+Direction north~
+ToRoom    8078
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8001
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8004
+#ENDEXIT
+
+Reset M 0 8007 2 8003
+#ENDROOM
+
+#ROOM
+Vnum     8004
+Name     The path to the Grove.~
+Sector   forest~
+Desc     A well-used game trail leads to the south where the trees thin out a bit
+into a more even placement.
+~
+#EXIT
+Direction east~
+ToRoom    8003
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8005
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8005
+Name     Approaching the Grove.~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8004
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8006
+#ENDEXIT
+
+Reset M 0 8005 3 8005
+#ENDROOM
+
+#ROOM
+Vnum     8006
+Name     Entrance to the Grove~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8005
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8007
+#ENDEXIT
+
+Reset M 0 8003 4 8006
+Reset M 0 8007 4 8006
+#ENDROOM
+
+#ROOM
+Vnum     8007
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8006
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8008
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8022
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8023
+#ENDEXIT
+
+Reset M 0 8005 4 8007
+#ENDROOM
+
+#ROOM
+Vnum     8008
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction east~
+ToRoom    8009
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8017
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8007
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8009
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction east~
+ToRoom    8010
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8016
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8008
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8010
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction south~
+ToRoom    8011
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8009
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    8016
+#ENDEXIT
+
+Reset M 0 8007 8 8010
+#ENDROOM
+
+#ROOM
+Vnum     8011
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8010
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8012
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8016
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8012
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8011
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8013
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8015
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8013
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8012
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8014
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8014
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8015
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8013
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8019
+#ENDEXIT
+
+Reset M 0 8003 6 8014
+#ENDROOM
+
+#ROOM
+Vnum     8015
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8016
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8012
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8014
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8018
+#ENDEXIT
+
+Reset M 0 8003 5 8015
+#ENDROOM
+
+#ROOM
+Vnum     8016
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8009
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8011
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8015
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8017
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    8010
+#ENDEXIT
+
+Reset M 0 8005 6 8016
+#ENDROOM
+
+#ROOM
+Vnum     8017
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8008
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8016
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8018
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8022
+#ENDEXIT
+
+Reset M 0 8007 7 8017
+#ENDROOM
+
+#ROOM
+Vnum     8018
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8017
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8015
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8019
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8021
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8019
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies. There is an
+odd looking bookshelf to the west, along with the visible top of a
+tombstone with a book on it.
+~
+#EXIT
+Direction north~
+ToRoom    8018
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8014
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8020
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8020
+Name     Blessed Shrine of the Unicorn~
+Sector   forest~
+Desc     This place seems a bit out of the ordinary. It seems to be the shrine of a
+unicorn, hence the extremely large unicorn that seems to be reading out of
+a book on the ground. Straight down the center of the shrine, there is a
+flat-topped tombstone that reads "Here lies knowledge, mother nature's
+medicine". A large tome that reads "The Tome of Knowledge" sits propped up
+on the tombstone. On either side of the tombstone lies shelves full of
+books. Grass pervades the ground, clearly being the food that feeds the
+knowledgeable unicorn.
+~
+#EXIT
+Direction north~
+ToRoom    8021
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8019
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8026
+#ENDEXIT
+
+Reset M 0 8004 1 8020
+  Reset E 0 1426 1 23
+#EXDESC
+ExDescKey    tombstone~
+ExDesc       A large tombstone is here decaying over time.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     8021
+Name     Approaching the Shrine~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies. To the south
+there is a tall unicorn hovering over a book. There is also a tall
+tombstone with a large book on top of it.
+~
+#EXIT
+Direction north~
+ToRoom    8022
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8018
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8020
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8025
+#ENDEXIT
+
+Reset M 0 8003 4 8021
+#ENDROOM
+
+#ROOM
+Vnum     8022
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8007
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8017
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8021
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8024
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8023
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction east~
+ToRoom    8007
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8024
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8030
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8024
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8023
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8022
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8025
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8029
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8025
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8024
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8021
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8026
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8028
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8026
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies. There is
+an odd looking bookshelf to the east, along with the visible top of a
+tombstone with a book on it.
+~
+#EXIT
+Direction north~
+ToRoom    8025
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8020
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8027
+#ENDEXIT
+
+Reset M 0 8003 7 8026
+#ENDROOM
+
+#ROOM
+Vnum     8027
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8028
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8026
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8034
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8028
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8029
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8025
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8027
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8033
+#ENDEXIT
+
+Reset M 0 8005 5 8028
+#ENDROOM
+
+#ROOM
+Vnum     8029
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8030
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8024
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8028
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8032
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8030
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction east~
+ToRoom    8023
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8029
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8031
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8031
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction east~
+ToRoom    8030
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8032
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8032
+Name     A Mound of Dirt~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8031
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8029
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8033
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8035
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8033
+Name     Wandering the Grove~
+Sector   forest~
+Desc     This area is covered in the tracks of various animals and the scent of
+fresh green grass. Shrubbery can be seen growing all around, while roses
+fight for sun. Extremely tall sunflowers also compete for space, as the
+heads of the flowers follow the sun and stretch to the skies.
+~
+#EXIT
+Direction north~
+ToRoom    8032
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8028
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8034
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8034
+Name     Wandering the Grove~
+Sector   forest~
+Desc     Doe tracks are scattered all over the ground here. A pile of sticks bunched
+up block off the exits south and west. To the east, the back of a
+bookshelf is barely visible, along with the flattened top of a tombstone.
+The sweet smell of honey wafts in from the north, joined by the sound of
+buzzing bees doing what looks like a ritual around a pear tree.
+~
+#EXIT
+Direction north~
+ToRoom    8033
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8027
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8035
+Name     Down the Tunnel~
+Sector   forest~
+Flags    nomob~
+#EXIT
+Direction up~
+ToRoom    8032
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8036
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8036
+Name     Farther down the Tunnel~
+Sector   forest~
+#EXIT
+Direction up~
+ToRoom    8035
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8037
+#ENDEXIT
+
+Reset M 0 8020 1 8036
+#ENDROOM
+
+#ROOM
+Vnum     8037
+Name     Entering the Ant Colony~
+Sector   forest~
+#EXIT
+Direction up~
+ToRoom    8036
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8038
+#ENDEXIT
+
+Reset M 0 8020 2 8037
+#ENDROOM
+
+#ROOM
+Vnum     8038
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction west~
+ToRoom    8039
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    8037
+#ENDEXIT
+
+Reset M 0 8020 3 8038
+#ENDROOM
+
+#ROOM
+Vnum     8039
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8038
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8040
+#ENDEXIT
+
+Reset M 0 8020 4 8039
+#ENDROOM
+
+#ROOM
+Vnum     8040
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8039
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8041
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8041
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8040
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8042
+#ENDEXIT
+
+Reset M 0 8020 5 8041
+#ENDROOM
+
+#ROOM
+Vnum     8042
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8041
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8043
+#ENDEXIT
+
+Reset M 0 8020 7 8042
+Reset M 0 8020 7 8042
+#ENDROOM
+
+#ROOM
+Vnum     8043
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8042
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8046
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8045
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8044
+#ENDEXIT
+
+Reset M 0 8020 9 8043
+#ENDROOM
+
+#ROOM
+Vnum     8044
+Name     Tunnelers Resting Spot~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8043
+#ENDEXIT
+
+Reset M 0 8020 10 8044
+#ENDROOM
+
+#ROOM
+Vnum     8045
+Name     Tunnelers Resting Spot~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8043
+#ENDEXIT
+
+Reset M 0 8020 8 8045
+#ENDROOM
+
+#ROOM
+Vnum     8046
+Name     Ant Carved Tunnels~
+Sector   forest~
+Flags    nomob~
+#EXIT
+Direction east~
+ToRoom    8047
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8043
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8047
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction south~
+ToRoom    8048
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8046
+#ENDEXIT
+
+Reset M 0 8021 6 8047
+Reset M 0 8021 6 8047
+#ENDROOM
+
+#ROOM
+Vnum     8048
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8047
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8049
+#ENDEXIT
+
+Reset M 0 8021 8 8048
+Reset M 0 8021 8 8048
+#ENDROOM
+
+#ROOM
+Vnum     8049
+Name     Ant Carved Tunnels~
+Sector   forest~
+#EXIT
+Direction west~
+ToRoom    8048
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8050
+#ENDEXIT
+
+Reset M 0 8021 9 8049
+#ENDROOM
+
+#ROOM
+Vnum     8050
+Name     Entering Guarded Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8051
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    8049
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8051
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8052
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8050
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8052
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8053
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8051
+#ENDEXIT
+
+Reset M 0 8021 12 8052
+#ENDROOM
+
+#ROOM
+Vnum     8053
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8054
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8052
+#ENDEXIT
+
+Reset M 0 8021 13 8053
+#ENDROOM
+
+#ROOM
+Vnum     8054
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8055
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8053
+#ENDEXIT
+
+Reset M 0 8021 14 8054
+#ENDROOM
+
+#ROOM
+Vnum     8055
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction south~
+ToRoom    8056
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8054
+#ENDEXIT
+
+Reset M 0 8021 15 8055
+#ENDROOM
+
+#ROOM
+Vnum     8056
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8055
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8057
+#ENDEXIT
+
+Reset M 0 8021 16 8056
+#ENDROOM
+
+#ROOM
+Vnum     8057
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8056
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8058
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8059
+#ENDEXIT
+
+Reset M 0 8021 16 8057
+#ENDROOM
+
+#ROOM
+Vnum     8058
+Name     Guard Station~
+Sector   forest~
+#EXIT
+Direction west~
+ToRoom    8057
+#ENDEXIT
+
+Reset M 0 8021 17 8058
+#ENDROOM
+
+#ROOM
+Vnum     8059
+Name     Guarded Ant Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8057
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8060
+#ENDEXIT
+
+Reset M 0 8021 19 8059
+Reset M 0 8021 19 8059
+#ENDROOM
+
+#ROOM
+Vnum     8060
+Name     Royal Tunnel Entrance~
+Sector   forest~
+Flags    nomob~
+#EXIT
+Direction south~
+ToRoom    8061
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    8059
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8061
+Name     Royal Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8060
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8062
+#ENDEXIT
+
+Reset M 0 8022 1 8061
+#ENDROOM
+
+#ROOM
+Vnum     8062
+Name     Royal Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8061
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8063
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8064
+#ENDEXIT
+
+Reset M 0 8022 2 8062
+#ENDROOM
+
+#ROOM
+Vnum     8063
+Name     Royal Tunnels~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8062
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8065
+#ENDEXIT
+
+Reset M 0 8022 4 8063
+#ENDROOM
+
+#ROOM
+Vnum     8064
+Name     Royal Guards Cove~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8062
+#ENDEXIT
+
+Reset M 0 8022 3 8064
+#ENDROOM
+
+#ROOM
+Vnum     8065
+Name     Royal Tunnels~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8063
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8066
+#ENDEXIT
+
+Reset M 0 8022 5 8065
+#ENDROOM
+
+#ROOM
+Vnum     8066
+Name     Royal Tunnels~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8065
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8067
+#ENDEXIT
+
+Reset M 0 8022 6 8066
+#ENDROOM
+
+#ROOM
+Vnum     8067
+Name     Breeding Cove~
+Sector   forest~
+Flags    nomob~
+#EXIT
+Direction north~
+ToRoom    8066
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8068
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8070
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8069
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8071
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8068
+Name     Breeding Cove~
+Sector   forest~
+#EXIT
+Direction west~
+ToRoom    8067
+#ENDEXIT
+
+Reset M 0 8023 2 8068
+#ENDROOM
+
+#ROOM
+Vnum     8069
+Name     Breeding Cove~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8067
+#ENDEXIT
+
+Reset M 0 8023 2 8069
+#ENDROOM
+
+#ROOM
+Vnum     8070
+Name     Breeding Cove~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8067
+#ENDEXIT
+
+Reset M 0 8023 3 8070
+#ENDROOM
+
+#ROOM
+Vnum     8071
+Name     Royal Guards Hideout~
+Sector   forest~
+Flags    nomob~
+#EXIT
+Direction north~
+ToRoom    8074
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8076
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8075
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8077
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    8067
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8072
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8072
+Name     Royal Chambers~
+Sector   forest~
+#EXIT
+Direction up~
+ToRoom    8071
+#ENDEXIT
+
+Reset M 0 8024 1 8072
+#ENDROOM
+
+#ROOM
+Vnum     8073
+Name     Thornes Hideout~
+Sector   forest~
+#EXIT
+Direction up~
+ToRoom    8002
+#ENDEXIT
+
+Reset M 0 8001 1 8073
+#ENDROOM
+
+#ROOM
+Vnum     8074
+Name     Royal Guards Hideout~
+Sector   forest~
+#EXIT
+Direction south~
+ToRoom    8071
+#ENDEXIT
+
+Reset M 0 8022 7 8074
+#ENDROOM
+
+#ROOM
+Vnum     8075
+Name     Royal Guards Hideout~
+Sector   forest~
+#EXIT
+Direction north~
+ToRoom    8071
+#ENDEXIT
+
+Reset M 0 8022 10 8075
+#ENDROOM
+
+#ROOM
+Vnum     8076
+Name     Royal Guards Hideout~
+Sector   forest~
+#EXIT
+Direction west~
+ToRoom    8071
+#ENDEXIT
+
+Reset M 0 8022 9 8076
+#ENDROOM
+
+#ROOM
+Vnum     8077
+Name     Royal Guards Hideout~
+Sector   forest~
+#EXIT
+Direction east~
+ToRoom    8071
+#ENDEXIT
+
+Reset M 0 8022 8 8077
+#ENDROOM
+
+#ROOM
+Vnum     8078
+Name     Well Ridden Path~
+Sector   forest~
+Desc     Coming across some thick dark grass, tall, beautiful redwoods become
+visible swaying in the wind. The leaves on the ground can be heard
+crunching under the pressure of the scurrying woodland creatures. The
+sweet succulent smell of honey drifts calmly through the atmosphere,
+accompanied by the harmonic sound of chirping birds. The ground is covered
+in hoofprints that appear to become more clustered together to the north.
+~
+#EXIT
+Direction north~
+ToRoom    8079
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8003
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8079
+Name     Well Ridden Path~
+Sector   forest~
+Desc     The path is packed down hard here and covered in wagon tracks and hoof
+prints from a multitude of travellers. To the west, smoke can be seen from
+a set of campfires. Loud laughter can also be heard, it would appear that
+someone is camping just off the road and making no attempts to keep their
+presence hidden from travelling the road.
+~
+#EXIT
+Direction north~
+ToRoom    8087
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8080
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8078
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8090
+#ENDEXIT
+
+Reset M 0 8007 1 8079
+#ENDROOM
+
+#ROOM
+Vnum     8080
+Name     Well Ridden Path~
+Sector   forest~
+Desc     The path is packed down hard here and covered in hoof prints. In the
+distance to the west, campfire smoke can be seen.
+~
+#EXIT
+Direction east~
+ToRoom    8081
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8079
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8081
+Name     Well Ridden Path~
+Sector   forest~
+Desc     The path is packed down hard here and covered in hoof prints. The forest is
+neatly trimmed away from the path here.
+~
+#EXIT
+Direction east~
+ToRoom    8082
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8080
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8082
+Name     Well Ridden Path~
+Sector   forest~
+Desc     The path is packed down hard here and covered in hoof prints. The forest is
+neatly trimmed away from the path here.
+~
+#EXIT
+Direction north~
+ToRoom    8083
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8081
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8083
+Name     Approaching a Stable~
+Sector   forest~
+Desc     The path is packed down hard here and covered in hoof prints. The forest is
+neatly trimmed away from the path here. To the north a stable can be seen
+selling horses to travellers.
+~
+#EXIT
+Direction north~
+ToRoom    8084
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8082
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8084
+Name     Outside the Stable~
+Sector   forest~
+Desc     A modest stable is just north of here adjoining a small house. Smoke
+billows from the chimney and it looks like a rather comfortable place.
+~
+#EXIT
+Direction north~
+ToRoom    8085
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8083
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8085
+Name     Inside the Stable~
+Sector   forest~
+Flags    petshop~
+Desc     Here in the stable the floor is covered in hay, multiple enclosures hold a
+variety of horses. Salt licks, saddles and various tack equipment can be
+found hanging all over.
+~
+#EXIT
+Direction south~
+ToRoom    8084
+#ENDEXIT
+
+Reset M 0 8006 1 8085
+#ENDROOM
+
+#ROOM
+Vnum     8086
+Name     Stables~
+Sector   city~
+Flags    nomob prototype~
+Desc     This shouldn't connect to anything, it's purely a place to store animals that
+can be purchased at the stablemaster.
+~
+Reset M 0 8010 2 8086
+#ENDROOM
+
+#ROOM
+Vnum     8087
+Name     Road through the Woods~
+Sector   forest~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    8088
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8079
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8088
+Name     Road through the Woods~
+Sector   forest~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    8089
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8087
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8089
+Name     Road through the Woods~
+Sector   forest~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    5102
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8088
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8090
+Name     Bandit Camp~
+Sector   forest~
+Flags    prototype~
+Desc     Tents and cookfires are set up here. It would appear that a rather large
+encampment of bandits have set up here just off the road, hoping to catch
+unwary passersby on their way along the road between Sedna and Immak.
+~
+#EXIT
+Direction north~
+ToRoom    8091
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8079
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8091
+Name     Bandit Camp~
+Sector   forest~
+Flags    prototype~
+Desc     Tents and cookfires are set up here. It would appear that a rather large
+encampment of bandits have set up here just off the road, hoping to catch
+unwary passersby on their way along the road between Sedna and Immak.
+~
+#EXIT
+Direction south~
+ToRoom    8090
+#ENDEXIT
+
+Reset M 0 8030 2 8091
+Reset M 0 8030 2 8091
+#ENDROOM
+
+#ROOM
+Vnum     8099
+Name     Last Room~
+Sector   forest~
+Flags    nomob prototype~
+Reset M 0 8099 1 8099
+Reset O 0 8099 1 8099
+#ENDROOM
+
+#ENDAREA

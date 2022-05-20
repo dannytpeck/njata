@@ -1,0 +1,155 @@
+#PLAYER
+Version      5
+Name         Lysaria~
+Sex          2
+Class        4
+Subclass     0
+Race         8
+Subrace      0
+Age          0 9 4 616
+Languages    1 1
+Level        2
+Played       1624
+Room         400
+HpManaMove   44 45 124 124 126 130
+Gold         365
+Exp          1000
+Height       52
+Weight       3
+Hair         chin-length, flippy auburn hair~
+Eyes         large hazel eyes~
+SkinColor    0
+BodyShape    0
+Act          1644168776&2
+AffectedBy   16
+Position     112
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        130
+Resistant    1
+Susceptible  2
+Mentalstate  0
+Password     34ee925e21f0ddef077a5da8181e87ca978c413a2a6ec36b97a8896f4e02c9bf~
+Title         the Adventurer~
+Boards       5 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0 
+Flags        512
+PKills       0
+PDeaths      0
+MKills       7
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     8 10 18 14 14 12 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 29 48 10
+Site         72.223.91.114
+Skill        1 'aid'
+Spell        1 'armor'
+Spell        1 'black hand'
+Skill        1 'climb'
+Tongue       1 'common'
+Spell        1 'continual light'
+Spell        1 'control weather'
+Skill        1 'cook'
+Spell        1 'create spring'
+Weapon       1 'daggers'
+Spell        1 'detect invis'
+Spell        1 'detect magic'
+Skill        1 'dig'
+Spell        1 'dragon wit'
+Spell        1 'elven beauty'
+Spell        1 'faerie fire'
+Spell        1 'faerie fog'
+Skill        1 'forage'
+Skill        1 'forge'
+Spell        1 'galvanic whip'
+Weapon       1 'hand to hand'
+Spell        1 'identify'
+Spell        1 'infravision'
+Spell        1 'invis'
+Spell        1 'kindred strength'
+Spell        1 'know alignment'
+Spell        1 'locate object'
+Spell        1 'remove invis'
+Spell        1 'sear'
+Spell        1 'slink'
+Skill        1 'swat'
+Spell        1 'teleport'
+Spell        1 'trollish vigor'
+Spell        1 'ventriloquate'
+Spell        1 'vertigo'
+Spell        1 'weaken'
+Spell        1 'whirlwind'
+Killed       8103 7
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10334
+WearLoc      6
+Values       5 5 0 0 0 0
+End
+
+#OBJECT
+Vnum         8111
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8107
+WearLoc      1
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8130
+WearLoc      7
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         421
+Level        1
+Values       15 15 0 0 0 0
+End
+
+#OBJECT
+Vnum         422
+WearLoc      4
+Level        1
+Values       3 3 0 0 0 0
+End
+
+#OBJECT
+Vnum         426
+WearLoc      23
+Level        1
+Values       0 0 8 0 0 0
+End
+
+#OBJECT
+Vnum         420
+Level        1
+Values       24 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         420
+Level        1
+Values       24 0 0 0 0 0
+End
+
+#END

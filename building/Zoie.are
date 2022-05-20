@@ -1,0 +1,235 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         {PROTO} Zoie's area in progress~
+Author       Zoie~
+WeatherX     0
+WeatherY     0
+Ranges       0 65 0 65
+Flags        prototype~
+#ENDAREADATA
+
+#MOBILE
+Vnum       200
+Keywords   ariel elderly woman~
+Short      Ariel~
+Long       An elderly woman named Ariel is here.
+~
+Desc       A stocky old woman that wears confidence like a luminous robe. Her
+ink-stained fingers and craggy-faced smile suggest an unquenchable thirst
+for knowledge.
+She has white, thin hair pulled back into a ponytail.
+She has flint-dark eyes.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0
+#MUDPROG
+Progtype  speech_prog~
+Arglist   done. finished. ready. done finished ready~
+Comlist   emote raises an eyebrow, and smiles to herself, scribbling something down+
+quickly on a stray sheet of paper on her stone table. "I see."
+mpsleep 10
+sayto $n You'll also want to describe yourself. Now, remember, you're a+
+[race], so keep in mind what that means for how you look. A [player's+
+race]+
+looks totally different from a [random race excluding player's race],+
+after+
+all! Try it. You want to [desc] whatever you look like-- that's short for+
+describe-- using probably two to five lines.
+mpsleep 10
+sayto $n Have a look at me if you'd like to see an example!
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p look?~
+Comlist   sayto $n You don't look like much of anything, yet! Books are what people+
+remember, and believe me, $n, I'm the premier author around here. Now, you+
+and I know what you look like in reality. It's our little secret! But how+
+you want people to see you in Njata is important.
+mpsleep 10
+sayto $n You see, regardless of what you really look like-- you know what I+
+mean! -- the way you're perceived in Njata is important. You wouldn't want+
+anyone to suspect you aren't from this world, now, would you?"
+mpsleep 10
+sayto $n To start, tell me about your eyes, and your hair or horns or+
+whatever it is you have on your head. Go on, try it. For example, I have+
+[eyes] flint-dark eyes, and [hair] white, thin hair pulled back into a+
+ponytail."
+mpsleep 10
+sayto $n When you're done, you let me know.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   alright~
+Comlist   sayto $n Oh, dear. Not to the bookshelves. Take a moment and clear your+
+head: say it to me. Try again: [sayto Ariel I'm all right]
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p all right.~
+Comlist   sayto $n Ah, that's good to hear. All right, $n; remember how to speak to a+
+specific person, if you can. It'll be very important from here on out. When+
+you [sayto] someone, then they know you're talking to them. It can be a+
+little unclear, otherwise.
+sayto $n Now, ask me how you look. You can do it by saying it to me! You+
+can also [singto] me if you like; it works the same way.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p all right~
+Comlist   sayto $n Ah, that's good to hear. All right, $n; remember how to speak to a+
+specific person, if you can. It'll be very important from here on out. When+
+you [sayto] someone, then they know you're talking to them. It can be a+
+little unclear, otherwise.
+sayto $n Now, ask me how you look. You can do it by saying it to me! You+
+can also [singto] me if you like; it works the same way.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  act_prog~
+Arglist   p has entered the game.~
+Comlist   sayto $n Ah, $n. I'd just started chronicling your arrival. Sorry there+
+isn't anywhere to sit!
+sayto $n Let's start by making sure you've come through with your wits+
+intact. Your head might be a bit fuzzy, yet. Can you communicate? Go on,+
+[sayto Ariel] that you're feeling all right.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  act_prog~
+Arglist   p looks at the table.~
+Comlist   sayto $n Can you make out that last one? If you [squint] at the table, I+
+think you might.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  act_prog~
+Arglist   p looks at the mosaic.~
+Comlist   sayto $n Now there's a grand adventure. All those stories were told long+
+ago, my friend; let's not think of them just yet. Come, talk to me.
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       299
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      warrior~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    10 10 10 10 10 10 10
+Saves      0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     200
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     299
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     200
+Name     Small and Simple Room~
+Sector   city~
+Flags    nomob safe prototype~
+Desc     This small and simple room appears to be the study of an industrious
+recordskeeper. All four walls are taken up by sturdy oaken [bookshelves],
+filled to bursting with leatherbound books and loose sheaves of paper.
+There are no apparent exits, and the light in the room seems to be coming
+from a stained-glass [mosaic] window set in the ceiling. The center of the
+room is taken up by a large, stone [table] with mysterious runes carved in
+its surface.
+~
+Reset M 0 200 2 200
+#EXDESC
+ExDescKey    bookshelves~
+ExDesc       These bookshelves are doublestacked and haphazardly piled with every sort
+of tome one might imagine. Several books appear to be marked [History of
+Njata], all with red spines. There is another set gilded with [gold], and
+one especially large tome that has the name [Chieftain] scrawled along its
+spine.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    mosaic~
+ExDesc       Lit by a soft sunlight, as if it were the break of day, this mosaic depicts
+a massive ship sailing upon dark waves, through a violent storm. It
+appears to be captained by sphinxes and fairies. Circling the central
+imagery are depictions of heroic figures of every race found in Njata.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    table~
+ExDesc       Carved into the table are runes in the common tongue. They spell out the
+names of four continents: Ajax, Lavada, Dori, and Colista. There is a
+fifth, but it is faint and difficult to read.
+~
+#ENDEXDESC
+
+#MUDPROG
+Progtype  act_prog~
+Arglist   p squints at the table.~
+Comlist   mea $n Squinting at the table reveals that the last continent is Dogala.
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     299
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ENDAREA

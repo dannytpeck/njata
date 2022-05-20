@@ -1,0 +1,29 @@
+#FISH
+Name       angelfish~
+MinWeight  1
+MaxWeight  5
+Value      5
+End
+
+#FISH
+Name       common bream~
+MinWeight  1
+MaxWeight  5
+Value      5
+End
+
+#FISH
+Name       rainbow trout~
+MinWeight  3
+MaxWeight  10
+Value      10
+End
+
+#FISH
+Name       smallmouth bass~
+MinWeight  1
+MaxWeight  5
+Value      5
+End
+
+#END

@@ -1,0 +1,132 @@
+#PLAYER
+Version      5
+Name         Deo~
+Sex          1
+Class        11
+Subclass     0
+Race         15
+Subrace      0
+Age          0 0 1 610
+Languages    1 1
+Level        2
+Played       3994
+Room         8005
+HpManaMove   37 37 120 120 110 110
+Gold         175
+Exp          7224
+Height       60
+Weight       158
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168776&2
+AffectedBy   8388608
+Position     112
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        70
+Resistant    256
+Susceptible  3
+Mentalstate  0
+Password     2c4a2edc2f937620946b8659f63af3098eed6a782743090fabef15dd1079fa4c~
+Title         the Adventurer~
+Flags        131584
+PKills       0
+PDeaths      0
+MKills       1
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     14 7 7 16 16 12 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 45 100 10
+Site         (Link-Dead)
+Skill        1 'aid'
+Weapon       1 'archery'
+Skill        2 'backstab'
+Skill        1 'climb'
+Tongue       100 'common'
+Skill        1 'cook'
+Weapon       12 'daggers'
+Skill        1 'dig'
+Skill        1 'forage'
+Skill        2 'forge'
+Weapon       1 'hand to hand'
+Skill        100 'hide'
+Weapon       1 'slings'
+Weapon       1 'swords'
+Weapon       1 'whips'
+Tongue       100 'yranib'
+Killed       8007 1
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+WearLoc      6
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         8112
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8111
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8107
+WearLoc      1
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8130
+WearLoc      7
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         431
+Level        1
+End
+
+#OBJECT
+Vnum         410
+Level        1
+Values       12 1 10 1 1 0
+End
+
+#OBJECT
+Name         iron dagger~
+ShortDescr   iron dagger~
+Description  iron dagger is lying here.~
+Vnum         430
+WearLoc      24
+ItemType     5
+Level        1
+Cost         119
+Values       12 1 12 2 2 0
+End
+
+#END

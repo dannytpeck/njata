@@ -1,0 +1,59 @@
+#PLAYER
+Version      5
+Name         Gruevy~
+Sex          1
+Class        3
+Race         2
+Subrace      0
+Age          0 13 5 607
+Languages    1 1
+Level        2
+Played       6509
+Room         21163
+HpManaMove   33 34 106 106 110 110
+Gold         870
+Exp          3809
+Height          57
+Weight          106
+Act          570426952
+Position     112
+Style     2
+Practice     0
+SavingThrows 0 0 0 0 -6
+Alignment    0
+Favor	       0
+Glory        0
+MGlory       0
+Hitroll      6
+Damroll      0
+Armor        80
+Mentalstate  -1
+Password     6295977dd7ec8870e0695a7708addef16ff180f502aca63cd6c15f54687aafea~
+Title         the Attendant~
+Prompt       %hH %mM %vV %XX %gc %A %e>~
+Flags        0
+PKills       0
+PDeaths      0
+MKills       6
+MDeaths      1
+IllegalPK    0
+Timezone     -1
+AttrPerm     10 17 18 11 14 9 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 0 12 10
+Site         216.229.50.57
+Spell        43 'armor'
+Spell        19 'cause light'
+Tongue       100 'common'
+Spell        35 'continual light'
+Spell        21 'cure light'
+Weapon       49 'daggers'
+AffectData   'bless' 779  -6  24 0
+AffectData   'bless' 779   6  18 0
+AffectData   'armor' 144 -20  17 0
+Killed       3501 6
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#END

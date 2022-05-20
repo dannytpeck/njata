@@ -1,0 +1,401 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         {PROTO} Shadwen's area in progress~
+Author       Shadwen~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 0
+Flags        prototype~
+#ENDAREADATA
+
+#MOBILE
+Vnum       8100
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8101
+Keywords   Brutus, The Trainer.~
+Short      Brutus, The Trainer~
+Long       Brutus, The Trainer stands here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea train pacifist prototype~
+Stats1     0 54 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8102
+Keywords   Elora, The Guide~
+Short      Elora, The Guide.~
+Long       Elora, The Guide stands here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea train nowander pacifist prototype~
+Stats1     0 54 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8199
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     8100
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8101
+Keywords leather fistwraps~
+Type     weapon~
+Short    a pair of leather fistwraps~
+Long     You see some leather fistwraps here on the ground.~
+WFlags   take wield~
+Values   12 1 6 0 0 0
+Stats    1 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8102
+Keywords dull bronze sword~
+Type     weapon~
+Short    a dull bronze sword~
+Long     You see a dull sword made of bronze here.~
+WFlags   take wield~
+Values   12 1 6 1 1 0
+Stats    3 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8103
+Keywords heavy bronze lance~
+Type     weapon~
+Short    a heavy bronze lance~
+Long     You see a heavy lance made of bronze here.~
+WFlags   take wield~
+Values   12 1 6 7 4 0
+Stats    5 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8104
+Keywords dull knife~
+Type     weapon~
+Short    a dull knife~
+Long     You see a dull knife here on the ground.~
+WFlags   take wield~
+Values   12 1 6 2 2 0
+Stats    1 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8105
+Keywords faded leather cuirass~
+Type     armor~
+Short    a faded leather cuirass~
+Long     A cuirass made of faded leather lies here.~
+WFlags   take body~
+Values   2 2 0 0 0 0
+Stats    1 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8199
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     8100
+Name     Unused Mudschool Room~
+Sector   city~
+Flags    nomob prototype~
+Reset O 0 8101 1 8100
+Reset O 0 8102 1 8100
+Reset O 0 8103 1 8100
+Reset O 0 8104 1 8100
+Reset O 0 8105 1 8100
+#ENDROOM
+
+#ROOM
+Vnum     8101
+Name     Welcome to Njata!!~
+Sector   city~
+Flags    prototype~
+Desc     Welcome to Njata. Where your dreams happen not only once!
+Venture through the mud school, learn what is to be learned.
+If you have visited this school before, or feel you need no
+help. Venture through the portal downwards.
+~
+#EXIT
+Direction north~
+ToRoom    8102
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8102
+Name     Directions~
+Sector   city~
+Flags    prototype~
+Desc     Here is where you learn the directions of the realm. Travel everyway listed
+on the exits listing to find more information on Njata. Remember these
+well, for they will be the road map to success. Also Config +Automap and
+Config +Compass might fit you better.
+~
+#EXIT
+Direction north~
+ToRoom    8108
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8104
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8101
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8103
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    8106
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8105
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8103
+Name     Learning your Skills!~
+Sector   city~
+Flags    prototype~
+Desc     To learn the abilities that will aid you throughout this realm simply type
+one of the following: Skills,Spells,Prof. To actually [Learn] one type
+Learn followed by one of the things available to you. Such as Learn
+recall.
+~
+#EXIT
+Direction east~
+ToRoom    8102
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8104
+Name     Getting Ready to be Someone!~
+Sector   city~
+Flags    prototype~
+Desc     Here is where you can get started on your journey, Simply say "Gear Me" and
+Brutus will hand you a good starting set. Many of the races in on this
+world have different wear locations. Some dont even have FEET! These items
+should fit any race and class though but keep that in mind when venturing
+the world. Also, Get [Item] bag to retrieve an item from a container. Wear
+[Item] to wear an any item that you are capable of placing into a slot.
+~
+#EXIT
+Direction west~
+ToRoom    8102
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8105
+Name     Learning about your Class!~
+Sector   city~
+Flags    prototype~
+Desc     Choosing a class is a very important step for anyone. The class ultimately
+decides what role you will be playing in the party or in general. Please
+[Help Class] to look at the list of classes we offer here. To look into a
+different class feel free to Help [CLASS]. If you have any other questions
+feel free to ask the staff here or the players.
+~
+#EXIT
+Direction up~
+ToRoom    8102
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8106
+Name     Learning about your Race!~
+Sector   city~
+Flags    prototype~
+Desc     Races all have thier own bonuses and weaknesses. Type [Help Race] to view
+the list of races we offer. Also you may type Help [RACE] to look at
+individual races. This will allow you to gain knowledge about it to
+further your Roleplay.
+~
+#EXIT
+Direction down~
+ToRoom    8102
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8107
+Name     Learning Combat!~
+Sector   city~
+Flags    prototype~
+Desc     Combat! Here we are not simply a Hack n' Slash. Classes have special
+abilities to use during combat, Some races have natural weapons or special
+attack! To attack something simply type [Kill] [Mobiles Name]. Upon
+killing it you will recieve experience. Always remember to consider a mob
+before attacking it. Please [Consider] the Training Dummy. Then if you
+feel you can defeat it [Kill] the Training Dummy.
+~
+#EXIT
+Direction up~
+ToRoom    8108
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8108
+Name     Learning The Rules!~
+Sector   city~
+Flags    prototype~
+Desc     Rules are what hold this game together, They are something you should know
+and abide by. Please [Help RULES] and make sure you know and follow them.
+Ignorance is not an excuse. The Punishments can also be found there.
+~
+#EXIT
+Direction east~
+ToRoom    8109
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8102
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    8110
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    8107
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8109
+Name     Learning the Channels!~
+Sector   city~
+Flags    prototype~
+Desc     Channels allow you to speak with people in the realm, a very important part. To
+chat globally use [CHAT], [ASK], or [ANSWER]. To speak to a singular person you
+may use [TELL] or [WHISPER]. If you wish to speak to everyone in the room use
+[SAY].
+~
+#EXIT
+Direction west~
+ToRoom    8108
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8110
+Name     Graduating!~
+Sector   city~
+Flags    prototype~
+Desc     Congratulation!! You now have the basic knowledge you will need to survive
+and advance in our world. We wish you the best of luck in your adventures!
+Please leave [NORTH] to enter the world!
+~
+#EXIT
+Direction down~
+ToRoom    8108
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8199
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ENDAREA

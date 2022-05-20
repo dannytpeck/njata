@@ -1,0 +1,2413 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         The Forgotten Caverns~
+Author       Alyarta~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 60
+Economy      0 31250000
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       5000
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       5099
+Keywords   lastmob~
+Short      a newly created lastmob~
+Long       Some god abandoned a newly created lastmob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     5000
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5002
+Keywords key Treasure Room~
+Type     trash~
+Short    the key to the treasure room~
+Long     The key to the treasure room has been left here.~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5099
+Keywords lastobj~
+Type     trash~
+Short    a newly created lastobj~
+Long     Some god dropped a newly created lastobj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     5000
+Name     The Forgotten Caverns~
+Sector   underground~
+Flags    nomob indoors~
+Desc     You have just entered the Caverns of the Forgotten Kings. As 
+you look around you notice that the cavern has no light source. 
+You also hear the continuous sound of  [dripping]  water. The
+Caverns has a damp and musty smell to it like it hasn't seen 
+the light of day in over a generation. It appears that the 
+caverns have been recently , attacked due to pieces of the [sarcophagi] lying
+on the floor in front of you As you look at the wall there is a [plaque] that
+has been nailed into it.
+~
+#EXIT
+Direction down~
+ToRoom    5001
+Desc      this exit appears to go deep in the ground
+~
+#ENDEXIT
+
+#EXDESC
+ExDescKey    dripping water~
+ExDesc       &BAs you shine your light toward the ceiling you notice the muliply spots
+the water is dripping from.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sarcophagi~
+ExDesc       &zAs you look in the sarcophagus. You notice that they are competely empty.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Welcome to the Caverns of the  Forgotten Kings. The names of the Kings have
+been lost. And for the most port so have the Caverns that housed them.
+People don't actually know the name of this place so it and most of its
+history has almost been entirely forgotten. Hence the name Forgotten
+Caverns. Journey on word my fellow adventurer and see what history  these
+Caverns house for you. 
+ 
+Be Warn tho everyone who entered before you has never come bacK!!!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5001
+Name     The Forgotten Caverns~
+Sector   underground~
+Flags    dark indoors~
+Desc     As you travel deeper into the dungeon you notice that the water
+continues to  [drip]  and the musty moldy smell seems to be getting worse.
+That is probably due to the mold that is growing on ceiling in 
+here. 
+~
+#EXIT
+Direction up~
+ToRoom    5000
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    5002
+#ENDEXIT
+
+#EXDESC
+ExDescKey    dripping~
+ExDesc       As you shine your light toward the ceiling you notice the 
+muliply spots the the water is continuing to drip from.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    drip As you shine your light at the ceiling you notice the spots where the water continues to drip from~
+ExDesc       &BAs you shine your light toward the ceiling you notice the muliply spots
+the water is dripping from.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5002
+Name     The Forgotten Caverns~
+Sector   underground~
+Flags    dark indoors~
+Desc     You have finally entered the heart of the caverns. The
+drippings seems to have stopped for some reason. As you look
+around, this place was once rich with artifacts. But, due to this
+place being here for thousands of years, graverobbers have taken
+everything of value.
+~
+#EXIT
+Direction east~
+ToRoom    5003
+Desc      Cerimony Cirle Room
+~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    5001
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5003
+Name     The Forgotten Caverns~
+Sector   underground~
+Flags    indoors~
+Desc     As you look around you notice that this must have been an 
+important place because it's completely empty save for a  [plaque]  
+on the wall. A  [circle]  on the floor. Who knows what that was
+used for. The walls appear to be very dry lacking of anything
+on them. 
+~
+#EXIT
+Direction east~
+ToRoom    5004
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5005
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5002
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+If you are reading this, then it's for 1 of two reason. Either, you are a
+crazy adventurer and are comming here to find fame and fourtune. Or, you
+stummbled across the Room of Bright Lights Which for you sake. I hope it
+was the former not the ladder. having wrote that, either way you are doom
+to live here  forever because no one has entered and left alive... HAHA!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    circle~
+ExDesc       &RAs you look at the ground the circle you noticed as you walked in is a
+large red circle with a smaller red  circle in the middle of it. Probablly
+used for a cerimony. But no one knows for sure. Because the place was
+never documented.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5004
+Name     The Forgotten Caverns~
+Sector   underground~
+Flags    indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5006
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5007
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5003
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5005
+Name     The Forgotten Caverns~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5003
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5027
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5006
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5008
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5004
+#ENDEXIT
+
+Reset D 0 5006 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5007
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5004
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5013
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5007 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5008
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5009
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5006
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5008 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5009
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5010
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5008
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5010
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5009
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5011
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5012
+#ENDEXIT
+
+Reset D 0 5010 0 0
+Reset D 0 5010 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5011
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5015
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5010
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5011 1 0
+Reset D 0 5011 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5012
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5010
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5014
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5013
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5014
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5007
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5013 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5014
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5012
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5013
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5015
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5016
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5011
+Flags     isdoor~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5016
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5015
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5017
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5017
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5016
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5018
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5018
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5017
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5019
+Flags     isdoor~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5019
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5018
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5020
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5020
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5019
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5021
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5020 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5021
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5020
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5022
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5023
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5021 1 1
+Reset D 0 5021 2 1
+Reset D 0 5021 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5022
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5021
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5025
+#ENDEXIT
+
+Reset D 0 5022 0 1
+#ENDROOM
+
+#ROOM
+Vnum     5023
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5021
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5024
+#ENDEXIT
+
+Reset D 0 5023 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5024
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of many rooms where the kings were buried. You notice the 2
+[sarcophagi] in the middle of the room. With desks and [shelves] surrounding
+them. The Kings were often buried with there most prized possessions.
+~
+#EXIT
+Direction east~
+ToRoom    5023
+#ENDEXIT
+
+#EXDESC
+ExDescKey    shelves~
+ExDesc       As you look at the shelves they appear to have nothing on them. execpt for a
+few broken things. Apparently thay were ran sacked a long time ago by grave
+robbers.
+&OAs you look at the shelves they appear to have nothing on them. Execpt, for 
+a few broken things. Apparently thay were ran sacked a long time ago by grave
+robbers.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sarcophagi~
+ExDesc       &zAs you look at the sarcophagus you notice that something evil has happened
+seeing as that it is open and empty.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5025
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5022
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5026
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5026
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5045
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5025
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5027
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5005
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5028
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5028
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5027
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5029
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5029
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5028
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5030
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5030
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5031
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5029
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5031
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5032
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5030
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5032
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5031
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5033
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5034
+#ENDEXIT
+
+Reset D 0 5032 0 0
+Reset D 0 5032 2 1
+#ENDROOM
+
+#ROOM
+Vnum     5033
+Name     The Forgotten Caverns~
+Sector   underground~
+Flags    indoors~
+Desc     This is one of many rooms where the kings were buried. You notice the 2
+[sarcophagi] in the middle of the room. With desks and [shelves] surrounding
+them. The Kings were often buried with there most prized possessions.
+~
+#EXIT
+Direction north~
+ToRoom    5032
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5033 0 1
+#EXDESC
+ExDescKey    shelves~
+ExDesc       &OAs you look at the shelves they appear to have nothing on them. Execpt, for 
+a few broken things. Apparently thay were ran sacked a long time ago by grave
+robbers.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sarcophagi~
+ExDesc       &zAs you look at the sarcophagus you notice that something evil has happened
+seeing as that it is open and empty.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sarchopagi~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5034
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5032
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5035
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5034 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5035
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5034
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5036
+#ENDEXIT
+
+Reset D 0 5035 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5036
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5035
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5037
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5037
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5036
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5038
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5038
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5039
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5037
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5039
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5040
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5038
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5040
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5039
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5041
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5042
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5041
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of many rooms where the kings were buried. You notice the 2
+[sarcophagi] in the middle of the room. With desks and [shelves] surrounding
+them. The Kings were often buried with there most prized possessions.
+~
+#EXIT
+Direction west~
+ToRoom    5040
+#ENDEXIT
+
+#EXDESC
+ExDescKey    shelves~
+ExDesc       &OAs you look at the shelves they appear to have nothing on them. Execpt, for 
+a few broken things. Apparently thay were ran sacked a long time ago by grave
+robbers.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sarcophagi~
+ExDesc       &zAs you look at the sarcophagus you notice that something evil has happened
+seeing as that it is open and empty.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5042
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5040
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5043
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5042 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5043
+Name     Room of Bright Lights~
+Sector   underground~
+Flags    indoors~
+Desc     This is the room of Blight Lights.
+As you enter the room,
+you feel like you are being pulled into another location.
+One that seems oddly familiar.
+like you have been here before.
+~
+#EXIT
+Direction east~
+ToRoom    5042
+Flags     isdoor closed locked~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5003
+Pull      1 100
+Flags     secret hidden~
+#ENDEXIT
+
+Reset D 0 5043 1 2
+#ENDROOM
+
+#ROOM
+Vnum     5044
+Name     Floating in a void~
+Sector   city~
+Flags    nomob indoors~
+#ENDROOM
+
+#ROOM
+Vnum     5045
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5026
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5046
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5046
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5045
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5047
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5047
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5048
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5046
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5048
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5049
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5050
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5047
+#ENDEXIT
+
+Reset D 0 5048 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5049
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5052
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5048
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5049 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5050
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5048
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5051
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5050 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5051
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5056
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5050
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5051 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5052
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5053
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5049
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5053
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5054
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5055
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5052
+#ENDEXIT
+
+Reset D 0 5053 0 1
+#ENDROOM
+
+#ROOM
+Vnum     5054
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5057
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5053
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5054 2 1
+#ENDROOM
+
+#ROOM
+Vnum     5055
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5053
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5056
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5056
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5055
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5051
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5057
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5058
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5054
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5058
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5059
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5057
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5059
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5060
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5058
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5060
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5059
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5061
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5061
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5060
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5062
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5062
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5061
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5063
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5063
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5064
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5062
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5064
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5065
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5063
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5065
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5066
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5064
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5066
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5067
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5065
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5067
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5068
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5066
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5068
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5084
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5067
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5069
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5068 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5069
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5068
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5070
+#ENDEXIT
+
+Reset D 0 5069 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5070
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5069
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5071
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5070 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5071
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5093
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5070
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5072
+#ENDEXIT
+
+Reset D 0 5071 0 1
+Reset D 0 5071 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5072
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5071
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5073
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5073
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5072
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5074
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5073 2 1
+#ENDROOM
+
+#ROOM
+Vnum     5074
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5073
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5076
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5075
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5080
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5074 0 1
+Reset D 0 5074 1 1
+Reset D 0 5074 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5075
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of many rooms where the kings were buried. You notice the 2
+[sarcophagi] in the middle of the room. With desks and [shelves] surrounding
+them. The Kings were often buried with there most prized possessions.
+As you look around you see yet another  [plaque] on the wall.
+~
+#EXIT
+Direction north~
+ToRoom    5074
+#ENDEXIT
+
+#EXDESC
+ExDescKey    shelves~
+ExDesc       &OAs you look at the shelves they appear to have nothing on them. Execpt, for
+a few broken things. Apparently thay were ran sacked a long time ago by grave
+robbers.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sarcophagi~
+ExDesc       &zAs you look at the sarcophagus you notice that something evil has happened
+seeing as that it is open and empty.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Bah!!! so i guess you picked right.. or, you didn't and doubled back or 
+made the right choice the first time and have no idea why i am mad... 
+either way you shouldn't of come this far go back while you still can!!! 
+Your life depends on it!!! Don't Keep going... You should really quit the 
+mud.. There is no point in going on.. If you take my advice you will not 
+have to deal with the issues of finshing this Dungeon.. Trust me you don't 
+want to see the end of it.. It's nasty and not something you want to see. 
+Just type quit and never come back!! Trust me...
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5076
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5077
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5074
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5076 1 1
+Reset D 0 5076 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5077
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5078
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5076
+Flags     closed~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5078
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This was once the room to the most important king. or so the story goes, 
+now it just a bland broken room with a door leading to thetreasure room. 
+Apparently this room is no longer home to the body of the king now it's the
+throne room to the necromanser that now
+inhabites the place. 
+From which he orders his minions to do his bidding for him... 
+Some of which are living breathing creatures some are just reanimated bodies of
+the king.
+~
+#EXIT
+Direction north~
+ToRoom    5077
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5079
+Key       5002
+Flags     isdoor closed locked pickproof nopassdoor bashproof~
+#ENDEXIT
+
+Reset O 0 5002 1 5078
+Reset D 0 5078 2 2
+#ENDROOM
+
+#ROOM
+Vnum     5079
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     After laying the kings and covering up the main enterance into 
+the caverns. This room was used as the only way out. The room 
+is surrounded by shelves. That may or may not have ever been
+coverd by things. tho one can assume so since there are broken
+ [vases]  on the floor. you notice yet another  [plaque]  nailed to the 
+wall in this room.
+~
+#EXIT
+Direction north~
+ToRoom    5078
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    5000
+#ENDEXIT
+
+Reset D 0 5079 0 1
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Congratulation! on killing the evil vial monster.  As you can probably
+guess at this point I lied. I write this because i wrote in the past that
+no one has ever made it out of here alive. Well, how can that be if you
+have been reading the various plaques that have been scattered though
+out.. At some point you had to think to yourself, how can thses be up if
+no one has lived. By the way, the ladder  you see behind you takes you
+back  to the enterance. so that being the only way out if the main  
+enterance is blocked is totally not real. Tho like everything else in
+here. No one actually knows what happened. For the kings where buried over
+1000 years and no one wrote   who they were, why they were buryed here or
+how this place  Was built..
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    vase~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    vases~
+ExDesc       &YAs you look closely at the pieces of the vase. It looks like it was at 
+some point a very elagent piece of solid gold with an empressive design
+panted on it.. Now it's sadly worth nothing in pieces.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5080
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5074
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5081
+#ENDEXIT
+
+Reset D 0 5080 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5081
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5080
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5082
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5082
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5081
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5083
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5083
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of many rooms where the kings were buried. You notice the 2
+[sarcophagi] in the middle of the room. With desks and [shelves] surrounding
+them. The Kings were often buried with there most prized possessions.
+~
+#EXIT
+Direction west~
+ToRoom    5082
+#ENDEXIT
+
+#EXDESC
+ExDescKey    shelves~
+ExDesc       As you look at the shelves they appear to have nothing on them. execpt for a
+few broken things. Apparently thay were ran sacked a long time ago by grave
+robbers.
+&OAs you look at the shelves they appear to have nothing on them. Execpt, for
+a few broken things. Apparently thay were ran sacked a long time ago by grave
+robbers.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sarcophagi~
+ExDesc       &zAs you look at the sarcophagus you notice that something evil has happened
+seeing as that it is open and empty.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5084
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5068
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5085
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5084 3 1
+#ENDROOM
+
+#ROOM
+Vnum     5085
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5084
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5086
+#ENDEXIT
+
+Reset D 0 5085 1 1
+#ENDROOM
+
+#ROOM
+Vnum     5086
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5085
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5087
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5087
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5086
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5088
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5088
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5089
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5087
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5089
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction south~
+ToRoom    5088
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5090
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5090
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction east~
+ToRoom    5089
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5091
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5091
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+As you look around you notice another  [plaque]  on the wall.
+~
+#EXIT
+Direction east~
+ToRoom    5090
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5092
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ---------------------------------------------------------------------------
+Ah!! I see that you are getting farther along in here. To bad you took the
+long way... Tho to tell you the truth i didn't think you would make it
+this far. I quess everyone is allowed to make mistakes. But, when you get
+to the fork in the road, are you going to take the right one? No, one has
+ever gone the right way will you be the first? I guess there is only way
+way to find out... 
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5092
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5091
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5093
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5093
+Name     The Forgotten Caverns ~
+Sector   underground~
+Flags    dark indoors~
+Desc     This is one of the many hallways in the tomb of the forgotten kings. There
+seems to be a lot of them. THere really isn't much differance between one room
+and the next. Just the same bland jagged rock walls lining the sides.
+~
+#EXIT
+Direction north~
+ToRoom    5092
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5071
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 5093 2 1
+#ENDROOM
+
+#ROOM
+Vnum     5099
+Name     Floating in a void~
+Sector   city~
+Flags    nomob indoors prototype~
+Reset M 0 5099 1 5099
+Reset O 0 5099 1 5099
+#ENDROOM
+
+#ENDAREA

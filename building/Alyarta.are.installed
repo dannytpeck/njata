@@ -1,0 +1,1959 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         {PROTO} Alyarta's area in progress~
+Author       Alyarta~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 0
+Economy      0 10
+Flags        prototype~
+#ENDAREADATA
+
+#MOBILE
+Vnum       5100
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       5149
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       5199
+Keywords   lastmob~
+Short      a newly created lastmob~
+Long       Some god abandoned a newly created lastmob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     5100
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5149
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     5199
+Keywords lastobj~
+Type     trash~
+Short    a newly created lastobj~
+Long     Some god dropped a newly created lastobj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     5100
+Name     Sedna Town Square~
+Sector   city~
+Flags    nomob prototype~
+Desc     This is the town square. It is where most of the important meetings take
+place as well as just a normal meeting ground. You can find something 
+always happening here. As you around you see a [sign] in the middle of 
+the town square.
+~
+#EXIT
+Direction north~
+ToRoom    5137
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5104
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5101
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5108
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5109
+#ENDEXIT
+
+#EXDESC
+ExDescKey    plaque~
+ExDesc       ----------------------------------------------------------------------
+This is the Zany institude of the Demented!!
+ 
+It has been around for years teaching people how to play Njata.
+People have come from all over to play. but before you can 
+continue you need to know everything the game has to offer.
+so continue on to learn how to leave this place.
+----------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    sign~
+ExDesc       ---------------------------------------------------------------------------
+Welcome traveler to the town of Sedna!! You will find that we have 
+everything you will ever need. If you need a drink The Bear's Paw
+Tavern to your right will do the trick. Want another weapon or maybe
+some better armor? Edwin the Carpenter will be your best bet to the north
+In need of some kind of container to hold more things or want some more 
+shiny things? Roman the Bronze-smith to the west would be your guy.
+Need a letter sent? Then Catherine the Courier would who you want to
+talk to south from here. She will get it in there in no time
+ 
+May your time spent here be a merry one!!! 
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5101
+Name     Outskirts of Sedna~
+Sector   city~
+Flags    prototype~
+Desc     You have just entered  the town of Sedna via the southern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town 
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local 
+tavern.
+~
+#EXIT
+Direction north~
+ToRoom    5100
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5103
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5102
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5102
+Name     Road South of Sedna~
+Sector   city~
+Flags    prototype~
+Desc     You have just entered  the town of Sedna via the southern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town 
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local
+tavern.
+~
+#EXIT
+Direction north~
+ToRoom    5101
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5103
+Name     Courier~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is the shack of Catherine the local Courier. She delivers mail all
+over the place. If you want something sent she will make sure that it 
+gets to it's destination in one piece in a timely manner. Which is that it 
+gets there at all! As you can see she is not in at the moment. Probably 
+out making a delivery. There is a  [sign] on the door.
+~
+#EXIT
+Direction west~
+ToRoom    5101
+#ENDEXIT
+
+#EXDESC
+ExDescKey    sign~
+ExDesc       ---------------------------------------------------------------------------
+Out Delivering!!!
+Be Back Later!!!
+ Leave message by door or just wait for me to come back!!!
+---------------------------------------------------------------------------
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5104
+Name     Commonroom of Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors prototype~
+Desc     You have just entered the Bear's Paw Tavern. Something is always going
+on here. Whether it be people trying to show off how strong they are. Or 
+how much liquor they can drink. You will always find the locals in here
+You will also find a table of poker going on. Though a lot of people have 
+seemed to be less interested in it do to people cheating with magic. Or 
+being accused of doing so. The next room to the East, is where the bar 
+is for you to order from as well as a staircase to the rooms above.
+The tavern has a log cabin type feel to it.
+~
+#EXIT
+Direction north~
+ToRoom    5107
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5105
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5100
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5105
+Name     Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This here is the bar. You can order all kinds of drinks as well as some
+nice home cooked meal. Just tell the bartender what it is you want. You
+Can also rent a room here as well as for the superstitious get a protection
+spell done here.
+The tavern has a log cabin type feel to it.
+~
+#EXIT
+Direction north~
+ToRoom    5106
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5104
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    5143
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5106
+Name     Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is the common room. It's where all the towns people congregate 
+into to drink their favorite beverage or eat their favorite meal. And catch 
+up on the local rumors as well as the current events. The room itself is
+a large room made out of wood it has a log cabin type feel to it.
+~
+#EXIT
+Direction south~
+ToRoom    5105
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5107
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5107
+Name     Bear's Paw Tavern~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is the common room. It's where all the towns people congregate 
+into to drink their favorite beverage or eat their favorite meal. And catch
+up on the local rumors as well as the current events. The room itself is
+a large room made out of wood it has a log cabin type feel to it.
+~
+#EXIT
+Direction east~
+ToRoom    5106
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5104
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5108
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+ means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5100
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5118
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5109
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5137
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5108
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5100
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5110
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5136
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5114
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5111
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5133
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5135
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5134
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5113
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5112
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5132
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5116
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5113
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is
+regarded with a mix of fear and relief. It is a wellspring of freshwater,
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5117
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5114
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5109
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5118
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5110
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5116
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5115
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5131
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5129
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5130
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5113
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5116
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing
+that everyone agrees on is that what ever it is it's coming from the pond
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5122
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5114
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5117
+Name     Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+Desc     This extremely clear pond is safe to drink from and swim in, and is 
+regarded with a mix of fear and relief. It is a wellspring of freshwater, 
+on which the villagers rely on. There are rumors going around that 
+something supernatural has been happening to the pond. Some say
+that it only happens on a full moon just as it's rising once ever three 
+months. Others say that it happens once every two. The one thing 
+that everyone agrees on is that what ever it is it's coming from the pond 
+itself.
+~
+#EXIT
+Direction north~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5119
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5121
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5113
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5118
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+ means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5114
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5108
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5119
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5119
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+ means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5118
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5120
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5121
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5119
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5142
+Flags     isdoor closed locked~
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5117
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5121
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5122
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5117
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5122
+Name     Path Around the Pond~
+Sector   city~
+Flags    indoors prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5129
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5116
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5121
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5141
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5123
+Name     Under Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    5124
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    5113
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5124
+Name     Under Sedna Pond~
+Sector   water_swim~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5125
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5125
+Name     Under Sedna Pond    ~
+Sector   water_swim~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    5126
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5123
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5126
+Name     Under Sedna Pond    ~
+Sector   water_swim~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5127
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5123
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5123
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5127
+Name     Under Sedna Pond    ~
+Sector   water_swim~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5126
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5128
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     plaque
+~
+#EXIT
+Direction north~
+ToRoom    5150
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5127
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5128
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5129
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5130
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5122
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5130
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5131
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5129
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5115
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5131
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5132
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5115
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5130
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5132
+Name     Path Around the Pond~
+Sector   city~
+Flags    nomob prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5133
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5112
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5131
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5133
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5138
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5134
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5111
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5132
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5134
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction east~
+ToRoom    5140
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5135
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5133
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    5111
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5135
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5134
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5136
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5111
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5136
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5135
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5137
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5110
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5137
+Name     Path Around the Pond~
+Sector   city~
+Flags    prototype~
+Desc     The pond is surrounded by a lush wooded walk way. You can go 
+around the entire town without ever having to get off it.  It is the only
+means to get from one side of the town to the other when walking.
+~
+#EXIT
+Direction north~
+ToRoom    5136
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5100
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5109
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5138
+Name     Outskirts of Sedna~
+Sector   city~
+Flags    prototype~
+Desc     You have just entered  the town of Sedna via the northern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local 
+tavern.
+~
+#EXIT
+Direction north~
+ToRoom    5139
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    5133
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5139
+Name     North of Sedna~
+Sector   city~
+Flags    prototype~
+Desc     You have just entered  the town of Sedna via the northern road. It is a 
+busy town, though mostly only because of mercantile traffic. The town 
+is built around a small, pristine pond. The town is known for being a
+little superstitious. You can get basic protection spells from the local
+tavern.
+~
+#EXIT
+Direction south~
+ToRoom    5138
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5140
+Name     Carpenter~
+Sector   inside~
+Flags    indoors prototype~
+Desc     The is the shop of Edwin. He is a Master Carpenter. He is known 
+for making sophisticated while still being practical weapons and 
+armor. As you enter the shop you see  [staffs] ,  [spears,]  and other 
+ types of weapons made out of wood lining the walls.  [Bolts]  and 
+ [arrows]  on his desk. As well as various pieces of  [leather]  armor 
+ hanging on the wall. 
+~
+#EXIT
+Direction west~
+ToRoom    5134
+#ENDEXIT
+
+#EXDESC
+ExDescKey    staff~
+ExDesc       A long single piece of wood who's length is 6'0 and 3 in diameter. It
+has a rugged look to it like it can take a beating and last forever. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    spear~
+ExDesc       Same as the staff 6' long and 3 in diameter it also have a 1'  long spear
+head on it. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    bolt~
+ExDesc       These tiny pieces maybe small but they pack a mean punch.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    arrow~
+ExDesc       these intricate pieces of art work are very elegant and incredible useful
+they are long slender pieces of intricate wood. With really elegant 
+feathers on them.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    leather~
+ExDesc       These bad boys are the lesser of his craftsmanship. Very durable and 
+functional. These things don't have as nice a look as the rest of the stuff 
+he makes.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5141
+Name     Bronzeworker's Shop ~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is the shop of Rowan. He is the best at making really intricate pieces 
+of art out of bronze. As you enter the shop you see a slew of bronze pieces 
+hanging from the wall. Sitting on the floor and covering the top of his desk.
+Such, wonderful useful things like a highly decorated  [cup].  A set of 
+shinny  [horse shoes],  a slew of  [pots]  on the wall. A bunch of  [plates]  
+and [utensils] litter the floor. There is also [jewelery] of all kinds on his
+desk. He stairs at you with intent waiting to see what it is you want to buy. 
+~
+#EXIT
+Direction east~
+ToRoom    5122
+#ENDEXIT
+
+#EXDESC
+ExDescKey    cup~
+ExDesc       &YThis is an incredibly fancy cup, that has an intricate design. and is gem
+incrusted.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    horse shoes~
+ExDesc       &YThis a set of very durable and shiny horse shoes. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    pots~
+ExDesc       &YThis a set very strong but bland looking pots
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    plates~
+ExDesc       &Ythe Plates you are looking at have a nice red circle going around the 
+edge of them. As well as, a picture of a sun setting in the middle of them.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    utensils~
+ExDesc       &YA set of dull unpolished utensils of various usage.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    jewelery~
+ExDesc       &YA bunch of various fancy looking jewelry very from rings to bracelets
+and every thing else you can think of.  
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     5142
+Name     Abandoned Shack~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is a dilapidated building. No ones knows why it's still here or 
+what it was ever used for in the first place. It's just an old falling 
+apart building that people refuse to take down for fear of the unknown. 
+~
+#EXIT
+Direction east~
+ToRoom    5120
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5143
+Name     Inn Common Room~
+Sector   inside~
+Flags    indoors prototype~
+Desc     After going upstairs. You enter into the common area. The rooms are
+numbered 1 through 3 going in the pattern of n, e, w. this place is bland
+with nothing really to look at other then the three inn room doors.
+~
+#EXIT
+Direction north~
+ToRoom    5144
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    5145
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    5146
+Flags     isdoor closed locked pickproof nopassdoor~
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    5105
+#ENDEXIT
+
+Reset D 0 5143 0 2
+Reset D 0 5143 1 2
+Reset D 0 5143 3 2
+#ENDROOM
+
+#ROOM
+Vnum     5144
+Name     Inn Room #1~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is one of three inn rooms. They are all the same. There is a bed in
+the far corner and nothing else. It makes a perfect place to sleep and 
+store stuff for a short time. Just remember to take all your stuff before 
+you leave. Because you never know who might get the room after you.
+~
+#EXIT
+Direction south~
+ToRoom    5143
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5145
+Name     Inn Room #2~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is one of three inn rooms. They are all the same. There is a bed in
+the far corner and nothing else. It makes a perfect place to sleep and 
+store stuff for a short time. Just remember to take all your stuff before 
+you leave. Because you never know who might get the room after you.
+~
+#EXIT
+Direction west~
+ToRoom    5143
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5146
+Name     Inn Room #3~
+Sector   inside~
+Flags    indoors prototype~
+Desc     This is one of three inn rooms. They are all the same. There is a bed in
+the far corner and nothing else. It makes a perfect place to sleep and 
+store stuff for a short time. Just remember to take all your stuff before
+you leave. Because you never know who might get the room after you.
+~
+#EXIT
+Direction east~
+ToRoom    5143
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5149
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     5150
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    5128
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    5151
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5151
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction west~
+ToRoom    5152
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5152
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction east~
+ToRoom    5153
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5153
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction south~
+ToRoom    5154
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5154
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction northeast~
+ToRoom    5155
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5155
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     plaque
+~
+#EXIT
+Direction south~
+ToRoom    5156
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5156
+Name     Floating in a void~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction west~
+ToRoom    5157
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5157
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction north~
+ToRoom    5158
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5158
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction southwest~
+ToRoom    5159
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5159
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    5160
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5160
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    prototype~
+#EXIT
+Direction northwest~
+ToRoom    5161
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5161
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     plaque
+~
+#EXIT
+Direction east~
+ToRoom    5162
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5162
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction northeast~
+ToRoom    5163
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5163
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction south~
+ToRoom    5164
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5164
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction west~
+ToRoom    5165
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5165
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction north~
+ToRoom    5166
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5166
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction southwest~
+ToRoom    5167
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5167
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     plaque
+~
+#EXIT
+Direction southeast~
+ToRoom    5168
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5168
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction west~
+ToRoom    5169
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5169
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction north~
+ToRoom    5170
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5170
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction south~
+ToRoom    5171
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5171
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction northwest~
+ToRoom    5172
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5172
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#EXIT
+Direction east~
+ToRoom    5173
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5173
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+Desc     plaque
+~
+#EXIT
+Direction southwest~
+ToRoom    5174
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     5174
+Name     Underground Labyrinth~
+Sector   inside~
+Flags    indoors prototype~
+#ENDROOM
+
+#ROOM
+Vnum     5175
+Name     Floating in a void~
+Sector   city~
+Flags    prototype~
+#ENDROOM
+
+#ROOM
+Vnum     5199
+Name     Lastroom~
+Sector   city~
+Flags    prototype~
+Reset M 0 5199 1 5199
+Reset O 0 5199 1 5199
+#ENDROOM
+
+#ENDAREA

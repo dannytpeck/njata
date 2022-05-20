@@ -1,0 +1,148 @@
+#PLAYER
+Version      5
+Name         Cryptid~
+Sex          2
+Class        12
+Subclass     0
+Race         23
+Subrace      0
+Age          0 28 0 611
+Languages    1 1
+Level        2
+Played       928
+Room         8003
+HpManaMove   6 41 113 113 110 120
+Gold         51
+Exp          2552
+Height       63
+Weight       140
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168776&2
+Position     112
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Mentalstate  -1
+Password     20171d48b8c44bd882393f17b99f9ba22427898324bfd581152f70169f3c3984~
+Title         the Adventurer~
+Prompt       <%h/%Hhp %m/%Mmp %v/%Vmv %Xtnl>~
+Flags        512
+PKills       0
+PDeaths      0
+MKills       2
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     10 18 12 10 10 10 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 30 100 10
+Site         70.29.83.186
+Skill        1 'aid'
+Skill        1 'climb'
+Tongue       100 'common'
+Skill        1 'cook'
+Weapon       8 'daggers'
+Spell        1 'detect magic'
+Skill        1 'dig'
+Skill        1 'forage'
+Skill        1 'forge'
+Tongue       100 'grega'
+Weapon       1 'slings'
+Tongue       100 'solese'
+Skill        1 'study'
+Killed       8103 2
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         8112
+WearLoc      6
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8111
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8107
+WearLoc      1
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8130
+WearLoc      7
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10334
+Values       5 5 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         421
+Level        1
+Values       15 15 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        5
+Vnum         420
+Level        1
+Values       24 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         426
+Level        1
+Values       0 0 24 0 0 0
+End
+
+#OBJECT
+Vnum         426
+WearLoc      23
+Level        1
+Values       0 0 20 0 0 0
+End
+
+#OBJECT
+Vnum         422
+WearLoc      4
+Level        1
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         412
+WearLoc      24
+Level        1
+Values       12 1 10 2 2 0
+End
+
+#END

@@ -1,0 +1,3152 @@
+# not found
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 78
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 79
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 219
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 220
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 259
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 260
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 336
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 337
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 365
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 366
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 393
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 394
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 421
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 422
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 450
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 451
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 478
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 479
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 507
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 508
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 536
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 537
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 560
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 561
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 610
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 611
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 679
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 680
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 744
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 745
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 787
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 788
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 821
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 822
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 843
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 844
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gods.are LINE: 32
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gods.are LINE: 33
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 33
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 34
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 57
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 58
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 84
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 85
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 109
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 110
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 137
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 138
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 163
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 164
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 190
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 191
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 217
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 218
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 244
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 245
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 271
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 272
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 298
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 299
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 325
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 326
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 351
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 352
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 390
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 391
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 429
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 430
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 468
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 469
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 508
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 509
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 547
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 548
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 586
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 587
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 625
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 626
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 651
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 652
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 677
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 678
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 703
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 704
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 729
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 730
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 755
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 756
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 783
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 784
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 809
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 810
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 834
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 835
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 859
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 860
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 884
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 885
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 909
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 910
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 934
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 935
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 959
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 960
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 987
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 988
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1034
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1035
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1081
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1082
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1128
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1129
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1175
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1176
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1222
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1223
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1269
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1270
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1315
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1316
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1351
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1352
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1443
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1444
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1493
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1494
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1528
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1529
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1570
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1571
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1596
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1597
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1622
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1623
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1649
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1650
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1741
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1742
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1834
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1835
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1927
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1928
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2020
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2021
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2112
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2113
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2204
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2205
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2293
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2294
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2367
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2368
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2392
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2393
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2417
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2418
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2439
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2440
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2464
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2465
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2489
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2490
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2515
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2516
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2540
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2541
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2566
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2567
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2592
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2593
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2618
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2619
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2644
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2645
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2670
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2671
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2696
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2697
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2722
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2723
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2744
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2745
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2769
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2770
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2795
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2796
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2826
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2827
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2890
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2891
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2933
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2934
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2961
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2962
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2991
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2992
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3045
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3046
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3139
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3140
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3184
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3185
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3210
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 78
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 79
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 219
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 220
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 259
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 260
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 336
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 337
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 365
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 366
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 393
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 394
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 421
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 422
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 450
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 451
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 478
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 479
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 507
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 508
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 536
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 537
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 560
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 561
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 610
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 611
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 679
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 680
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 744
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 745
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 787
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 788
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 821
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 822
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: limbo.are LINE: 843
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: limbo.are LINE: 844
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gods.are LINE: 32
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gods.are LINE: 33
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 33
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 34
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 57
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 58
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 84
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 85
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 109
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 110
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 137
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 138
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 163
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 164
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 190
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 191
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 217
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 218
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 244
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 245
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 271
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 272
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 298
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 299
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 325
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 326
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 351
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 352
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 390
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 391
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 429
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 430
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 468
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 469
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 508
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 509
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 547
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 548
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 586
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 587
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 625
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 626
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 651
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 652
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 677
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 678
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 703
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 704
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 729
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 730
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 755
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 756
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 783
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 784
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 809
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 810
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 834
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 835
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 859
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 860
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 884
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 885
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 909
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 910
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 934
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 935
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 959
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 960
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 987
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 988
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1034
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1035
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1081
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1082
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1128
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1129
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1175
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1176
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1222
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1223
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1269
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1270
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1315
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1316
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1351
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1352
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1443
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1444
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1493
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1494
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1528
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1529
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1570
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1571
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1596
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1597
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1622
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1623
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1649
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1650
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1741
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1742
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1834
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1835
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 1927
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 1928
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2020
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2021
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2112
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2113
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2204
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2205
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2293
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2294
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2367
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2368
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2392
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2393
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2417
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2418
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2439
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2440
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2464
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2465
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2489
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2490
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2515
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2516
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2540
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2541
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2566
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2567
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2592
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2593
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2618
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2619
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2644
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2645
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2670
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2671
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2696
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2697
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2722
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2723
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2744
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2745
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2769
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2770
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2795
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2796
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2826
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2827
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2890
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2891
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2933
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2934
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2961
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2962
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 2991
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 2992
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3045
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3046
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3139
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3140
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3184
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3185
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3210
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3211
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3235
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3236
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3274
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3275
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3303
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3304
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3333
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3334
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3363
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3364
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3393
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3394
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3422
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3423
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3451
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3452
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3480
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3481
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3509
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3510
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3538
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3539
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3568
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3569
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3598
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3599
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3628
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3629
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3658
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3659
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3687
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3688
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3716
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3717
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3745
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3746
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3770
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3771
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3793
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3794
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newacad.are LINE: 3815
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newacad.are LINE: 3816
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 44
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 45
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 131
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 132
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 201
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 202
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 255
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 256
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 298
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 299
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 346
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 347
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 431
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 432
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 557
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 558
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newgate.are LINE: 590
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newgate.are LINE: 591
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 61
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 62
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 89
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 90
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 117
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 118
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 145
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 146
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 173
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 174
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 201
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 202
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 226
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 227
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 253
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 254
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 279
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 280
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 305
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 306
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 330
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 331
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 358
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 359
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 385
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 386
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 413
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 414
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 440
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 441
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 465
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 466
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 492
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 493
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 519
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 520
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 546
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 547
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 574
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 575
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 601
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 602
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 628
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 629
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 681
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 682
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 706
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 707
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 733
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 734
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 758
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 759
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 783
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 784
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 809
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 810
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 834
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 835
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 858
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 859
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 884
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 885
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 910
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 911
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 936
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 937
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 963
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 964
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1041
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1042
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1069
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1070
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1099
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1100
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1127
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1128
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1153
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1154
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1180
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1181
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1207
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1208
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1249
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1250
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1292
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1293
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1335
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1336
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1378
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1379
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1421
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1422
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1465
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1466
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1507
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1508
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1552
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1553
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1576
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1577
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1600
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1601
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1622
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1623
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1644
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1645
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1666
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1667
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1688
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1689
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1710
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1711
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1732
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1733
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1754
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1755
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1776
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1777
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1798
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1799
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1826
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1827
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1931
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1932
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1956
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 1957
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: newdark.are LINE: 1999
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: newdark.are LINE: 2000
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 64
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 65
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 92
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 93
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 119
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 120
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 148
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 149
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 177
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 178
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 206
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 207
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 234
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 235
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: plains.are LINE: 265
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: plains.are LINE: 266
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 36
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 37
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 91
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 92
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 120
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 121
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 146
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 147
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 172
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 173
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 200
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 201
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 226
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 227
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 251
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 252
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 283
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 284
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 320
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 321
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 350
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 351
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 392
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 393
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: haon.are LINE: 428
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: haon.are LINE: 429
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 36
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 37
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 64
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 65
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 92
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 93
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 121
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 122
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 176
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 177
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 220
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 221
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 263
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 264
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 302
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 303
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 343
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 344
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: midennir.are LINE: 368
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: midennir.are LINE: 369
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 36
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 37
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 65
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 66
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 90
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 91
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 114
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 115
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 139
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 140
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 164
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 165
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 190
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 191
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 217
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 218
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 247
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 248
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 275
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 276
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 304
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 305
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 333
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 334
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 361
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 362
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 412
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 413
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 444
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 445
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 475
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 476
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 506
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 507
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 533
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 534
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 560
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 561
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 588
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 589
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 616
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 617
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 644
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 645
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 671
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 672
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 698
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 699
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 720
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 721
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sewer.are LINE: 742
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sewer.are LINE: 743
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: redferne.are LINE: 37
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: redferne.are LINE: 38
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 37
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 38
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 65
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 66
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 92
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 93
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 118
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 119
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 143
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 144
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 168
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 169
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 192
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 193
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 216
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 217
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 242
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 243
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 268
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 269
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 294
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 295
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grove.are LINE: 325
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grove.are LINE: 326
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 34
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 35
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 58
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 59
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 83
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 84
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 108
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 109
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 139
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 140
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 169
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 170
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 193
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 194
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 217
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 218
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 241
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 242
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 266
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 267
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 288
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 289
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 310
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 311
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 332
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 333
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 354
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 355
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 376
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 377
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 398
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 399
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 423
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 424
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: dwarven.are LINE: 445
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: dwarven.are LINE: 446
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 61
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 62
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 86
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 87
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 113
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 114
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 140
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 141
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 167
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 168
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 194
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 195
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 236
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 237
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 264
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 265
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 290
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 291
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: daycare.are LINE: 316
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: daycare.are LINE: 317
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grave.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grave.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grave.are LINE: 64
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grave.are LINE: 65
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grave.are LINE: 94
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grave.are LINE: 95
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grave.are LINE: 124
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grave.are LINE: 125
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grave.are LINE: 156
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grave.are LINE: 157
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: grave.are LINE: 187
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: grave.are LINE: 188
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 65
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 66
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 95
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 96
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 123
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 124
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 152
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 153
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 182
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 183
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 212
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 213
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 242
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 243
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 273
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 274
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 300
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 301
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 328
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 329
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 361
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 362
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 395
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 396
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 434
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 435
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 470
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 471
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 503
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 504
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: chapel.are LINE: 531
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: chapel.are LINE: 532
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 38
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: astral.are LINE: 177
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 178
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 281
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: astral.are LINE: 318
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 319
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 350
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 381
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 412
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 483
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 515
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 577
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 654
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: astral.are LINE: 753
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 754
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 785
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 815
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: astral.are LINE: 846
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: astral.are LINE: 876
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 877
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: astral.are LINE: 901
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: astral.are LINE: 902
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: pixie.are LINE: 40
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: pixie.are LINE: 41
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: pixie.are LINE: 86
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: pixie.are LINE: 87
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: pixie.are LINE: 131
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: pixie.are LINE: 132
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: pixie.are LINE: 176
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: pixie.are LINE: 177
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 37
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 38
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 121
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 122
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 151
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 152
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 180
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 181
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 227
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 228
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 279
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 280
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 345
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 346
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 387
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 388
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 423
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 424
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 466
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 467
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 564
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 565
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 692
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 693
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 821
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 822
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 937
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 938
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 1024
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 1025
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 1110
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 1111
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 1148
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 1149
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 1182
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 1183
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 1231
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 1232
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: export.are LINE: 1254
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: export.are LINE: 1255
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 36
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 37
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 72
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 73
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 101
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 102
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 143
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 144
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 171
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 172
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 209
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 210
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 245
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 246
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 299
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 300
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 325
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 326
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 351
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 352
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 378
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 379
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 405
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 406
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 433
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 434
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 462
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 463
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 491
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 492
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 519
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 520
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 557
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 558
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 600
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 601
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 629
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 630
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 656
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 657
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 699
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 700
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 727
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 728
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 759
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 760
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 793
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 794
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 822
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 823
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 864
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 865
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 899
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 900
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 932
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 933
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 960
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 961
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1004
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1005
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1048
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1049
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1085
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1086
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1115
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1116
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1158
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1159
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1194
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1195
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1237
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1238
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1280
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1281
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1311
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1312
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1356
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1357
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1436
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1437
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1515
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1516
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1553
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1554
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1595
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1596
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1627
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1628
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1663
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1664
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1692
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1693
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1717
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1718
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1743
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1744
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: srefuge.are LINE: 1776
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: srefuge.are LINE: 1777
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 100
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 101
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 158
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 159
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 191
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 192
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 243
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 244
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 321
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 322
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 392
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 393
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 417
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 418
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 481
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 482
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 541
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 542
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 597
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 598
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 624
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 625
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 719
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 720
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 795
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 796
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 854
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 855
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 882
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 883
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 952
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 953
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 992
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 993
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 1026
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 1027
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 1070
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 1071
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 1123
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 1124
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 1172
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 1173
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 1246
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 1247
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 1285
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 1286
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: manor.are LINE: 1315
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: manor.are LINE: 1316
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 36
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 37
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 66
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 67
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 95
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 96
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 127
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 128
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 157
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 158
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 203
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 204
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 232
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 233
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 263
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 264
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 289
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 290
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 320
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 321
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 351
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 352
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: unholy.are LINE: 386
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: unholy.are LINE: 387
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 125
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 126
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 165
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 166
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 190
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 191
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 225
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 226
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 252
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 253
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 288
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 289
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 323
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 324
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 358
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 359
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 393
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 394
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 428
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 429
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 464
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 465
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 499
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 500
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 534
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 535
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 565
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 566
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 604
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 605
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 642
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 643
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 681
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 682
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 721
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 722
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 752
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 753
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 782
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 783
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 819
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 820
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 894
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 895
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 922
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 923
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 949
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 950
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 977
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 978
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1005
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1006
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1046
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1047
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1079
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1080
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1144
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1145
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1192
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1193
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1221
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1222
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1250
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1251
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1276
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1277
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1304
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1305
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1331
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1332
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1364
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1365
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1398
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1399
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1422
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1423
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1447
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1448
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1471
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1472
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1495
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1496
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1519
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1520
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1546
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1547
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1573
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1574
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1601
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1602
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1629
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1630
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1657
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1658
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1685
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1686
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1713
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1714
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1741
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1742
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1770
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1771
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1799
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1800
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1828
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1829
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1857
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1858
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1884
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1885
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1912
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1913
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1945
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1946
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1972
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 1973
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 1999
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 2000
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 2027
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 2028
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: gallery.are LINE: 2054
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: gallery.are LINE: 2055
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sedna.are LINE: 54
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sedna.are LINE: 55
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sedna.are LINE: 80
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sedna.are LINE: 81
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sedna.are LINE: 107
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sedna.are LINE: 108
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: sedna.are LINE: 147
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: sedna.are LINE: 148
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 35
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 36
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 75
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 76
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 103
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 104
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 132
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 156
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 157
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 243
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 244
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 327
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 328
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 393
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 394
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 421
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 422
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 450
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 451
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 479
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 480
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 519
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 520
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 547
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 548
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 613
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 614
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 641
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 642
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 731
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 732
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 851
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 852
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 919
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 920
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 963
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 964
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 991
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 992
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: desert.are LINE: 1049
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: desert.are LINE: 1050
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 37
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 104
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 184
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 185
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 256
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 332
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 333
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 369
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 370
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 439
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 440
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 487
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 574
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 575
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 623
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 624
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 715
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 716
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 881
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 951
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 952
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1010
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1011
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1123
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1124
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1171
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1172
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1268
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1269
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1315
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1316
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1360
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1361
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1400
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1401
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1445
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1446
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1495
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1496
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1534
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1535
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1578
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1579
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1607
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1608
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1635
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1636
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1664
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1665
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1693
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1720
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1721
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1748
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1749
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1866
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1867
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1895
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 1896
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 1920
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2000
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2001
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2077
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2078
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2108
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2109
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2154
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2155
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2190
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2191
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2231
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2232
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2278
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2279
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2341
+[*****] BUG: Unknown speaks language: common
+[*****] FILE: aina.are LINE: 2379
+[*****] BUG: Unknown speaking language: common
+[*****] FILE: aina.are LINE: 2380
+[  401] Zoie: Shutdown by Zoie.
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 35
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 35
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 35
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 35
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 35
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 35
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 49
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 49
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 63
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 119
+# not found
+[*****] BUG: Fread_number: bad format. (#)
+[*****] FILE: damara.are LINE: 119
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 119
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 119
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 119
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 119
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 119
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 133
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 157
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 171
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 192
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 206
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 220
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 250
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 264
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 329
+# not found
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: damara.are LINE: 355
+# not found
+[26050] Zoie: Shutdown by Zoie.
+[26050] Zoie: Shutdown by Zoie.
+[20000] Zoie: Shutdown by Zoie.
+[20000] Zoie: Shutdown by Zoie.
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 37
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 37
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 37
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 85
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 179
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 303
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 485
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Load_mobiles: # not found.
+[*****] FILE: forestpath.are LINE: 700
+# not found
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 622
+[*****] BUG: Get_obj_index: bad vnum 431.
+[*****] FILE: immak.are LINE: 623
+[*****] BUG: Get_obj_index: bad vnum 430.
+[*****] FILE: immak.are LINE: 624
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 435.
+[*****] FILE: immak.are LINE: 1537
+[*****] BUG: Get_obj_index: bad vnum 436.
+[*****] FILE: immak.are LINE: 1538
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 617
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[  423] Zoie: Shutdown by Zoie.
+[*****] BUG: Get_obj_index: bad vnum 403.
+[*****] FILE: immak.are LINE: 597
+[*****] BUG: Get_obj_index: bad vnum 413.
+[*****] FILE: immak.are LINE: 617
+[*****] BUG: Get_obj_index: bad vnum 410.
+[*****] FILE: immak.are LINE: 618
+[*****] BUG: Get_obj_index: bad vnum 415.
+[*****] FILE: immak.are LINE: 619
+[*****] BUG: Get_obj_index: bad vnum 411.
+[*****] FILE: immak.are LINE: 620
+[*****] BUG: Get_obj_index: bad vnum 414.
+[*****] FILE: immak.are LINE: 621
+[*****] BUG: Get_obj_index: bad vnum 422.
+[*****] FILE: immak.are LINE: 694
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immak.are LINE: 695
+[*****] BUG: Get_obj_index: bad vnum 421.
+[*****] FILE: immak.are LINE: 696
+[*****] BUG: Get_obj_index: bad vnum 420.
+[*****] FILE: immak.are LINE: 697
+[*****] BUG: Get_obj_index: bad vnum 423.
+[*****] FILE: immak.are LINE: 698
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: Get_obj_index: bad vnum 426.
+[*****] FILE: immakwoods.are LINE: 963
+[*****] BUG: fread_char: unknown spell.
+[*****] FILE: ../player/z/Zoie LINE: 283
+[21002] Zoie: Shutdown by Zoie.
+[ 8901] Zoie: Shutdown by Zoie.
+[*****] BUG: slot_lookup: bad slot 3072.
+[*****] FILE: newdark.are LINE: 2439
+[*****] BUG: slot_lookup: bad slot 3072.
+[*****] FILE: newdark.are LINE: 2785
+[*****] BUG: slot_lookup: bad slot 256.
+[*****] FILE: srefuge.are LINE: 2212
+[*****] BUG: slot_lookup: bad slot 256.
+[*****] FILE: srefuge.are LINE: 2212
+[*****] BUG: slot_lookup: bad slot 256.
+[*****] FILE: manor.are LINE: 1556
+[*****] BUG: fread_char: no match: SkinColor
+[*****] FILE: ../player/z/Zoie LINE: 24
+[*****] BUG: fread_char: no match: SkinColor
+[*****] FILE: ../player/z/Zoie LINE: 24
+[ 8901] Zoie: Shutdown by Zoie.
+[*****] BUG: fread_fuss_mobile: vnum 14: Mob has invalid race! Defaulting to monster.
+[*****] FILE: limbo.are LINE: 465
+[*****] BUG: fread_fuss_mobile: vnum 14: Mob has invalid race! Defaulting to monster.
+[*****] FILE: limbo.are LINE: 465
+[*****] BUG: fread_char: no match: SkinColor
+[*****] FILE: ../player/a/Alyssa LINE: 19
+[*****] BUG: fread_char: no match: SkinColor
+[*****] FILE: ../player/a/Alyssa LINE: 19
+[ 8000] Zoie: Shutdown by Zoie.

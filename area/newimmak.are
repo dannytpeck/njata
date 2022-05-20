@@ -1,0 +1,1377 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         New Immak~
+Author       Zoie~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 60
+Economy      0 31250000
+ResetFreq    15
+#ENDAREADATA
+
+#MOBILE
+Vnum       2200
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       2201
+Keywords   Harald Barkeeper~
+Short      Harald the Barkeeper~
+Long       Harald the Barkeeper is here, polishing a glass.
+~
+Race       dwarf~
+Class      ranger~
+Position   standing~
+DefPos     standing~
+Gender     male~
+Actflags   npc sentinel train practice pacifist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+ShopData   0 0 0 0 0 120 90 0 23
+#ENDMOBILE
+
+#MOBILE
+Vnum       2299
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     2200
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     2201
+Keywords black leather corset~
+Type     armor~
+Short    &za black leather corset&w~
+Long     Some god dropped a newly created &zblack leather corset&w here.~
+WFlags   take body~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     2202
+Keywords old stone well~
+Type     fountain~
+Short    an old stone well~
+Long     &wAn old well made of stone is here.~
+Values   50 50 0 0 0 0
+Stats    500 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     2203
+Keywords weatherbeaten sign~
+Type     furniture~
+Short    a weatherbeaten sign~
+Long     A weatherbeaten sign is hammered into the ground here.~
+Values   0 0 0 0 0 0
+Stats    5000 0 0 0 0
+#EXDESC
+ExDescKey    weatherbeaten sign~
+ExDesc       -----------------
+Welcome to Immak!
+-----------------
+~
+#ENDEXDESC
+
+#ENDOBJECT
+
+#OBJECT
+Vnum     2205
+Keywords flagon ale~
+Type     drinkcon~
+Short    a flagon of ale~
+Long     Someone has forgotten their flagon of ale here.~
+Flags    inventory~
+WFlags   take hold~
+Values   10 2 4 0 0 0
+Stats    1 15 1 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     2299
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     2200
+Name     Zoie's Room o' Doom~
+Sector   city~
+Flags    nomob indoors~
+Desc     Zoie lives here. This is a sparse room with a mirror in place of a fourth
+wall and a bucket in the corner for sleeping.
+~
+#EXDESC
+ExDescKey    bucket~
+ExDesc       This bucket is clean and pristine, it appears to be made out of silver.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     2201
+Name     Road South of the Immak Woods~
+Sector   city~
+Desc     A well travelled road leads north-south. To the north is a large forest,
+and to the south is the dwarven port town of Immak. The ground is hard
+packed dirt, flanked on either side by grasslands.
+~
+#EXIT
+Direction north~
+ToRoom    8000
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2202
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2202
+Name     Road North of Immak~
+Sector   city~
+Desc     A well travelled road leads north-south. In the distance to the north is a
+large forest. The hustle and bustle of Immak can be seen to the south. The
+ground is hard packed dirt with grasslands to the east and west.
+~
+#EXIT
+Direction north~
+ToRoom    2201
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2205
+#ENDEXIT
+
+Reset O 0 2203 1 2202
+#ENDROOM
+
+#ROOM
+Vnum     2203
+Name     Shore of Merroc River~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction south~
+ToRoom    2208
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2209
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2207
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2204
+Name     Immak Pub~
+Sector   inside~
+Desc     Boisterous drinkers enjoy themselves in Immak's pub at all 
+hours of the day and night. Gambling and drinking can be found 
+here, as much as one could ever want. A staircase leads up to 
+some rooms that are occasionally rented by passersby on their 
+way to the north or who may be awaiting a sea voyage. Harald is 
+also a retired adventurer, willing to show new adventurers some
+of his old tricks.
+~
+#EXIT
+Direction south~
+ToRoom    2210
+#ENDEXIT
+
+Reset M 0 2201 1 2204
+  Reset G 0 2205 1
+#ENDROOM
+
+#ROOM
+Vnum     2205
+Name     Bazaar Road~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2202
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2211
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2206
+Name     Newly Created Room~
+Sector   inside~
+Desc     Newly Created Room
+~
+#EXIT
+Direction south~
+ToRoom    2212
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2207
+Name     Shore of Merroc River~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2208
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2215
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2203
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2216
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2214
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2208
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2203
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2209
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2216
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2207
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2215
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2209
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction west~
+ToRoom    2208
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2203
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2216
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2210
+Name     Prosperity Avenue~
+Sector   city~
+Desc     This road runs north to south. To the east, you can see the boisterous
+village square. To the north is a comfortable looking two-story Pub.
+Delicious smells waft out into the street from within.
+~
+#EXIT
+Direction north~
+ToRoom    2204
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2211
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2218
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2211
+Name     Village Square of Immak~
+Sector   city~
+Desc     A cobblestoned village square is here with a sturdy old well in  the
+middle, benches line the edges of the cobblestoned square  for travellers
+and townsfolk alike to take a load off. To the  west is the pub, where
+adventurers congregate to share stories of their exploits. To the east are
+the blacksmith's and tailor's shops.
+~
+#EXIT
+Direction north~
+ToRoom    2205
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2212
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2219
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2210
+#ENDEXIT
+
+Reset O 0 2202 1 2211
+#ENDROOM
+
+#ROOM
+Vnum     2212
+Name     Artisan Street~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2206
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2213
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2220
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2211
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2213
+Name     Artisan Street~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2214
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2212
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2214
+Name     Shore of Merroc River~
+Sector   city~
+Desc     A small path runs southwest and northeast of here. The river runs quickly
+and could be dangerous to anyone who isn't a strong swimmer.
+~
+#EXIT
+Direction east~
+ToRoom    2215
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2222
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2213
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2207
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2223
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2221
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2215
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2207
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2216
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2223
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2214
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2208
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2222
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2216
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2208
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2215
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2209
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2207
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2223
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2217
+Name     Newly Created Room~
+Sector   inside~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2218
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2218
+Name     Prosperity Avenue~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2210
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2224
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2217
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2219
+Name     Bazaar Road~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2211
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2225
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2220
+Name     Newly Created Room~
+Sector   inside~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2212
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2221
+Name     Shore of Merroc River~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2222
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2227
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2214
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2228
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2226
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2222
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2214
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2223
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2228
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2221
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2215
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2227
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2223
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2215
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2222
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2216
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2214
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2228
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2224
+Name     Prosperity Avenue~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2218
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2231
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2225
+Name     Bazaar~
+Sector   inside~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2219
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2226
+Name     Shore of Merroc River~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2227
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2233
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2221
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2234
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2232
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2227
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2221
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2228
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2234
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2226
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2222
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2233
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2228
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2222
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2227
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2223
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2221
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2234
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2229
+Name     Western Wislyu Road~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2230
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2230
+Name     Western Wislyu Road~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2231
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2229
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2231
+Name     Prosperity Avenue~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction north~
+ToRoom    2224
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2235
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2230
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2232
+Name     Shore of Merroc River~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2233
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2236
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2226
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2237
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2235
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2233
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2226
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2234
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2237
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2232
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2227
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2236
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2234
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2227
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2233
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2228
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2226
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2237
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2235
+Name     Shore of Merroc River~
+Sector   city~
+Desc     A small path runs southwest and northeast of here. The river runs quickly
+and could be dangerous to anyone who isn't a strong swimmer.
+~
+#EXIT
+Direction north~
+ToRoom    2231
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2236
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2239
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2232
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2240
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2238
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2236
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2232
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2237
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2240
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2235
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2233
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2239
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2237
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2233
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2236
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2234
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2232
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2240
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2238
+Name     Shore of Merroc River~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2239
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2242
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2235
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2243
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2241
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2239
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2235
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2240
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2243
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2238
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2236
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2242
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2240
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2236
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2239
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2237
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2235
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2243
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2241
+Name     Shore of Merroc River~
+Sector   city~
+Desc     Newly Created Room
+~
+#EXIT
+Direction east~
+ToRoom    2242
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2238
+#ENDEXIT
+
+#EXIT
+Direction southeast~
+ToRoom    2244
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2242
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2238
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    2243
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    2244
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2241
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2239
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2243
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2239
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    2242
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2240
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2238
+#ENDEXIT
+
+#EXIT
+Direction southwest~
+ToRoom    2244
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2244
+Name     Merroc River~
+Sector   r1~
+Desc     The river runs rapidly from northeast to southwest.
+~
+#EXIT
+Direction north~
+ToRoom    2242
+#ENDEXIT
+
+#EXIT
+Direction northeast~
+ToRoom    2243
+#ENDEXIT
+
+#EXIT
+Direction northwest~
+ToRoom    2241
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     2299
+Name     Floating in a void~
+Sector   city~
+Flags    nomob~
+#ENDROOM
+
+#ENDAREA

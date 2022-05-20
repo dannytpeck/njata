@@ -1,0 +1,1573 @@
+Sat Sep  1 21:18:49 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sat Sep  1 21:18:49 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sat Sep  1 21:18:49 2012 :: Initializing libdl support...
+Sat Sep  1 21:18:49 2012 :: Loading commands...
+Sat Sep  1 21:18:49 2012 :: Loading spec_funs...
+Sat Sep  1 21:18:49 2012 :: Loading sysdata configuration...
+Sat Sep  1 21:18:49 2012 :: Loading socials
+Sat Sep  1 21:18:49 2012 :: Loading skill table
+Sat Sep  1 21:18:49 2012 :: Sorting skill table...
+Sat Sep  1 21:18:49 2012 :: Creating skill table sorted by type...
+Sat Sep  1 21:18:49 2012 :: Remapping slots to sns
+Sat Sep  1 21:18:49 2012 :: Loading classes
+Sat Sep  1 21:18:49 2012 :: Loading races
+Sat Sep  1 21:18:49 2012 :: Loading news data
+Sat Sep  1 21:18:49 2012 :: Loading fish name data
+Sat Sep  1 21:18:49 2012 :: Loading liquids
+Sat Sep  1 21:18:49 2012 :: Loading mixtures
+Sat Sep  1 21:18:49 2012 :: Loading herb table
+Sat Sep  1 21:18:49 2012 :: Loading tongues
+Sat Sep  1 21:18:49 2012 :: Making wizlist
+Sat Sep  1 21:18:49 2012 :: Building wizinfo
+Sat Sep  1 21:18:49 2012 :: Loading MSSP Data...
+Sat Sep  1 21:18:49 2012 :: Initializing random number generator
+Sat Sep  1 21:18:49 2012 :: Setting time and weather.
+Sat Sep  1 21:18:49 2012 :: Loading holiday chart...
+Sat Sep  1 21:18:49 2012 :: Loading DNS cache...
+Sat Sep  1 21:18:49 2012 :: Assigning gsn's
+ASSIGN_GSN: Skill blindness not found.
+Sat Sep  1 21:18:49 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sat Sep  1 21:18:50 2012 :: Fixing exits
+Sat Sep  1 21:18:50 2012 :: Initializing economy
+Sat Sep  1 21:18:50 2012 :: Resetting areas
+Sat Sep  1 21:18:50 2012 :: Loading buildlist
+Sat Sep  1 21:18:50 2012 :: ../gods/Wulfen
+Sat Sep  1 21:18:50 2012 :: ../gods/Shadwen
+Sat Sep  1 21:18:50 2012 :: ../gods/Alyarta
+Sat Sep  1 21:18:50 2012 :: ../gods/Zoie
+Sat Sep  1 21:18:50 2012 :: ../gods/Chieftain
+Sat Sep  1 21:18:50 2012 :: Loading boards
+Sat Sep  1 21:18:50 2012 :: ../boards/immortal.brd
+Sat Sep  1 21:18:50 2012 :: ../boards/highgod.brd
+Sat Sep  1 21:18:50 2012 :: Loading Global Boards
+Sat Sep  1 21:18:50 2012 :: Loading clans
+Sat Sep  1 21:18:50 2012 :: Loading clans...
+Sat Sep  1 21:18:50 2012 :: vampire.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: druid.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: warrior.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: augurer.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: thief.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: cleric.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: mage.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: ranger.gui
+Sat Sep  1 21:18:50 2012 :: Cannot open clan vault
+Sat Sep  1 21:18:50 2012 :: $
+Sat Sep  1 21:18:50 2012 ::  Done clans 
+Sat Sep  1 21:18:50 2012 :: Loading councils
+Sat Sep  1 21:18:50 2012 :: Loading councils...
+Sat Sep  1 21:18:50 2012 :: $
+Sat Sep  1 21:18:50 2012 ::  Done councils 
+Sat Sep  1 21:18:50 2012 :: Loading deities
+Sat Sep  1 21:18:50 2012 :: Loading deities...
+Sat Sep  1 21:18:50 2012 :: teacher
+Sat Sep  1 21:18:50 2012 :: $
+Sat Sep  1 21:18:50 2012 ::  Done deities 
+Sat Sep  1 21:18:50 2012 :: Loading watches
+Sat Sep  1 21:18:50 2012 :: Loading bans
+Sat Sep  1 21:18:50 2012 :: Done.
+Sat Sep  1 21:18:50 2012 :: Loading reserved names
+Sat Sep  1 21:18:50 2012 :: Loading corpses
+Sat Sep  1 21:18:50 2012 :: Loading Immortal Hosts
+Sat Sep  1 21:18:50 2012 :: Done.
+Sat Sep  1 21:18:50 2012 :: Loading bounties
+Sat Sep  1 21:18:50 2012 :: Done.
+Sat Sep  1 21:18:50 2012 :: Loading Morphs
+Sat Sep  1 21:18:50 2012 :: Done.
+Sat Sep  1 21:18:50 2012 :: Initializing socket
+Sat Sep  1 21:18:50 2012 :: Njata ready on port 6500.
+Sat Sep  1 21:18:58 2012 :: Preloading player data for: Zoie (2K)
+Sat Sep  1 21:18:58 2012 :: Creating area entry for Zoie
+Sat Sep  1 21:18:58 2012 :: Loading player data for: Zoie (2K)
+Sat Sep  1 21:18:58 2012 :: Updating area entry for Zoie
+Sat Sep  1 21:18:58 2012 :: Zoie (72.223.91.114) has connected.
+Sat Sep  1 21:19:07 2012 :: Log Zoie: loadarea alyarta.are
+Sat Sep  1 21:19:11 2012 :: Log Zoie: loadup alyarta
+Sat Sep  1 21:19:11 2012 :: Loading player data for: Alyarta (9K)
+Sat Sep  1 21:19:11 2012 :: [*****] BUG: fread_char: unknown spell.
+Sat Sep  1 21:19:11 2012 :: [*****] FILE: ../player/a/Alyarta LINE: 81
+Sat Sep  1 21:19:11 2012 :: [*****] BUG: fread_char: unknown spell.
+Sat Sep  1 21:19:11 2012 :: [*****] FILE: ../player/a/Alyarta LINE: 150
+Sat Sep  1 21:19:11 2012 :: [*****] BUG: fread_char: unknown spell.
+Sat Sep  1 21:19:11 2012 :: [*****] FILE: ../player/a/Alyarta LINE: 161
+Sat Sep  1 21:19:11 2012 :: [*****] BUG: fread_char: unknown spell.
+Sat Sep  1 21:19:11 2012 :: [*****] FILE: ../player/a/Alyarta LINE: 185
+Sat Sep  1 21:19:11 2012 :: [*****] BUG: fread_char: unknown skill.
+Sat Sep  1 21:19:11 2012 :: [*****] FILE: ../player/a/Alyarta LINE: 260
+Sat Sep  1 21:19:11 2012 :: [*****] BUG: fread_char: unknown spell.
+Sat Sep  1 21:19:11 2012 :: [*****] FILE: ../player/a/Alyarta LINE: 296
+Sat Sep  1 21:19:11 2012 :: Creating area entry for Alyarta
+Sat Sep  1 21:19:13 2012 :: Log Zoie: loada alyarta.are
+Alyarta.are   : Rooms:  4200 - 4299  Objs:  4200 - 4299  Mobs:  4200 - 4299
+Sat Sep  1 21:19:34 2012 :: Log Zoie: loadarea alyarta.are
+Sat Sep  1 21:19:46 2012 :: Log Zoie: fquit alyarta
+Sat Sep  1 21:19:50 2012 :: Log Zoie: force alyarta quit
+Sat Sep  1 21:19:50 2012 :: Alyarta has quit (Room 436).
+Sat Sep  1 21:20:08 2012 :: Log Zoie: sset 31 damtype earth
+Sat Sep  1 21:20:41 2012 :: Log Zoie: hotboot
+Sat Sep  1 21:20:41 2012 :: Hotboot initiated by Zoie.
+Sat Sep  1 21:20:41 2012 :: Preserving world state....
+Sat Sep  1 21:20:41 2012 :: Saving player files and connection states....
+Sat Sep  1 21:20:41 2012 :: Executing hotboot....
+Sat Sep  1 21:20:41 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sat Sep  1 21:20:41 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sat Sep  1 21:20:41 2012 :: Initializing libdl support...
+Sat Sep  1 21:20:41 2012 :: Loading commands...
+Sat Sep  1 21:20:41 2012 :: Loading spec_funs...
+Sat Sep  1 21:20:41 2012 :: Loading sysdata configuration...
+Sat Sep  1 21:20:41 2012 :: Loading socials
+Sat Sep  1 21:20:41 2012 :: Loading skill table
+Sat Sep  1 21:20:41 2012 :: Sorting skill table...
+Sat Sep  1 21:20:41 2012 :: Creating skill table sorted by type...
+Sat Sep  1 21:20:41 2012 :: Remapping slots to sns
+Sat Sep  1 21:20:41 2012 :: Loading classes
+Sat Sep  1 21:20:41 2012 :: Loading races
+Sat Sep  1 21:20:41 2012 :: Loading news data
+Sat Sep  1 21:20:41 2012 :: Loading fish name data
+Sat Sep  1 21:20:41 2012 :: Loading liquids
+Sat Sep  1 21:20:41 2012 :: Loading mixtures
+Sat Sep  1 21:20:41 2012 :: Loading herb table
+Sat Sep  1 21:20:41 2012 :: Loading tongues
+Sat Sep  1 21:20:41 2012 :: Making wizlist
+Sat Sep  1 21:20:41 2012 :: Building wizinfo
+Sat Sep  1 21:20:41 2012 :: Loading MSSP Data...
+Sat Sep  1 21:20:41 2012 :: Initializing random number generator
+Sat Sep  1 21:20:41 2012 :: Setting time and weather.
+Sat Sep  1 21:20:41 2012 :: Loading holiday chart...
+Sat Sep  1 21:20:41 2012 :: Loading DNS cache...
+Sat Sep  1 21:20:41 2012 :: Assigning gsn's
+ASSIGN_GSN: Skill blindness not found.
+Sat Sep  1 21:20:41 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sat Sep  1 21:20:42 2012 :: Fixing exits
+Sat Sep  1 21:20:42 2012 :: Initializing economy
+Sat Sep  1 21:20:42 2012 :: Loading world state...
+Sat Sep  1 21:20:42 2012 :: World state: loading mobs
+Sat Sep  1 21:20:42 2012 :: World state: loading objs
+Sat Sep  1 21:20:42 2012 :: Resetting areas
+Sat Sep  1 21:20:42 2012 :: Loading buildlist
+Sat Sep  1 21:20:42 2012 :: ../gods/Wulfen
+Sat Sep  1 21:20:42 2012 :: ../gods/Shadwen
+Sat Sep  1 21:20:42 2012 :: ../gods/Alyarta
+Sat Sep  1 21:20:42 2012 :: ../gods/Zoie
+Sat Sep  1 21:20:42 2012 :: ../gods/Chieftain
+Sat Sep  1 21:20:42 2012 :: Loading boards
+Sat Sep  1 21:20:42 2012 :: ../boards/immortal.brd
+Sat Sep  1 21:20:42 2012 :: ../boards/highgod.brd
+Sat Sep  1 21:20:42 2012 :: Loading Global Boards
+Sat Sep  1 21:20:42 2012 :: Loading clans
+Sat Sep  1 21:20:42 2012 :: Loading clans...
+Sat Sep  1 21:20:42 2012 :: vampire.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: druid.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: warrior.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: augurer.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: thief.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: cleric.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: mage.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: ranger.gui
+Sat Sep  1 21:20:42 2012 :: Cannot open clan vault
+Sat Sep  1 21:20:42 2012 :: $
+Sat Sep  1 21:20:42 2012 ::  Done clans 
+Sat Sep  1 21:20:42 2012 :: Loading councils
+Sat Sep  1 21:20:42 2012 :: Loading councils...
+Sat Sep  1 21:20:42 2012 :: $
+Sat Sep  1 21:20:42 2012 ::  Done councils 
+Sat Sep  1 21:20:42 2012 :: Loading deities
+Sat Sep  1 21:20:42 2012 :: Loading deities...
+Sat Sep  1 21:20:42 2012 :: teacher
+Sat Sep  1 21:20:42 2012 :: $
+Sat Sep  1 21:20:42 2012 ::  Done deities 
+Sat Sep  1 21:20:42 2012 :: Loading watches
+Sat Sep  1 21:20:42 2012 :: Loading bans
+Sat Sep  1 21:20:42 2012 :: Done.
+Sat Sep  1 21:20:42 2012 :: Loading reserved names
+Sat Sep  1 21:20:42 2012 :: Loading corpses
+Sat Sep  1 21:20:42 2012 :: Loading Immortal Hosts
+Sat Sep  1 21:20:42 2012 :: Done.
+Sat Sep  1 21:20:42 2012 :: Loading bounties
+Sat Sep  1 21:20:42 2012 :: Done.
+Sat Sep  1 21:20:42 2012 :: Loading Morphs
+Sat Sep  1 21:20:42 2012 :: Done.
+Sat Sep  1 21:20:42 2012 :: Initializing socket
+Sat Sep  1 21:20:42 2012 :: Njata ready on port 6500.
+Sat Sep  1 21:20:42 2012 :: Initiating hotboot recovery.
+Sat Sep  1 21:20:42 2012 :: Loading player data for: Zoie (2K)
+Sat Sep  1 21:20:42 2012 :: Creating area entry for Zoie
+Sat Sep  1 21:20:42 2012 :: Hotboot recovery complete.
+Sat Sep  1 21:21:04 2012 :: Log Zoie: sset 31 damtype earth
+Sat Sep  1 21:21:09 2012 :: Log Zoie: sset 31 damtype cold
+Sat Sep  1 21:21:16 2012 :: Log Zoie: sset 31 damtype fire
+Sat Sep  1 21:21:22 2012 :: Log Zoie: sset 31 damtype air
+Sat Sep  1 21:23:20 2012 :: Log Zoie: sset 31 damtype earth
+Sat Sep  1 21:23:24 2012 :: Log Zoie: sset 31 damtype air
+Sat Sep  1 21:23:28 2012 :: Log Zoie: sset 31 damtype goober
+Sat Sep  1 21:24:09 2012 :: Log Zoie: sset 31 damtype 0
+Sat Sep  1 21:24:13 2012 :: Log Zoie: sset 31 damtype 50
+Sat Sep  1 21:24:17 2012 :: Log Zoie: sset 31 damtype 31
+Sat Sep  1 21:24:23 2012 :: Log Zoie: sset 31 damtype cold
+Sat Sep  1 21:24:30 2012 :: Log Zoie: sset 31 damtype electrcitiy
+Sat Sep  1 21:24:35 2012 :: Log Zoie: sset 31 damtype electricity
+Sat Sep  1 21:24:39 2012 :: Log Zoie: sset 31 damtype earth
+Sat Sep  1 21:27:26 2012 :: Log Zoie: sset 31 damtype air
+Sat Sep  1 21:31:34 2012 :: Log Zoie: hotboot
+Sat Sep  1 21:31:34 2012 :: Hotboot initiated by Zoie.
+Sat Sep  1 21:31:34 2012 :: Preserving world state....
+Sat Sep  1 21:31:34 2012 :: Saving player files and connection states....
+Sat Sep  1 21:31:34 2012 :: Executing hotboot....
+Sat Sep  1 21:31:34 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sat Sep  1 21:31:34 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sat Sep  1 21:31:34 2012 :: Initializing libdl support...
+Sat Sep  1 21:31:34 2012 :: Loading commands...
+Sat Sep  1 21:31:34 2012 :: Loading spec_funs...
+Sat Sep  1 21:31:34 2012 :: Loading sysdata configuration...
+Sat Sep  1 21:31:34 2012 :: Loading socials
+Sat Sep  1 21:31:34 2012 :: Loading skill table
+Sat Sep  1 21:31:34 2012 :: Sorting skill table...
+Sat Sep  1 21:31:34 2012 :: Creating skill table sorted by type...
+Sat Sep  1 21:31:34 2012 :: Remapping slots to sns
+Sat Sep  1 21:31:34 2012 :: Loading classes
+Sat Sep  1 21:31:34 2012 :: Loading races
+Sat Sep  1 21:31:34 2012 :: Loading news data
+Sat Sep  1 21:31:34 2012 :: Loading fish name data
+Sat Sep  1 21:31:34 2012 :: Loading liquids
+Sat Sep  1 21:31:34 2012 :: Loading mixtures
+Sat Sep  1 21:31:34 2012 :: Loading herb table
+Sat Sep  1 21:31:34 2012 :: Loading tongues
+Sat Sep  1 21:31:34 2012 :: Making wizlist
+Sat Sep  1 21:31:34 2012 :: Building wizinfo
+Sat Sep  1 21:31:34 2012 :: Loading MSSP Data...
+Sat Sep  1 21:31:34 2012 :: Initializing random number generator
+Sat Sep  1 21:31:34 2012 :: Setting time and weather.
+Sat Sep  1 21:31:34 2012 :: Loading holiday chart...
+Sat Sep  1 21:31:34 2012 :: Loading DNS cache...
+Sat Sep  1 21:31:34 2012 :: Assigning gsn's
+ASSIGN_GSN: Skill blindness not found.
+Sat Sep  1 21:31:34 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sat Sep  1 21:31:34 2012 :: Fixing exits
+Sat Sep  1 21:31:34 2012 :: Initializing economy
+Sat Sep  1 21:31:34 2012 :: Loading world state...
+Sat Sep  1 21:31:34 2012 :: World state: loading mobs
+Sat Sep  1 21:31:34 2012 :: World state: loading objs
+Sat Sep  1 21:31:34 2012 :: Resetting areas
+Sat Sep  1 21:31:34 2012 :: Loading buildlist
+Sat Sep  1 21:31:34 2012 :: ../gods/Wulfen
+Sat Sep  1 21:31:34 2012 :: ../gods/Shadwen
+Sat Sep  1 21:31:34 2012 :: ../gods/Alyarta
+Sat Sep  1 21:31:34 2012 :: ../gods/Zoie
+Sat Sep  1 21:31:34 2012 :: ../gods/Chieftain
+Sat Sep  1 21:31:34 2012 :: Loading boards
+Sat Sep  1 21:31:34 2012 :: ../boards/immortal.brd
+Sat Sep  1 21:31:34 2012 :: ../boards/highgod.brd
+Sat Sep  1 21:31:34 2012 :: Loading Global Boards
+Sat Sep  1 21:31:34 2012 :: Loading clans
+Sat Sep  1 21:31:34 2012 :: Loading clans...
+Sat Sep  1 21:31:34 2012 :: vampire.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: druid.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: warrior.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: augurer.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: thief.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: cleric.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: mage.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: ranger.gui
+Sat Sep  1 21:31:34 2012 :: Cannot open clan vault
+Sat Sep  1 21:31:34 2012 :: $
+Sat Sep  1 21:31:34 2012 ::  Done clans 
+Sat Sep  1 21:31:34 2012 :: Loading councils
+Sat Sep  1 21:31:34 2012 :: Loading councils...
+Sat Sep  1 21:31:34 2012 :: $
+Sat Sep  1 21:31:34 2012 ::  Done councils 
+Sat Sep  1 21:31:34 2012 :: Loading deities
+Sat Sep  1 21:31:34 2012 :: Loading deities...
+Sat Sep  1 21:31:34 2012 :: teacher
+Sat Sep  1 21:31:34 2012 :: $
+Sat Sep  1 21:31:34 2012 ::  Done deities 
+Sat Sep  1 21:31:34 2012 :: Loading watches
+Sat Sep  1 21:31:34 2012 :: Loading bans
+Sat Sep  1 21:31:34 2012 :: Done.
+Sat Sep  1 21:31:34 2012 :: Loading reserved names
+Sat Sep  1 21:31:34 2012 :: Loading corpses
+Sat Sep  1 21:31:34 2012 :: Loading Immortal Hosts
+Sat Sep  1 21:31:34 2012 :: Done.
+Sat Sep  1 21:31:34 2012 :: Loading bounties
+Sat Sep  1 21:31:34 2012 :: Done.
+Sat Sep  1 21:31:34 2012 :: Loading Morphs
+Sat Sep  1 21:31:34 2012 :: Done.
+Sat Sep  1 21:31:34 2012 :: Initializing socket
+Sat Sep  1 21:31:34 2012 :: Njata ready on port 6500.
+Sat Sep  1 21:31:34 2012 :: Initiating hotboot recovery.
+Sat Sep  1 21:31:34 2012 :: Loading player data for: Zoie (2K)
+Sat Sep  1 21:31:34 2012 :: Creating area entry for Zoie
+Sat Sep  1 21:31:34 2012 :: Hotboot recovery complete.
+Sat Sep  1 21:31:45 2012 :: Log Zoie: sset 31 damtype earth
+Sat Sep  1 21:31:49 2012 :: Log Zoie: sset 31 damtype air
+Read_from_descriptor: Connection reset by peer
+Sat Sep  1 21:38:59 2012 :: Closing link to Zoie.
+Sat Sep  1 21:49:16 2012 :: Preloading player data for: Zoie (2K)
+Sat Sep  1 21:49:16 2012 :: Updating area entry for Zoie
+Sat Sep  1 21:49:16 2012 :: Zoie (72.223.91.114) reconnected.
+Sat Sep  1 21:49:32 2012 :: Log Zoie: sset 214 code 
+Sat Sep  1 21:49:45 2012 :: Log Zoie: sset 214 code spell_smaug
+Sat Sep  1 21:49:50 2012 :: Log Zoie: sset 214 dice 1d8+K/4
+Sat Sep  1 21:49:56 2012 :: Log Zoie: sset 214 acttype create
+Sat Sep  1 21:50:00 2012 :: Log Zoie: sset 214 classtype death
+Sat Sep  1 21:50:03 2012 :: Log Zoie: sset 214 damtype fire
+Sat Sep  1 21:50:23 2012 :: Log Zoie: sset save skill table
+Sat Sep  1 21:50:24 2012 :: Log Zoie: hotboot
+Sat Sep  1 21:50:24 2012 :: Hotboot initiated by Zoie.
+Sat Sep  1 21:50:24 2012 :: Preserving world state....
+Sat Sep  1 21:50:24 2012 :: Saving player files and connection states....
+Sat Sep  1 21:50:24 2012 :: Executing hotboot....
+Sat Sep  1 21:50:24 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sat Sep  1 21:50:24 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sat Sep  1 21:50:24 2012 :: Initializing libdl support...
+Sat Sep  1 21:50:24 2012 :: Loading commands...
+Sat Sep  1 21:50:24 2012 :: Loading spec_funs...
+Sat Sep  1 21:50:24 2012 :: Loading sysdata configuration...
+Sat Sep  1 21:50:24 2012 :: Loading socials
+Sat Sep  1 21:50:24 2012 :: Loading skill table
+Sat Sep  1 21:50:24 2012 :: Sorting skill table...
+Sat Sep  1 21:50:24 2012 :: Creating skill table sorted by type...
+Sat Sep  1 21:50:24 2012 :: Remapping slots to sns
+Sat Sep  1 21:50:24 2012 :: Loading classes
+Sat Sep  1 21:50:24 2012 :: Loading races
+Sat Sep  1 21:50:24 2012 :: Loading news data
+Sat Sep  1 21:50:24 2012 :: Loading fish name data
+Sat Sep  1 21:50:24 2012 :: Loading liquids
+Sat Sep  1 21:50:24 2012 :: Loading mixtures
+Sat Sep  1 21:50:24 2012 :: Loading herb table
+Sat Sep  1 21:50:24 2012 :: Loading tongues
+Sat Sep  1 21:50:24 2012 :: Making wizlist
+Sat Sep  1 21:50:24 2012 :: Building wizinfo
+Sat Sep  1 21:50:24 2012 :: Loading MSSP Data...
+Sat Sep  1 21:50:24 2012 :: Initializing random number generator
+Sat Sep  1 21:50:24 2012 :: Setting time and weather.
+Sat Sep  1 21:50:24 2012 :: Loading holiday chart...
+Sat Sep  1 21:50:24 2012 :: Loading DNS cache...
+Sat Sep  1 21:50:24 2012 :: Assigning gsn's
+Sat Sep  1 21:50:24 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sat Sep  1 21:50:24 2012 :: Fixing exits
+Sat Sep  1 21:50:24 2012 :: Initializing economy
+Sat Sep  1 21:50:24 2012 :: Loading world state...
+Sat Sep  1 21:50:24 2012 :: World state: loading mobs
+Sat Sep  1 21:50:24 2012 :: World state: loading objs
+Sat Sep  1 21:50:24 2012 :: Resetting areas
+Sat Sep  1 21:50:24 2012 :: Loading buildlist
+Sat Sep  1 21:50:24 2012 :: ../gods/Wulfen
+Sat Sep  1 21:50:24 2012 :: ../gods/Shadwen
+Sat Sep  1 21:50:24 2012 :: ../gods/Alyarta
+Sat Sep  1 21:50:24 2012 :: ../gods/Zoie
+Sat Sep  1 21:50:24 2012 :: ../gods/Chieftain
+Sat Sep  1 21:50:24 2012 :: Loading boards
+Sat Sep  1 21:50:24 2012 :: ../boards/immortal.brd
+Sat Sep  1 21:50:24 2012 :: ../boards/highgod.brd
+Sat Sep  1 21:50:24 2012 :: Loading Global Boards
+Sat Sep  1 21:50:24 2012 :: Loading clans
+Sat Sep  1 21:50:24 2012 :: Loading clans...
+Sat Sep  1 21:50:24 2012 :: vampire.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: druid.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: warrior.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: augurer.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: thief.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: cleric.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: mage.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: ranger.gui
+Sat Sep  1 21:50:24 2012 :: Cannot open clan vault
+Sat Sep  1 21:50:24 2012 :: $
+Sat Sep  1 21:50:24 2012 ::  Done clans 
+Sat Sep  1 21:50:24 2012 :: Loading councils
+Sat Sep  1 21:50:24 2012 :: Loading councils...
+Sat Sep  1 21:50:24 2012 :: $
+Sat Sep  1 21:50:24 2012 ::  Done councils 
+Sat Sep  1 21:50:24 2012 :: Loading deities
+Sat Sep  1 21:50:24 2012 :: Loading deities...
+Sat Sep  1 21:50:24 2012 :: teacher
+Sat Sep  1 21:50:24 2012 :: $
+Sat Sep  1 21:50:24 2012 ::  Done deities 
+Sat Sep  1 21:50:24 2012 :: Loading watches
+Sat Sep  1 21:50:24 2012 :: Loading bans
+Sat Sep  1 21:50:24 2012 :: Done.
+Sat Sep  1 21:50:24 2012 :: Loading reserved names
+Sat Sep  1 21:50:24 2012 :: Loading corpses
+Sat Sep  1 21:50:24 2012 :: Loading Immortal Hosts
+Sat Sep  1 21:50:24 2012 :: Done.
+Sat Sep  1 21:50:24 2012 :: Loading bounties
+Sat Sep  1 21:50:24 2012 :: Done.
+Sat Sep  1 21:50:24 2012 :: Loading Morphs
+Sat Sep  1 21:50:24 2012 :: Done.
+Sat Sep  1 21:50:24 2012 :: Initializing socket
+Sat Sep  1 21:50:24 2012 :: Njata ready on port 6500.
+Sat Sep  1 21:50:24 2012 :: Initiating hotboot recovery.
+Sat Sep  1 21:50:24 2012 :: Loading player data for: Zoie (2K)
+Sat Sep  1 21:50:24 2012 :: Creating area entry for Zoie
+Sat Sep  1 21:50:24 2012 :: Hotboot recovery complete.
+Sat Sep  1 21:50:33 2012 :: Log Zoie: sset 214 damtype fire
+Sat Sep  1 21:50:38 2012 :: Log Zoie: sset save skill table
+Sat Sep  1 21:51:03 2012 :: Log Zoie: sset sear range 1
+Sat Sep  1 21:51:06 2012 :: Log Zoie: sset sear range 3
+Sat Sep  1 21:51:41 2012 :: Log Zoie: sset sear range 0
+Sat Sep  1 21:51:44 2012 :: Log Zoie: sset save skill table
+Sat Sep  1 22:00:33 2012 :: Log Zoie: cedit climate
+Sat Sep  1 22:00:35 2012 :: Log Zoie: cedit climate create
+Sat Sep  1 22:00:35 2012 :: [*****] BUG: Error locating do_climate in symbol table. smaug: undefined symbol: do_climate
+Sat Sep  1 22:00:39 2012 :: Log Zoie: cedit climate delete
+Sat Sep  1 22:02:54 2012 :: Zoie has quit (Room 400).
+Sun Sep  2 08:07:15 2012 :: Preloading player data for: Zoie (2K)
+Sun Sep  2 08:07:15 2012 :: Updating area entry for Zoie
+Sun Sep  2 08:07:16 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 08:07:16 2012 :: Updating area entry for Zoie
+Sun Sep  2 08:07:16 2012 :: Zoie (72.223.91.114) has connected.
+Sun Sep  2 08:07:22 2012 :: Log Zoie: hedit greeting
+Sun Sep  2 08:07:33 2012 :: Log Zoie: hset save
+Sun Sep  2 08:07:33 2012 :: Saving help.are...
+Sun Sep  2 08:07:36 2012 :: Log Zoie: set
+Sun Sep  2 08:07:49 2012 :: Log Zoie: hedit greeting
+Sun Sep  2 08:07:57 2012 :: Log Zoie: hset save
+Sun Sep  2 08:07:57 2012 :: Saving help.are...
+Read_from_descriptor: Connection reset by peer
+Sun Sep  2 10:10:44 2012 :: EOF encountered on read.
+Sun Sep  2 10:10:44 2012 :: Closing link to Zoie.
+Sun Sep  2 13:33:50 2012 :: Preloading player data for: Alyarta (9K)
+Sun Sep  2 13:33:50 2012 :: Creating area entry for Alyarta
+Sun Sep  2 13:33:52 2012 :: Loading player data for: Alyarta (9K)
+Sun Sep  2 13:33:52 2012 :: Updating area entry for Alyarta
+Sun Sep  2 13:33:52 2012 :: Alyarta (70.162.84.31) has connected.
+Sun Sep  2 13:34:05 2012 :: Log Alyarta: load area
+Sun Sep  2 13:34:41 2012 :: Log Alyarta: aassign alyarta 4200 - 4299
+Sun Sep  2 13:34:57 2012 :: Log Alyarta: loadarea
+Alyarta.are   : Rooms:  4200 - 4299  Objs:  4200 - 4299  Mobs:  4200 - 4299
+Sun Sep  2 13:35:28 2012 :: EOF encountered on read.
+Sun Sep  2 13:35:28 2012 :: Closing link to Alyarta.
+Sun Sep  2 13:55:07 2012 :: Preloading player data for: Zoie (2K)
+Sun Sep  2 13:55:07 2012 :: Updating area entry for Zoie
+Sun Sep  2 13:55:08 2012 :: Zoie (72.223.91.114) reconnected.
+Sun Sep  2 13:55:48 2012 :: Zoie has quit (Room 400).
+Sun Sep  2 13:59:58 2012 :: Preloading player data for: Zoie (2K)
+Sun Sep  2 13:59:58 2012 :: Updating area entry for Zoie
+Sun Sep  2 13:59:59 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 13:59:59 2012 :: Updating area entry for Zoie
+Sun Sep  2 13:59:59 2012 :: Zoie (72.223.91.114) has connected.
+Sun Sep  2 14:00:04 2012 :: Log Zoie: sset self hide 100
+Sun Sep  2 14:00:14 2012 :: Log Zoie: sset self sneak 100
+Sun Sep  2 14:07:13 2012 :: Log Zoie: sset 113
+Sun Sep  2 14:07:35 2012 :: Log Zoie: sset 113 affected 0 0 fly k*24
+Sun Sep  2 14:07:40 2012 :: Log Zoie: sset 113 affect 0 0 fly k*24
+Sun Sep  2 14:07:45 2012 :: Log Zoie: sset 113 affect affected 0 fly k*24
+Sun Sep  2 14:07:54 2012 :: Log Zoie: sset 113 affect affected 0 0 fly k*24
+Sun Sep  2 14:08:02 2012 :: Log Zoie: sset 113 affect affected 0 0 k*24 fly
+Sun Sep  2 14:08:07 2012 :: Log Zoie: sset 113 affect affected 0 k*24 fly
+Sun Sep  2 14:08:12 2012 :: Log Zoie: sset 113 affect affected k*24 fly
+Sun Sep  2 14:08:26 2012 :: Log Zoie: sset 113 affect affected fly k*24 fly
+Sun Sep  2 14:08:34 2012 :: Log Zoie: sset 113 affect affected none k*24 fly
+Sun Sep  2 14:08:47 2012 :: Log Zoie: sset 113 affect affected none none k*24 fly
+Sun Sep  2 14:08:57 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:08:58 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:08:58 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:08:58 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:08:58 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:08:59 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:08:59 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:08:59 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:09:00 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:09:00 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:09:00 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:09:57 2012 :: Log Zoie: sset 113 affect affected 0 k*24 fly
+Sun Sep  2 14:10:00 2012 :: Log Zoie: sset 113 affect affected 0 0 k*24 fly
+Sun Sep  2 14:10:04 2012 :: Log Zoie: sset 113 affect affected 0 0 0 k*24 fly
+Sun Sep  2 14:10:19 2012 :: Log Zoie: sset 113 affect affected 0 0 none *24 fly
+Sun Sep  2 14:10:23 2012 :: Log Zoie: sset 113 affect affected 0 0 none K*24 fly
+Sun Sep  2 14:10:28 2012 :: Log Zoie: sset 113 affect affected fly
+Sun Sep  2 14:10:40 2012 :: Log Zoie: sset 113 affect affected fly K*24
+Sun Sep  2 14:10:48 2012 :: Log Zoie: sset 113 affect affected fly K*24 fly
+Sun Sep  2 14:10:54 2012 :: Log Zoie: sset 113 affect affected fly K*24 flying
+Sun Sep  2 14:11:07 2012 :: Log Zoie: sset 113 affect affected none K*24 flying
+Sun Sep  2 14:11:38 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:38 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:38 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:39 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:39 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:39 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:39 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:44 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:11:47 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:12:01 2012 :: Log Zoie: sset 113 affect affected flying K*24 flying
+Sun Sep  2 14:12:16 2012 :: Log Zoie: sset 113 affect none K*24 flying
+Sun Sep  2 14:12:21 2012 :: Log Zoie: sset 113 affect none none K*24 flying
+Sun Sep  2 14:12:31 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:12:31 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:12:33 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:12:57 2012 :: Log Zoie: hedit affecttypes
+Sun Sep  2 14:13:36 2012 :: Log Zoie: hset save
+Sun Sep  2 14:13:36 2012 :: Saving help.are...
+Sun Sep  2 14:13:42 2012 :: Log Zoie: hedit affecttypes
+Sun Sep  2 14:13:51 2012 :: Log Zoie: hset save
+Sun Sep  2 14:13:51 2012 :: Saving help.are...
+Sun Sep  2 14:14:54 2012 :: Log Zoie: sset 113 affect none none 5 flying
+Sun Sep  2 14:15:00 2012 :: Log Zoie: sset 113 rmaffect 1
+Sun Sep  2 14:15:18 2012 :: Log Zoie: mset self affected flying
+Sun Sep  2 14:16:11 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 14:18:11 2012 :: Log Zoie: sset 113 name flight
+Sun Sep  2 14:18:22 2012 :: Log Zoie: hset keyword flight fly
+Sun Sep  2 14:18:34 2012 :: Log Zoie: hset keyword 'fly land' flight
+Sun Sep  2 14:18:41 2012 :: Log Zoie: hset keyword flight flyspell
+Sun Sep  2 14:18:49 2012 :: Log Zoie: hset save
+Sun Sep  2 14:18:49 2012 :: Saving help.are...
+Sun Sep  2 14:18:53 2012 :: Log Zoie: hedit fight
+Sun Sep  2 14:18:59 2012 :: Log Zoie: hset remove fight
+Sun Sep  2 14:19:01 2012 :: Log Zoie: hedit flight
+Sun Sep  2 14:19:11 2012 :: Log Zoie: hset save
+Sun Sep  2 14:19:11 2012 :: Saving help.are...
+Sun Sep  2 14:19:24 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 14:32:18 2012 :: Log Zoie: mset self race merfolk
+Sun Sep  2 14:38:31 2012 :: Log Zoie: hotboot
+Sun Sep  2 14:38:31 2012 :: Hotboot initiated by Zoie.
+Sun Sep  2 14:38:31 2012 :: Preserving world state....
+Sun Sep  2 14:38:31 2012 :: Saving player files and connection states....
+Sun Sep  2 14:38:31 2012 :: Executing hotboot....
+Sun Sep  2 14:38:31 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sun Sep  2 14:38:31 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sun Sep  2 14:38:31 2012 :: Initializing libdl support...
+Sun Sep  2 14:38:31 2012 :: Loading commands...
+Sun Sep  2 14:38:31 2012 :: Loading spec_funs...
+Sun Sep  2 14:38:31 2012 :: Loading sysdata configuration...
+Sun Sep  2 14:38:31 2012 :: Loading socials
+Sun Sep  2 14:38:32 2012 :: Loading skill table
+Sun Sep  2 14:38:32 2012 :: Sorting skill table...
+Sun Sep  2 14:38:32 2012 :: Creating skill table sorted by type...
+Sun Sep  2 14:38:32 2012 :: Remapping slots to sns
+Sun Sep  2 14:38:32 2012 :: Loading classes
+Sun Sep  2 14:38:32 2012 :: Loading races
+Sun Sep  2 14:38:32 2012 :: Loading news data
+Sun Sep  2 14:38:32 2012 :: Loading fish name data
+Sun Sep  2 14:38:32 2012 :: Loading liquids
+Sun Sep  2 14:38:32 2012 :: Loading mixtures
+Sun Sep  2 14:38:32 2012 :: Loading herb table
+Sun Sep  2 14:38:32 2012 :: Loading tongues
+Sun Sep  2 14:38:32 2012 :: Making wizlist
+Sun Sep  2 14:38:32 2012 :: Building wizinfo
+Sun Sep  2 14:38:32 2012 :: Loading MSSP Data...
+Sun Sep  2 14:38:32 2012 :: Initializing random number generator
+Sun Sep  2 14:38:32 2012 :: Setting time and weather.
+Sun Sep  2 14:38:32 2012 :: Loading holiday chart...
+Sun Sep  2 14:38:32 2012 :: Loading DNS cache...
+Sun Sep  2 14:38:32 2012 :: Assigning gsn's
+Sun Sep  2 14:38:32 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sun Sep  2 14:38:32 2012 :: Fixing exits
+Sun Sep  2 14:38:32 2012 :: Initializing economy
+Sun Sep  2 14:38:32 2012 :: Loading world state...
+Sun Sep  2 14:38:32 2012 :: World state: loading mobs
+Sun Sep  2 14:38:32 2012 :: World state: loading objs
+Sun Sep  2 14:38:32 2012 :: Resetting areas
+Sun Sep  2 14:38:32 2012 :: Loading buildlist
+Sun Sep  2 14:38:32 2012 :: ../gods/Wulfen
+Sun Sep  2 14:38:32 2012 :: ../gods/Shadwen
+Sun Sep  2 14:38:32 2012 :: ../gods/Alyarta
+Sun Sep  2 14:38:32 2012 :: ../gods/Zoie
+Sun Sep  2 14:38:32 2012 :: ../gods/Chieftain
+Sun Sep  2 14:38:32 2012 :: Loading boards
+Sun Sep  2 14:38:32 2012 :: ../boards/immortal.brd
+Sun Sep  2 14:38:32 2012 :: ../boards/highgod.brd
+Sun Sep  2 14:38:32 2012 :: Loading Global Boards
+Sun Sep  2 14:38:32 2012 :: Loading clans
+Sun Sep  2 14:38:32 2012 :: Loading clans...
+Sun Sep  2 14:38:32 2012 :: vampire.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: druid.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: warrior.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: augurer.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: thief.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: cleric.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: mage.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: ranger.gui
+Sun Sep  2 14:38:32 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:32 2012 :: $
+Sun Sep  2 14:38:32 2012 ::  Done clans 
+Sun Sep  2 14:38:32 2012 :: Loading councils
+Sun Sep  2 14:38:32 2012 :: Loading councils...
+Sun Sep  2 14:38:32 2012 :: $
+Sun Sep  2 14:38:32 2012 ::  Done councils 
+Sun Sep  2 14:38:32 2012 :: Loading deities
+Sun Sep  2 14:38:32 2012 :: Loading deities...
+Sun Sep  2 14:38:32 2012 :: teacher
+Sun Sep  2 14:38:32 2012 :: $
+Sun Sep  2 14:38:32 2012 ::  Done deities 
+Sun Sep  2 14:38:32 2012 :: Loading watches
+Sun Sep  2 14:38:32 2012 :: Loading bans
+Sun Sep  2 14:38:32 2012 :: Done.
+Sun Sep  2 14:38:32 2012 :: Loading reserved names
+Sun Sep  2 14:38:32 2012 :: Loading corpses
+Sun Sep  2 14:38:32 2012 :: Loading Immortal Hosts
+Sun Sep  2 14:38:32 2012 :: Done.
+Sun Sep  2 14:38:32 2012 :: Loading bounties
+Sun Sep  2 14:38:32 2012 :: Done.
+Sun Sep  2 14:38:32 2012 :: Loading Morphs
+Sun Sep  2 14:38:32 2012 :: Done.
+Sun Sep  2 14:38:32 2012 :: Initializing socket
+Sun Sep  2 14:38:32 2012 :: Njata ready on port 6500.
+Sun Sep  2 14:38:32 2012 :: Initiating hotboot recovery.
+Sun Sep  2 14:38:32 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 14:38:32 2012 :: Creating area entry for Zoie
+Sun Sep  2 14:38:32 2012 :: Hotboot recovery complete.
+Sun Sep  2 14:38:59 2012 :: Log Zoie: hotboot
+Sun Sep  2 14:38:59 2012 :: Hotboot initiated by Zoie.
+Sun Sep  2 14:38:59 2012 :: Preserving world state....
+Sun Sep  2 14:38:59 2012 :: Saving player files and connection states....
+Sun Sep  2 14:38:59 2012 :: Executing hotboot....
+Sun Sep  2 14:38:59 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sun Sep  2 14:38:59 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sun Sep  2 14:38:59 2012 :: Initializing libdl support...
+Sun Sep  2 14:38:59 2012 :: Loading commands...
+Sun Sep  2 14:38:59 2012 :: Loading spec_funs...
+Sun Sep  2 14:38:59 2012 :: Loading sysdata configuration...
+Sun Sep  2 14:38:59 2012 :: Loading socials
+Sun Sep  2 14:38:59 2012 :: Loading skill table
+Sun Sep  2 14:38:59 2012 :: Sorting skill table...
+Sun Sep  2 14:38:59 2012 :: Creating skill table sorted by type...
+Sun Sep  2 14:38:59 2012 :: Remapping slots to sns
+Sun Sep  2 14:38:59 2012 :: Loading classes
+Sun Sep  2 14:38:59 2012 :: Loading races
+Sun Sep  2 14:38:59 2012 :: Loading news data
+Sun Sep  2 14:38:59 2012 :: Loading fish name data
+Sun Sep  2 14:38:59 2012 :: Loading liquids
+Sun Sep  2 14:38:59 2012 :: Loading mixtures
+Sun Sep  2 14:38:59 2012 :: Loading herb table
+Sun Sep  2 14:38:59 2012 :: Loading tongues
+Sun Sep  2 14:38:59 2012 :: Making wizlist
+Sun Sep  2 14:38:59 2012 :: Building wizinfo
+Sun Sep  2 14:38:59 2012 :: Loading MSSP Data...
+Sun Sep  2 14:38:59 2012 :: Initializing random number generator
+Sun Sep  2 14:38:59 2012 :: Setting time and weather.
+Sun Sep  2 14:38:59 2012 :: Loading holiday chart...
+Sun Sep  2 14:38:59 2012 :: Loading DNS cache...
+Sun Sep  2 14:38:59 2012 :: Assigning gsn's
+Sun Sep  2 14:38:59 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sun Sep  2 14:38:59 2012 :: Fixing exits
+Sun Sep  2 14:38:59 2012 :: Initializing economy
+Sun Sep  2 14:38:59 2012 :: Loading world state...
+Sun Sep  2 14:38:59 2012 :: World state: loading mobs
+Sun Sep  2 14:38:59 2012 :: World state: loading objs
+Sun Sep  2 14:38:59 2012 :: Resetting areas
+Sun Sep  2 14:38:59 2012 :: Loading buildlist
+Sun Sep  2 14:38:59 2012 :: ../gods/Wulfen
+Sun Sep  2 14:38:59 2012 :: ../gods/Shadwen
+Sun Sep  2 14:38:59 2012 :: ../gods/Alyarta
+Sun Sep  2 14:38:59 2012 :: ../gods/Zoie
+Sun Sep  2 14:38:59 2012 :: ../gods/Chieftain
+Sun Sep  2 14:38:59 2012 :: Loading boards
+Sun Sep  2 14:38:59 2012 :: ../boards/immortal.brd
+Sun Sep  2 14:38:59 2012 :: ../boards/highgod.brd
+Sun Sep  2 14:38:59 2012 :: Loading Global Boards
+Sun Sep  2 14:38:59 2012 :: Loading clans
+Sun Sep  2 14:38:59 2012 :: Loading clans...
+Sun Sep  2 14:38:59 2012 :: vampire.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: druid.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: warrior.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: augurer.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: thief.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: cleric.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: mage.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: ranger.gui
+Sun Sep  2 14:38:59 2012 :: Cannot open clan vault
+Sun Sep  2 14:38:59 2012 :: $
+Sun Sep  2 14:38:59 2012 ::  Done clans 
+Sun Sep  2 14:38:59 2012 :: Loading councils
+Sun Sep  2 14:38:59 2012 :: Loading councils...
+Sun Sep  2 14:38:59 2012 :: $
+Sun Sep  2 14:38:59 2012 ::  Done councils 
+Sun Sep  2 14:38:59 2012 :: Loading deities
+Sun Sep  2 14:38:59 2012 :: Loading deities...
+Sun Sep  2 14:38:59 2012 :: teacher
+Sun Sep  2 14:38:59 2012 :: $
+Sun Sep  2 14:38:59 2012 ::  Done deities 
+Sun Sep  2 14:38:59 2012 :: Loading watches
+Sun Sep  2 14:38:59 2012 :: Loading bans
+Sun Sep  2 14:38:59 2012 :: Done.
+Sun Sep  2 14:38:59 2012 :: Loading reserved names
+Sun Sep  2 14:38:59 2012 :: Loading corpses
+Sun Sep  2 14:38:59 2012 :: Loading Immortal Hosts
+Sun Sep  2 14:38:59 2012 :: Done.
+Sun Sep  2 14:38:59 2012 :: Loading bounties
+Sun Sep  2 14:38:59 2012 :: Done.
+Sun Sep  2 14:38:59 2012 :: Loading Morphs
+Sun Sep  2 14:38:59 2012 :: Done.
+Sun Sep  2 14:38:59 2012 :: Initializing socket
+Sun Sep  2 14:38:59 2012 :: Njata ready on port 6500.
+Sun Sep  2 14:38:59 2012 :: Initiating hotboot recovery.
+Sun Sep  2 14:38:59 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 14:38:59 2012 :: Creating area entry for Zoie
+Sun Sep  2 14:38:59 2012 :: Hotboot recovery complete.
+Sun Sep  2 14:44:08 2012 :: Log Zoie: redit name Merroc River - Under the Bridge
+Sun Sep  2 14:44:18 2012 :: Log Zoie: redit It's dark here, but not so dark that you cannot see. Under the bridge.
+Sun Sep  2 14:44:22 2012 :: Log Zoie: redit desc It's dark here, but not so dark that you cannot see. Under the bridge.
+Sun Sep  2 14:44:44 2012 :: Log Zoie: redit n
+Sun Sep  2 14:44:46 2012 :: Log Zoie: redit exit n
+Sun Sep  2 14:44:53 2012 :: Log Zoie: redit exit n 443
+Sun Sep  2 14:45:07 2012 :: Log Zoie: redit exit s 429
+Sun Sep  2 14:45:12 2012 :: Log Zoie: redit sector 6
+Sun Sep  2 14:45:21 2012 :: Log Zoie: redit sector 6
+Sun Sep  2 14:45:24 2012 :: Log Zoie: redit sector 6
+Sun Sep  2 14:45:28 2012 :: Log Zoie: redit sector 6
+Sun Sep  2 14:46:01 2012 :: Log Zoie: redit exit s
+Sun Sep  2 14:46:05 2012 :: Log Zoie: redit bexit s 443
+Sun Sep  2 14:46:05 2012 :: Log Zoie: redit exit 0 432 
+Sun Sep  2 14:46:08 2012 :: Log Zoie: redit sector 6
+Sun Sep  2 14:46:10 2012 :: Log Zoie: redit sector 6
+Sun Sep  2 14:50:16 2012 :: Log Zoie: redit sector 4
+Sun Sep  2 14:50:30 2012 :: Log Zoie: hotboot
+Sun Sep  2 14:50:30 2012 :: Hotboot initiated by Zoie.
+Sun Sep  2 14:50:30 2012 :: Preserving world state....
+Sun Sep  2 14:50:30 2012 :: Saving player files and connection states....
+Sun Sep  2 14:50:30 2012 :: Executing hotboot....
+Sun Sep  2 14:50:30 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sun Sep  2 14:50:30 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sun Sep  2 14:50:30 2012 :: Initializing libdl support...
+Sun Sep  2 14:50:30 2012 :: Loading commands...
+Sun Sep  2 14:50:30 2012 :: Loading spec_funs...
+Sun Sep  2 14:50:30 2012 :: Loading sysdata configuration...
+Sun Sep  2 14:50:30 2012 :: Loading socials
+Sun Sep  2 14:50:30 2012 :: Loading skill table
+Sun Sep  2 14:50:30 2012 :: Sorting skill table...
+Sun Sep  2 14:50:30 2012 :: Creating skill table sorted by type...
+Sun Sep  2 14:50:30 2012 :: Remapping slots to sns
+Sun Sep  2 14:50:30 2012 :: Loading classes
+Sun Sep  2 14:50:30 2012 :: Loading races
+Sun Sep  2 14:50:30 2012 :: Loading news data
+Sun Sep  2 14:50:30 2012 :: Loading fish name data
+Sun Sep  2 14:50:30 2012 :: Loading liquids
+Sun Sep  2 14:50:30 2012 :: Loading mixtures
+Sun Sep  2 14:50:30 2012 :: Loading herb table
+Sun Sep  2 14:50:30 2012 :: Loading tongues
+Sun Sep  2 14:50:30 2012 :: Making wizlist
+Sun Sep  2 14:50:30 2012 :: Building wizinfo
+Sun Sep  2 14:50:30 2012 :: Loading MSSP Data...
+Sun Sep  2 14:50:30 2012 :: Initializing random number generator
+Sun Sep  2 14:50:30 2012 :: Setting time and weather.
+Sun Sep  2 14:50:30 2012 :: Loading holiday chart...
+Sun Sep  2 14:50:30 2012 :: Loading DNS cache...
+Sun Sep  2 14:50:30 2012 :: Assigning gsn's
+Sun Sep  2 14:50:30 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sun Sep  2 14:50:30 2012 :: Fixing exits
+Sun Sep  2 14:50:30 2012 :: Initializing economy
+Sun Sep  2 14:50:30 2012 :: Loading world state...
+Sun Sep  2 14:50:30 2012 :: World state: loading mobs
+Sun Sep  2 14:50:30 2012 :: World state: loading objs
+Sun Sep  2 14:50:30 2012 :: Resetting areas
+Sun Sep  2 14:50:30 2012 :: Loading buildlist
+Sun Sep  2 14:50:30 2012 :: ../gods/Wulfen
+Sun Sep  2 14:50:30 2012 :: ../gods/Shadwen
+Sun Sep  2 14:50:30 2012 :: ../gods/Alyarta
+Sun Sep  2 14:50:30 2012 :: ../gods/Zoie
+Sun Sep  2 14:50:30 2012 :: ../gods/Chieftain
+Sun Sep  2 14:50:30 2012 :: Loading boards
+Sun Sep  2 14:50:30 2012 :: ../boards/immortal.brd
+Sun Sep  2 14:50:30 2012 :: ../boards/highgod.brd
+Sun Sep  2 14:50:30 2012 :: Loading Global Boards
+Sun Sep  2 14:50:30 2012 :: Loading clans
+Sun Sep  2 14:50:30 2012 :: Loading clans...
+Sun Sep  2 14:50:30 2012 :: vampire.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: druid.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: warrior.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: augurer.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: thief.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: cleric.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: mage.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: ranger.gui
+Sun Sep  2 14:50:30 2012 :: Cannot open clan vault
+Sun Sep  2 14:50:30 2012 :: $
+Sun Sep  2 14:50:30 2012 ::  Done clans 
+Sun Sep  2 14:50:30 2012 :: Loading councils
+Sun Sep  2 14:50:30 2012 :: Loading councils...
+Sun Sep  2 14:50:30 2012 :: $
+Sun Sep  2 14:50:30 2012 ::  Done councils 
+Sun Sep  2 14:50:30 2012 :: Loading deities
+Sun Sep  2 14:50:30 2012 :: Loading deities...
+Sun Sep  2 14:50:30 2012 :: teacher
+Sun Sep  2 14:50:30 2012 :: $
+Sun Sep  2 14:50:30 2012 ::  Done deities 
+Sun Sep  2 14:50:30 2012 :: Loading watches
+Sun Sep  2 14:50:30 2012 :: Loading bans
+Sun Sep  2 14:50:30 2012 :: Done.
+Sun Sep  2 14:50:30 2012 :: Loading reserved names
+Sun Sep  2 14:50:30 2012 :: Loading corpses
+Sun Sep  2 14:50:30 2012 :: Loading Immortal Hosts
+Sun Sep  2 14:50:30 2012 :: Done.
+Sun Sep  2 14:50:30 2012 :: Loading bounties
+Sun Sep  2 14:50:30 2012 :: Done.
+Sun Sep  2 14:50:30 2012 :: Loading Morphs
+Sun Sep  2 14:50:30 2012 :: Done.
+Sun Sep  2 14:50:30 2012 :: Initializing socket
+Sun Sep  2 14:50:30 2012 :: Njata ready on port 6500.
+Sun Sep  2 14:50:30 2012 :: Initiating hotboot recovery.
+Sun Sep  2 14:50:30 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 14:50:30 2012 :: Creating area entry for Zoie
+Sun Sep  2 14:50:30 2012 :: Hotboot recovery complete.
+Sun Sep  2 14:54:16 2012 :: Log Zoie: hotboot
+Sun Sep  2 14:54:16 2012 :: Hotboot initiated by Zoie.
+Sun Sep  2 14:54:16 2012 :: Preserving world state....
+Sun Sep  2 14:54:16 2012 :: Saving player files and connection states....
+Sun Sep  2 14:54:16 2012 :: Executing hotboot....
+Sun Sep  2 14:54:16 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sun Sep  2 14:54:16 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sun Sep  2 14:54:16 2012 :: Initializing libdl support...
+Sun Sep  2 14:54:16 2012 :: Loading commands...
+Sun Sep  2 14:54:16 2012 :: Loading spec_funs...
+Sun Sep  2 14:54:16 2012 :: Loading sysdata configuration...
+Sun Sep  2 14:54:16 2012 :: Loading socials
+Sun Sep  2 14:54:16 2012 :: Loading skill table
+Sun Sep  2 14:54:16 2012 :: Sorting skill table...
+Sun Sep  2 14:54:16 2012 :: Creating skill table sorted by type...
+Sun Sep  2 14:54:16 2012 :: Remapping slots to sns
+Sun Sep  2 14:54:16 2012 :: Loading classes
+Sun Sep  2 14:54:16 2012 :: Loading races
+Sun Sep  2 14:54:16 2012 :: Loading news data
+Sun Sep  2 14:54:16 2012 :: Loading fish name data
+Sun Sep  2 14:54:16 2012 :: Loading liquids
+Sun Sep  2 14:54:16 2012 :: Loading mixtures
+Sun Sep  2 14:54:16 2012 :: Loading herb table
+Sun Sep  2 14:54:16 2012 :: Loading tongues
+Sun Sep  2 14:54:16 2012 :: Making wizlist
+Sun Sep  2 14:54:16 2012 :: Building wizinfo
+Sun Sep  2 14:54:16 2012 :: Loading MSSP Data...
+Sun Sep  2 14:54:16 2012 :: Initializing random number generator
+Sun Sep  2 14:54:16 2012 :: Setting time and weather.
+Sun Sep  2 14:54:16 2012 :: Loading holiday chart...
+Sun Sep  2 14:54:16 2012 :: Loading DNS cache...
+Sun Sep  2 14:54:16 2012 :: Assigning gsn's
+Sun Sep  2 14:54:16 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sun Sep  2 14:54:16 2012 :: Fixing exits
+Sun Sep  2 14:54:16 2012 :: Initializing economy
+Sun Sep  2 14:54:16 2012 :: Loading world state...
+Sun Sep  2 14:54:16 2012 :: World state: loading mobs
+Sun Sep  2 14:54:16 2012 :: World state: loading objs
+Sun Sep  2 14:54:16 2012 :: Resetting areas
+Sun Sep  2 14:54:16 2012 :: Loading buildlist
+Sun Sep  2 14:54:16 2012 :: ../gods/Wulfen
+Sun Sep  2 14:54:16 2012 :: ../gods/Shadwen
+Sun Sep  2 14:54:16 2012 :: ../gods/Alyarta
+Sun Sep  2 14:54:16 2012 :: ../gods/Zoie
+Sun Sep  2 14:54:16 2012 :: ../gods/Chieftain
+Sun Sep  2 14:54:16 2012 :: Loading boards
+Sun Sep  2 14:54:16 2012 :: ../boards/immortal.brd
+Sun Sep  2 14:54:16 2012 :: ../boards/highgod.brd
+Sun Sep  2 14:54:16 2012 :: Loading Global Boards
+Sun Sep  2 14:54:16 2012 :: Loading clans
+Sun Sep  2 14:54:16 2012 :: Loading clans...
+Sun Sep  2 14:54:16 2012 :: vampire.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: druid.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: warrior.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: augurer.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: thief.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: cleric.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: mage.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: ranger.gui
+Sun Sep  2 14:54:16 2012 :: Cannot open clan vault
+Sun Sep  2 14:54:16 2012 :: $
+Sun Sep  2 14:54:16 2012 ::  Done clans 
+Sun Sep  2 14:54:16 2012 :: Loading councils
+Sun Sep  2 14:54:16 2012 :: Loading councils...
+Sun Sep  2 14:54:16 2012 :: $
+Sun Sep  2 14:54:16 2012 ::  Done councils 
+Sun Sep  2 14:54:16 2012 :: Loading deities
+Sun Sep  2 14:54:16 2012 :: Loading deities...
+Sun Sep  2 14:54:16 2012 :: teacher
+Sun Sep  2 14:54:16 2012 :: $
+Sun Sep  2 14:54:16 2012 ::  Done deities 
+Sun Sep  2 14:54:16 2012 :: Loading watches
+Sun Sep  2 14:54:16 2012 :: Loading bans
+Sun Sep  2 14:54:16 2012 :: Done.
+Sun Sep  2 14:54:16 2012 :: Loading reserved names
+Sun Sep  2 14:54:16 2012 :: Loading corpses
+Sun Sep  2 14:54:16 2012 :: Loading Immortal Hosts
+Sun Sep  2 14:54:16 2012 :: Done.
+Sun Sep  2 14:54:16 2012 :: Loading bounties
+Sun Sep  2 14:54:16 2012 :: Done.
+Sun Sep  2 14:54:16 2012 :: Loading Morphs
+Sun Sep  2 14:54:16 2012 :: Done.
+Sun Sep  2 14:54:16 2012 :: Initializing socket
+Sun Sep  2 14:54:16 2012 :: Njata ready on port 6500.
+Sun Sep  2 14:54:16 2012 :: Initiating hotboot recovery.
+Sun Sep  2 14:54:16 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 14:54:16 2012 :: Creating area entry for Zoie
+Sun Sep  2 14:54:16 2012 :: Hotboot recovery complete.
+Sun Sep  2 14:56:40 2012 :: Log Zoie: hedit changes4
+Sun Sep  2 14:57:40 2012 :: Log Zoie: hset save
+Sun Sep  2 14:57:40 2012 :: Saving help.are...
+Sun Sep  2 14:58:08 2012 :: Log Zoie: cedit gwhere
+Sun Sep  2 14:58:11 2012 :: Log Zoie: cedit where
+Sun Sep  2 14:58:50 2012 :: Log Zoie: loada
+Sun Sep  2 14:58:50 2012 :: Cleaning room: 200
+Zoie.are      : Rooms:   200 - 299   Objs:   200 - 299   Mobs:   200 - 299
+Sun Sep  2 14:59:09 2012 :: Log Zoie: redit exit n 246
+Sun Sep  2 15:00:14 2012 :: Log Zoie: transfer zoie 50000
+Sun Sep  2 15:16:44 2012 :: Log Zoie: mset self race slime
+Sun Sep  2 15:36:31 2012 :: Preloading player data for: Alyssa (2K)
+Sun Sep  2 15:36:32 2012 :: Loading player data for: Alyssa (2K)
+Sun Sep  2 15:36:32 2012 :: Alyssa (72.223.91.114) has connected.
+Sun Sep  2 15:36:57 2012 :: Alyssa has quit (Room 400).
+Sun Sep  2 15:37:02 2012 :: Zoie has quit (Room 438).
+Sun Sep  2 15:37:04 2012 :: Preloading player data for: Zoie (2K)
+Sun Sep  2 15:37:04 2012 :: Updating area entry for Zoie
+Sun Sep  2 15:37:05 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 15:37:05 2012 :: Updating area entry for Zoie
+Sun Sep  2 15:37:05 2012 :: Zoie (72.223.91.114) has connected.
+Sun Sep  2 16:08:30 2012 :: Log Zoie: hedit imotd
+Sun Sep  2 16:09:41 2012 :: Log Zoie: hset save
+Sun Sep  2 16:09:41 2012 :: Saving help.are...
+Sun Sep  2 16:22:52 2012 :: Log Zoie: mset self gold 50000
+Sun Sep  2 18:29:03 2012 :: Log Zoie: redit
+Sun Sep  2 18:30:49 2012 :: Log Zoie: hedit spellcomponents
+Sun Sep  2 18:30:57 2012 :: Log Zoie: hset save
+Sun Sep  2 18:30:57 2012 :: Saving help.are...
+Sun Sep  2 19:03:50 2012 :: Log Zoie: loadup alyarta
+Sun Sep  2 19:03:50 2012 :: Loading player data for: Alyarta (9K)
+Sun Sep  2 19:03:50 2012 :: [*****] BUG: fread_char: unknown spell.
+Sun Sep  2 19:03:50 2012 :: [*****] FILE: ../player/a/Alyarta LINE: 161
+Sun Sep  2 19:03:50 2012 :: Creating area entry for Alyarta
+Sun Sep  2 19:03:54 2012 :: Log Zoie: force alyarta save
+Sun Sep  2 19:03:58 2012 :: Log Zoie: force alyarta quit
+Sun Sep  2 19:03:58 2012 :: Alyarta has quit (Room 2416).
+Sun Sep  2 19:04:03 2012 :: Log Zoie: loadup alyarta
+Sun Sep  2 19:04:03 2012 :: Loading player data for: Alyarta (9K)
+Sun Sep  2 19:04:03 2012 :: Updating area entry for Alyarta
+Sun Sep  2 19:05:37 2012 :: Log Zoie: sset 109 affect
+Sun Sep  2 19:06:04 2012 :: Log Zoie: sset 109 affect none none (K*4)+8 fireshield
+Sun Sep  2 19:06:12 2012 :: Log Zoie: sset 109 rmaffect 1
+Sun Sep  2 19:06:32 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 19:06:38 2012 :: [*****] BUG: spell_smaug: Called with a null skill for sn -1
+Sun Sep  2 19:06:41 2012 :: [*****] BUG: spell_smaug: Called with a null skill for sn -1
+Sun Sep  2 19:06:53 2012 :: Log Zoie: sset
+Sun Sep  2 19:07:00 2012 :: Log Zoie: sset create skill flare
+Sun Sep  2 19:07:14 2012 :: Log Zoie: sset 286 mana 15
+Sun Sep  2 19:07:19 2012 :: Log Zoie: sset 286 rounds 12
+Sun Sep  2 19:07:31 2012 :: Log Zoie: sset 286 beats 12
+Sun Sep  2 19:07:38 2012 :: Log Zoie: sset 286 code spell_fireball
+Sun Sep  2 19:07:52 2012 :: Log Zoie: sset 286 missroom supress
+Sun Sep  2 19:08:03 2012 :: Log Zoie: sset 286 minpos 109
+Sun Sep  2 19:08:24 2012 :: Log Zoie: sset 286 damtype fire
+Sun Sep  2 19:08:37 2012 :: Log Zoie: sset 286 info 393
+Sun Sep  2 19:08:45 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 19:08:54 2012 :: Log Zoie: sset 286 type spell
+Sun Sep  2 19:09:01 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 19:09:11 2012 :: Log Zoie: sset 286 target offensive
+Sun Sep  2 19:09:22 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 19:09:24 2012 :: Log Zoie: hotboot
+Sun Sep  2 19:09:24 2012 :: Hotboot initiated by Zoie.
+Sun Sep  2 19:09:24 2012 :: Preserving world state....
+Sun Sep  2 19:09:24 2012 :: Saving player files and connection states....
+Sun Sep  2 19:09:24 2012 :: Executing hotboot....
+Sun Sep  2 19:09:24 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sun Sep  2 19:09:24 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sun Sep  2 19:09:24 2012 :: Initializing libdl support...
+Sun Sep  2 19:09:24 2012 :: Loading commands...
+Sun Sep  2 19:09:24 2012 :: Loading spec_funs...
+Sun Sep  2 19:09:24 2012 :: Loading sysdata configuration...
+Sun Sep  2 19:09:24 2012 :: Loading socials
+Sun Sep  2 19:09:24 2012 :: Loading skill table
+Sun Sep  2 19:09:24 2012 :: Sorting skill table...
+Sun Sep  2 19:09:24 2012 :: Creating skill table sorted by type...
+Sun Sep  2 19:09:24 2012 :: Remapping slots to sns
+Sun Sep  2 19:09:24 2012 :: Loading classes
+Sun Sep  2 19:09:24 2012 :: Loading races
+Sun Sep  2 19:09:24 2012 :: Loading news data
+Sun Sep  2 19:09:24 2012 :: Loading fish name data
+Sun Sep  2 19:09:24 2012 :: Loading liquids
+Sun Sep  2 19:09:24 2012 :: Loading mixtures
+Sun Sep  2 19:09:24 2012 :: Loading herb table
+Sun Sep  2 19:09:24 2012 :: Loading tongues
+Sun Sep  2 19:09:24 2012 :: Making wizlist
+Sun Sep  2 19:09:24 2012 :: Building wizinfo
+Sun Sep  2 19:09:24 2012 :: Loading MSSP Data...
+Sun Sep  2 19:09:24 2012 :: Initializing random number generator
+Sun Sep  2 19:09:24 2012 :: Setting time and weather.
+Sun Sep  2 19:09:24 2012 :: Loading holiday chart...
+Sun Sep  2 19:09:24 2012 :: Loading DNS cache...
+Sun Sep  2 19:09:24 2012 :: Assigning gsn's
+Sun Sep  2 19:09:24 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+Sun Sep  2 19:09:24 2012 :: Fixing exits
+Sun Sep  2 19:09:24 2012 :: Initializing economy
+Sun Sep  2 19:09:24 2012 :: Loading world state...
+Sun Sep  2 19:09:24 2012 :: World state: loading mobs
+Sun Sep  2 19:09:24 2012 :: World state: loading objs
+Sun Sep  2 19:09:24 2012 :: Resetting areas
+Sun Sep  2 19:09:24 2012 :: Loading buildlist
+Sun Sep  2 19:09:24 2012 :: ../gods/Wulfen
+Sun Sep  2 19:09:24 2012 :: ../gods/Shadwen
+Sun Sep  2 19:09:24 2012 :: ../gods/Alyarta
+Sun Sep  2 19:09:24 2012 :: ../gods/Zoie
+Sun Sep  2 19:09:24 2012 :: ../gods/Chieftain
+Sun Sep  2 19:09:24 2012 :: Loading boards
+Sun Sep  2 19:09:24 2012 :: ../boards/immortal.brd
+Sun Sep  2 19:09:24 2012 :: ../boards/highgod.brd
+Sun Sep  2 19:09:24 2012 :: Loading Global Boards
+Sun Sep  2 19:09:24 2012 :: Loading clans
+Sun Sep  2 19:09:24 2012 :: Loading clans...
+Sun Sep  2 19:09:24 2012 :: vampire.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: druid.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: warrior.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: augurer.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: thief.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: cleric.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: mage.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: ranger.gui
+Sun Sep  2 19:09:24 2012 :: Cannot open clan vault
+Sun Sep  2 19:09:24 2012 :: $
+Sun Sep  2 19:09:24 2012 ::  Done clans 
+Sun Sep  2 19:09:24 2012 :: Loading councils
+Sun Sep  2 19:09:24 2012 :: Loading councils...
+Sun Sep  2 19:09:24 2012 :: $
+Sun Sep  2 19:09:24 2012 ::  Done councils 
+Sun Sep  2 19:09:24 2012 :: Loading deities
+Sun Sep  2 19:09:24 2012 :: Loading deities...
+Sun Sep  2 19:09:24 2012 :: teacher
+Sun Sep  2 19:09:24 2012 :: $
+Sun Sep  2 19:09:24 2012 ::  Done deities 
+Sun Sep  2 19:09:24 2012 :: Loading watches
+Sun Sep  2 19:09:24 2012 :: Loading bans
+Sun Sep  2 19:09:24 2012 :: Done.
+Sun Sep  2 19:09:24 2012 :: Loading reserved names
+Sun Sep  2 19:09:24 2012 :: Loading corpses
+Sun Sep  2 19:09:24 2012 :: Loading Immortal Hosts
+Sun Sep  2 19:09:24 2012 :: Done.
+Sun Sep  2 19:09:24 2012 :: Loading bounties
+Sun Sep  2 19:09:24 2012 :: Done.
+Sun Sep  2 19:09:24 2012 :: Loading Morphs
+Sun Sep  2 19:09:24 2012 :: Done.
+Sun Sep  2 19:09:24 2012 :: Initializing socket
+Sun Sep  2 19:09:24 2012 :: Njata ready on port 6500.
+Sun Sep  2 19:09:24 2012 :: Initiating hotboot recovery.
+Sun Sep  2 19:09:24 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 19:09:24 2012 :: Creating area entry for Zoie
+Sun Sep  2 19:09:24 2012 :: Hotboot recovery complete.
+Sun Sep  2 19:09:54 2012 :: [*****] BUG: spell_affect has no affects sn 111
+Sun Sep  2 19:09:54 2012 :: [*****] BUG: spell_affect has no affects sn 111
+Sun Sep  2 19:12:24 2012 :: Log Zoie: sset 111 acttype create
+Sun Sep  2 19:12:28 2012 :: Log Zoie: sset 111 classtype death
+Sun Sep  2 19:12:38 2012 :: Log Zoie: sset 111 minpos 10
+Sun Sep  2 19:13:02 2012 :: Log Zoie: sset 111 dammsg shield of flame
+Sun Sep  2 19:13:06 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 19:13:23 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 19:14:02 2012 :: Log Zoie: sset save skill table
+Sun Sep  2 19:16:10 2012 :: Log Zoie: hedit flare
+Sun Sep  2 19:16:41 2012 :: Log Zoie: hset level 51 flare
+Sun Sep  2 19:16:42 2012 :: Log Zoie: hset save
+Sun Sep  2 19:16:42 2012 :: Saving help.are...
+Sun Sep  2 19:16:47 2012 :: Zoie has quit (Room 400).
+Sun Sep  2 20:54:23 2012 :: Preloading player data for: Zoie (2K)
+Sun Sep  2 20:54:23 2012 :: Updating area entry for Zoie
+Sun Sep  2 20:54:24 2012 :: Loading player data for: Zoie (2K)
+Sun Sep  2 20:54:24 2012 :: Updating area entry for Zoie
+Sun Sep  2 20:54:24 2012 :: Zoie (72.223.91.114) has connected.
+Read_from_descriptor: Connection reset by peer
+Sun Sep  2 21:56:50 2012 :: Closing link to Zoie.
+Sun Sep  2 22:20:26 2012 :: Madiku@67.176.12.119 new Human Rogue.
+Sun Sep  2 22:20:50 2012 :: Log Directions: mpadvance Madiku 2
+Sun Sep  2 22:24:43 2012 :: Madiku has quit (Room 8078).
+Sun Sep  2 22:54:31 2012 :: Preloading player data for: Zoie (2K)
+Sun Sep  2 22:54:31 2012 :: Updating area entry for Zoie
+Sun Sep  2 22:54:32 2012 :: Zoie (72.223.91.114) reconnected.
+Mon Sep  3 00:01:04 2012 :: Log Zoie: sset pummel
+Mon Sep  3 00:01:10 2012 :: Log Zoie: sset 187 beats 24
+Mon Sep  3 00:55:23 2012 :: Log Zoie: sset self backstab 50
+Mon Sep  3 00:55:30 2012 :: Log Zoie: oinvoke dagger
+Mon Sep  3 01:50:10 2012 :: Zoie has quit (Room 8905).
+Mon Sep  3 10:42:08 2012 :: Preloading player data for: Zoie (3K)
+Mon Sep  3 10:42:08 2012 :: Updating area entry for Zoie
+Mon Sep  3 10:42:09 2012 :: Loading player data for: Zoie (3K)
+Mon Sep  3 10:42:09 2012 :: Updating area entry for Zoie
+Mon Sep  3 10:42:09 2012 :: Zoie (72.223.91.114) has connected.
+Mon Sep  3 15:00:08 2012 :: Log Zoie: rpedit add command push
+Mon Sep  3 16:17:05 2012 :: Log Zoie: hotboot
+Mon Sep  3 16:17:05 2012 :: Hotboot initiated by Zoie.
+Mon Sep  3 16:17:05 2012 :: Preserving world state....
+Mon Sep  3 16:17:05 2012 :: Saving player files and connection states....
+Mon Sep  3 16:17:05 2012 :: Executing hotboot....
+Mon Sep  3 16:17:05 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Mon Sep  3 16:17:05 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Mon Sep  3 16:17:05 2012 :: Initializing libdl support...
+Mon Sep  3 16:17:05 2012 :: Loading commands...
+Mon Sep  3 16:17:05 2012 :: Loading spec_funs...
+Mon Sep  3 16:17:05 2012 :: Loading sysdata configuration...
+Mon Sep  3 16:17:05 2012 :: Loading socials
+Mon Sep  3 16:17:05 2012 :: Loading skill table
+Mon Sep  3 16:17:05 2012 :: Sorting skill table...
+Mon Sep  3 16:17:05 2012 :: Creating skill table sorted by type...
+Mon Sep  3 16:17:05 2012 :: Remapping slots to sns
+Mon Sep  3 16:17:05 2012 :: Loading classes
+Mon Sep  3 16:17:05 2012 :: Loading races
+Mon Sep  3 16:17:05 2012 :: Loading news data
+Mon Sep  3 16:17:05 2012 :: Loading fish name data
+Mon Sep  3 16:17:05 2012 :: Loading liquids
+Mon Sep  3 16:17:05 2012 :: Loading mixtures
+Mon Sep  3 16:17:05 2012 :: Loading herb table
+Mon Sep  3 16:17:05 2012 :: Loading tongues
+Mon Sep  3 16:17:05 2012 :: Making wizlist
+Mon Sep  3 16:17:05 2012 :: Building wizinfo
+Mon Sep  3 16:17:05 2012 :: Loading MSSP Data...
+Mon Sep  3 16:17:05 2012 :: Initializing random number generator
+Mon Sep  3 16:17:05 2012 :: Setting time and weather.
+Mon Sep  3 16:17:05 2012 :: Loading holiday chart...
+Mon Sep  3 16:17:05 2012 :: Loading DNS cache...
+Mon Sep  3 16:17:05 2012 :: Assigning gsn's
+Mon Sep  3 16:17:05 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+desert.are    : Rooms: 33118 - 33343 Objs: 33118 - 33188 Mobs: 33118 - 33152
+aina.are      : Rooms:  4700 - 4870  Objs:  4700 - 4840  Mobs:  4700 - 4800
+Mon Sep  3 16:17:06 2012 :: Fixing exits
+Mon Sep  3 16:17:06 2012 :: Initializing economy
+Mon Sep  3 16:17:06 2012 :: Loading world state...
+Mon Sep  3 16:17:06 2012 :: World state: loading mobs
+Mon Sep  3 16:17:06 2012 :: World state: loading objs
+Mon Sep  3 16:17:06 2012 :: Resetting areas
+Mon Sep  3 16:17:06 2012 :: Loading buildlist
+Mon Sep  3 16:17:06 2012 :: ../gods/Wulfen
+Mon Sep  3 16:17:06 2012 :: ../gods/Shadwen
+Mon Sep  3 16:17:06 2012 :: ../gods/Alyarta
+Mon Sep  3 16:17:06 2012 :: ../gods/Zoie
+Mon Sep  3 16:17:06 2012 :: ../gods/Chieftain
+Mon Sep  3 16:17:06 2012 :: Loading boards
+Mon Sep  3 16:17:06 2012 :: ../boards/immortal.brd
+Mon Sep  3 16:17:06 2012 :: ../boards/highgod.brd
+Mon Sep  3 16:17:06 2012 :: Loading Global Boards
+Mon Sep  3 16:17:06 2012 :: Loading clans
+Mon Sep  3 16:17:06 2012 :: Loading clans...
+Mon Sep  3 16:17:06 2012 :: vampire.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: druid.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: warrior.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: augurer.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: thief.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: cleric.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: mage.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: ranger.gui
+Mon Sep  3 16:17:06 2012 :: Cannot open clan vault
+Mon Sep  3 16:17:06 2012 :: $
+Mon Sep  3 16:17:06 2012 ::  Done clans 
+Mon Sep  3 16:17:06 2012 :: Loading councils
+Mon Sep  3 16:17:06 2012 :: Loading councils...
+Mon Sep  3 16:17:06 2012 :: $
+Mon Sep  3 16:17:06 2012 ::  Done councils 
+Mon Sep  3 16:17:06 2012 :: Loading deities
+Mon Sep  3 16:17:06 2012 :: Loading deities...
+Mon Sep  3 16:17:06 2012 :: teacher
+Mon Sep  3 16:17:06 2012 :: $
+Mon Sep  3 16:17:06 2012 ::  Done deities 
+Mon Sep  3 16:17:06 2012 :: Loading watches
+Mon Sep  3 16:17:06 2012 :: Loading bans
+Mon Sep  3 16:17:06 2012 :: Done.
+Mon Sep  3 16:17:06 2012 :: Loading reserved names
+Mon Sep  3 16:17:06 2012 :: Loading corpses
+Mon Sep  3 16:17:06 2012 :: Loading Immortal Hosts
+Mon Sep  3 16:17:06 2012 :: Done.
+Mon Sep  3 16:17:06 2012 :: Loading bounties
+Mon Sep  3 16:17:06 2012 :: Done.
+Mon Sep  3 16:17:06 2012 :: Loading Morphs
+Mon Sep  3 16:17:06 2012 :: Done.
+Mon Sep  3 16:17:06 2012 :: Initializing socket
+Mon Sep  3 16:17:06 2012 :: Njata ready on port 6500.
+Mon Sep  3 16:17:06 2012 :: Initiating hotboot recovery.
+Mon Sep  3 16:17:06 2012 :: Loading player data for: Zoie (3K)
+Mon Sep  3 16:17:06 2012 :: Creating area entry for Zoie
+Mon Sep  3 16:17:06 2012 :: Hotboot recovery complete.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - No such person, Mob #4702.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - No such person, Mob #4711.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4711.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - No such person, Mob #4703.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4703.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - No such person, Mob #4705.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4705.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - No such person, Mob #4709.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4709.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - No such person, Mob #4701.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4701.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - No such person, Mob #4700.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4700.
+Mon Sep  3 16:17:06 2012 :: [*****] BUG: teleport: bad room vnum 1
+Mon Sep  3 16:18:54 2012 :: Log Zoie: renumber
+Mon Sep  3 16:18:58 2012 :: Log Zoie: renumber desert.are
+Mon Sep  3 16:19:08 2012 :: Log Zoie: renumber desert.are 33100
+Mon Sep  3 16:19:40 2012 :: Log Zoie: renumber desert.are 31000 fillgaps
+Mon Sep  3 16:19:48 2012 :: Log Zoie: foldarea desert.are
+Mon Sep  3 16:20:13 2012 :: Log Zoie: aset aina.are prototype yes
+Mon Sep  3 16:20:29 2012 :: Log Zoie: aset aina.are credits
+Mon Sep  3 16:20:55 2012 :: Log Zoie: aset aina.are flags prototype
+Mon Sep  3 16:21:03 2012 :: Log Zoie: aset aina.are flags prototype
+Mon Sep  3 16:21:24 2012 :: Log Zoie: aset aina.are name Incomplete City
+Mon Sep  3 16:21:29 2012 :: Log Zoie: cedit zones
+Mon Sep  3 16:21:37 2012 :: Log Zoie: aset aina.are author Zoie
+Mon Sep  3 16:21:49 2012 :: Log Zoie: aset desert.are name Incomplete Desert
+Mon Sep  3 16:21:53 2012 :: Log Zoie: aset desert.are author Zoie
+Mon Sep  3 16:21:55 2012 :: Log Zoie: foldarea aina.are
+Mon Sep  3 16:21:57 2012 :: Log Zoie: foldarea desert.are

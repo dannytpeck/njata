@@ -1,0 +1,101 @@
+#PLAYER
+Version      5
+Name         Mortis~
+Sex          1
+Class        8
+Subclass     0
+Race         23
+Subrace      0
+Age          0 11 5 609
+Languages    1 1
+Level        2
+Played       728
+Room         8005
+HpManaMove   9 35 125 125 1 110
+Gold         416
+Exp          6085
+Height       65
+Weight       142
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168776&2
+AffectedBy   128
+Position     104
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 -1
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      1
+Damroll      0
+Armor        80
+Wimpy        1
+Mentalstate  -6
+Password     23628c8de1075c9e8a0492e3e403443c08ef6196223d632d0b8f4d42a6bb36f6~
+Title         the Adventurer~
+Flags        512
+PKills       0
+PDeaths      0
+MKills       4
+MDeaths      1
+IllegalPK    0
+Timezone     -1
+AttrPerm     14 10 10 14 14 10 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 6 13 10
+Site         189.65.173.14
+Tongue       100 'common'
+Tongue       100 'grega'
+Weapon       33 'hand to hand'
+Skill        44 'kick'
+Tongue       100 'solese'
+AffectData   'sanctuary'   5   0  26 128
+AffectData   'bless' 127  -1  24 0
+AffectData   'bless' 127   1  18 0
+AffectData   'armor'  23 -20  17 0
+Killed       8005 1
+Killed       8007 1
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         8112
+WearLoc      6
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8111
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8107
+WearLoc      1
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8130
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#END

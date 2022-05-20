@@ -1,0 +1,71 @@
+#PLAYER
+Version      5
+Name         Spaz~
+Sex          1
+Class        11
+Subclass     0
+Race         14
+Subrace      0
+Age          0 11 0 608
+Languages    -1 1
+Level        56
+Played       4512
+Room         400
+HpManaMove   899 899 873 873 961 961
+Gold         0
+Exp          166375000
+Height       81
+Weight       211
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644172872&2
+Position     112
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        70
+Resistant    1048576
+Mentalstate  -2
+Password     a16cfee3309f9d9cf4a1ace8624a1047a98698d41986ee78e7a788c6bdd3bd07~
+Bestowments  immakwoods.are~
+Title         the Pilferer~
+WizInvis     56
+RoomRange    4000 4099
+ObjRange     4000 4099
+MobRange     4000 4099
+Flags        512
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     14 7 14 14 16 7 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 43 48 10
+Site         (Link-Dead)
+Tongue       100 'common'
+Tongue       100 'grega'
+Skill        100 'mount'
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+WearLoc      6
+Values       5 5 0 0 0 0
+End
+
+#END

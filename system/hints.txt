@@ -1,0 +1,8 @@
+Text Commonly known as Chieb, the brown grain used in most colistani stews is actually a mild hallucinogenic.~
+Low  0
+High 50
+End
+Text Colistani tend to be particularly tall for humans, ranging from 5' 10" to 7' 0". Skin color is usually on the fairer side of the spectrum, though many southern Colistani are as dark-skinned as Lavandai.~
+Low  0
+High 50
+End

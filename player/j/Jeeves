@@ -1,0 +1,105 @@
+#PLAYER
+Version      5
+Name         Jeeves~
+Sex          1
+Class        8
+Subclass     0
+Race         15
+Subrace      0
+Age          0 7 15 610
+Languages    1 1
+Level        4
+Played       28240
+Room         8079
+HpManaMove   77 77 159 159 133 133
+Gold         54
+Exp          31507
+Height       63
+Weight       139
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168776&2
+AffectedBy   8388608
+Position     112
+Style        2
+Practice     1
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        70
+Resistant    256
+Susceptible  3
+Mentalstate  -1
+Password     3bfd1388e66edf8bea697569b14110e9a1100c5f74392223412efb15106e173d~
+Title         the Butler~
+Flags        131584
+PKills       0
+PDeaths      0
+MKills       84
+MDeaths      1
+IllegalPK    0
+Timezone     -1
+AttrPerm     18 8 9 18 17 7 7
+AttrMod      0 0 0 0 0 0 0
+Condition    0 1 39 10
+Site         (Link-Dead)
+Skill        1 'aid'
+Weapon       1 'axes'
+Skill        1 'climb'
+Tongue       100 'common'
+Skill        1 'cook'
+Weapon       1 'daggers'
+Skill        1 'dig'
+Skill        13 'dodge'
+Skill        90 'enhanced damage'
+Skill        1 'forage'
+Skill        1 'forge'
+Weapon       100 'hand to hand'
+Skill        100 'kick'
+Weapon       1 'maces and hammers'
+Weapon       1 'slings'
+Weapon       1 'staves'
+Weapon       1 'swords'
+Weapon       1 'whips'
+Killed       8005 15
+Killed       8003 17
+Killed       8007 20
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+WearLoc      6
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         402
+WearLoc      1
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         431
+WearLoc      23
+Level        1
+End
+
+#OBJECT
+Vnum         425
+Level        1
+Values       10 1 4 0 0 0
+End
+
+#END

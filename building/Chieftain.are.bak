@@ -1,0 +1,713 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         {PROTO} Chieftain's area in progress~
+Author       Chieftain~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 0
+Flags        prototype~
+#ENDAREADATA
+
+#MOBILE
+Vnum       7500
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       7550
+Keywords   Vision~
+Short      reflective vision~
+Long       A refractive Vision of myriad colors is mimicking you.
+~
+Desc       A wavering being projected from some unknown place. It
+seems to look back at you with the same countenance you are
+currently wearing, but it clearly has a mind and body
+of its own. 
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc pacifist prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+Speaks     common~
+Speaking   common~
+#MUDPROG
+Progtype  speech_prog~
+Arglist   hello~
+Comlist   mpecho Reflective Vision says, "You are not yet placed in the world, my
+mpecho friend. Ask me about [Dori], [Colista] or [Lavada] if you'd like
+mpecho to know more. If you know where you'd like to live, just tell me
+mpecho where you [choose] to go.
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   dori east~
+Comlist   mpecho Reflective vision says, "Dori is a very temperate
+mpecho place, though it has many countries in it, and
+mpecho almost as many peoples. It is warmer than Colista,
+mpecho but cooler than Lavada, located primarily on the
+mpecho equator and comprised mainly of plains.
+mpecho
+mpecho Turning its face to the eastern window, the vision
+mpecho continues. "You will find that there are no
+mpecho Benn, Slimes, Dragons, Gryphons, Firebirds,
+mpecho Satyrs, Dwarves or Sphinxes native to
+mpecho this region. However, humans, elves
+mpecho and half-elves hold many of the countries
+mpecho here."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   colista west~
+Comlist   mpecho The vision shifts and says, "Colista is the most
+mpecho populous region of the world. Many think
+mpecho that it is the oldest bed of civilization.
+mpecho People of all races travel there, though there
+mpecho are some few not native to the area."
+mpecho
+mpecho Looking to the West, it goes on. "Colista
+mpecho is a diverse region, with several big rivers,
+mpecho two inland seas and four lakes, many mountain
+mpecho regions and long stretches of forest.
+mpecho There is some plainsland in this continent
+mpecho but it is scarce, and the rockier ground makes
+mpecho for less sandy beaches in most areas."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   lavada south~
+Comlist   mpecho Seeming to waver along its surfaces, the vision says,
+mpecho "Lavada is the largest continent in all of Njata.
+mpecho Almost all of it is arid desert. This landscape
+mpecho varies between sand dunes and moutain-ringed valleys
+mpecho but is almost always monstrously hot. It would
+mpecho not be suitable for people who do not like dry places,
+mpecho except possibly at the northern tips of this land.
+mpecho There, large cities and port towns thrive on trade
+mpecho of their native tropical, exotic goods to the
+mpecho northern continents."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   north~
+Comlist   mpecho Looking uneasily through the northern window,
+mpecho the vision before you seems filled with doubt.
+mpecho "I wouldn't recommend trying to go to the north.
+mpecho It is a cold and uncharted place, and I hear
+mpecho that not many return from their attempts to
+mpecho travel it. Maybe in the future, it will
+mpecho become safer."
+mpecho
+mpecho It shakes its head. "I cannot be certain."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 dori? east?~
+Comlist   mpecho Reflective vision says, "Dori is a very temperate
+mpecho place, though it has many countries in it, and
+mpecho almost as many peoples. It is warmer than Colista,
+mpecho but cooler than Lavada, located primarily on the
+mpecho equator and comprised mainly of plains.
+mpecho
+mpecho Turning its face to the eastern window, the vision
+mpecho continues. "You will find that there are no
+mpecho Benn, Slimes, Dragons, Gryphons, Firebirds,
+mpecho Satyrs, Dwarves or Sphinxes native to
+mpecho this region. However, humans, elves
+mpecho and half-elves hold many of the countries
+mpecho here."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 dori. east.~
+Comlist   mpecho Reflective vision says, "Dori is a very temperate
+mpecho place, though it has many countries in it, and
+mpecho almost as many peoples. It is warmer than Colista,
+mpecho but cooler than Lavada, located primarily on the
+mpecho equator and comprised mainly of plains.
+mpecho
+mpecho Turning its face to the eastern window, the vision
+mpecho continues. "You will find that there are no
+mpecho Benn, Slimes, Dragons, Gryphons, Firebirds,
+mpecho Satyrs, Dwarves or Sphinxes native to
+mpecho this region. However, humans, elves
+mpecho and half-elves hold many of the countries
+mpecho here."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 dori! east!~
+Comlist   mpecho Reflective vision says, "Dori is a very temperate
+mpecho place, though it has many countries in it, and
+mpecho almost as many peoples. It is warmer than Colista,
+mpecho but cooler than Lavada, located primarily on the
+mpecho equator and comprised mainly of plains.
+mpecho
+mpecho Turning its face to the eastern window, the vision
+mpecho continues. "You will find that there are no
+mpecho Benn, Slimes, Dragons, Gryphons, Firebirds,
+mpecho Satyrs, Dwarves or Sphinxes native to
+mpecho this region. However, humans, elves
+mpecho and half-elves hold many of the countries
+mpecho here."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 colista? west?~
+Comlist   mpecho The vision shifts and says, "Colista is the most
+mpecho populous region of the world. Many think
+mpecho that it is the oldest bed of civilization.
+mpecho People of all races travel there, though there
+mpecho are some few not native to the area."
+mpecho
+mpecho Looking to the West, it goes on. "Colista
+mpecho is a diverse region, with several big rivers,
+mpecho two inland seas and four lakes, many mountain
+mpecho regions and long stretches of forest.
+mpecho There is some plainsland in this continent
+mpecho but it is scarce, and the rockier ground makes
+mpecho for less sandy beaches in most areas."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 colista! west!~
+Comlist   mpecho The vision shifts and says, "Colista is the most
+mpecho populous region of the world. Many think
+mpecho that it is the oldest bed of civilization.
+mpecho People of all races travel there, though there
+mpecho are some few not native to the area."
+mpecho
+mpecho Looking to the West, it goes on. "Colista
+mpecho is a diverse region, with several big rivers,
+mpecho two inland seas and four lakes, many mountain
+mpecho regions and long stretches of forest.
+mpecho There is some plainsland in this continent
+mpecho but it is scarce, and the rockier ground makes
+mpecho for less sandy beaches in most areas."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 colista. west.~
+Comlist   mpecho The vision shifts and says, "Colista is the most
+mpecho populous region of the world. Many think
+mpecho that it is the oldest bed of civilization.
+mpecho People of all races travel there, though there
+mpecho are some few not native to the area."
+mpecho
+mpecho Looking to the West, it goes on. "Colista
+mpecho is a diverse region, with several big rivers,
+mpecho two inland seas and four lakes, many mountain
+mpecho regions and long stretches of forest.
+mpecho There is some plainsland in this continent
+mpecho but it is scarce, and the rockier ground makes
+mpecho for less sandy beaches in most areas."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 lavada? south?~
+Comlist   mpecho Seeming to waver along its surfaces, the vision says,
+mpecho "Lavada is the largest continent in all of Njata.
+mpecho Almost all of it is arid desert. This landscape
+mpecho varies between sand dunes and moutain-ringed valleys
+mpecho but is almost always monstrously hot. It would
+mpecho not be suitable for people who do not like dry places,
+mpecho except possibly at the northern tips of this land.
+mpecho There, large cities and port towns thrive on trade
+mpecho of their native tropical, exotic goods to the
+mpecho northern continents."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 lavada! south!~
+Comlist   mpecho Seeming to waver along its surfaces, the vision says,
+mpecho "Lavada is the largest continent in all of Njata.
+mpecho Almost all of it is arid desert. This landscape
+mpecho varies between sand dunes and moutain-ringed valleys
+mpecho but is almost always monstrously hot. It would
+mpecho not be suitable for people who do not like dry places,
+mpecho except possibly at the northern tips of this land.
+mpecho There, large cities and port towns thrive on trade
+mpecho of their native tropical, exotic goods to the
+mpecho northern continents."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 lavada. south.~
+Comlist   mpecho Seeming to waver along its surfaces, the vision says,
+mpecho "Lavada is the largest continent in all of Njata.
+mpecho Almost all of it is arid desert. This landscape
+mpecho varies between sand dunes and moutain-ringed valleys
+mpecho but is almost always monstrously hot. It would
+mpecho not be suitable for people who do not like dry places,
+mpecho except possibly at the northern tips of this land.
+mpecho There, large cities and port towns thrive on trade
+mpecho of their native tropical, exotic goods to the
+mpecho northern continents."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 north?~
+Comlist   mpecho Looking uneasily through the northern window,
+mpecho the vision before you seems filled with doubt.
+mpecho "I wouldn't recommend trying to go to the north.
+mpecho It is a cold and uncharted place, and I hear
+mpecho that not many return from their attempts to
+mpecho travel it. Maybe in the future, it will
+mpecho become safer."
+mpecho
+mpecho It shakes its head. "I cannot be certain."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 north.~
+Comlist   mpecho Looking uneasily through the northern window,
+mpecho the vision before you seems filled with doubt.
+mpecho "I wouldn't recommend trying to go to the north.
+mpecho It is a cold and uncharted place, and I hear
+mpecho that not many return from their attempts to
+mpecho travel it. Maybe in the future, it will
+mpecho become safer."
+mpecho
+mpecho It shakes its head. "I cannot be certain."
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   100 north!~
+Comlist   mpecho Looking uneasily through the northern window,
+mpecho the vision before you seems filled with doubt.
+mpecho "I wouldn't recommend trying to go to the north.
+mpecho It is a cold and uncharted place, and I hear
+mpecho that not many return from their attempts to
+mpecho travel it. Maybe in the future, it will
+mpecho become safer."
+mpecho
+mpecho It shakes its head. "I cannot be certain."
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       7599
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     7500
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     7599
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     7500
+Name     Chieftain's Throne of Threads~
+Sector   inside~
+Flags    prototype~
+Desc     A large room with a domed ceiling, it smells faintly
+of cinnamon and marigold. There are bookshelves towering
+to the ceiling of every wall, filled with tomes written
+in languages that have been forgotten by all other lands.
+At the center of the room is a massive stone altar
+with a soft bed of furs laid upon it. This is ringed with
+small chairs for supplicants to wait upon. 
+~
+#EXIT
+Direction south~
+ToRoom    7501
+Keywords  door~
+Flags     isdoor~
+#ENDEXIT
+
+#EXDESC
+ExDescKey    altar~
+ExDesc       A massive stone altar with a bed of rich furs.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    chair~
+ExDesc       A small wooden chair made of stained pine. It looks sturdy.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    bookshelf~
+ExDesc       These shelves tower high above even a Sphinx or Salamander's
+head. They are filled with tomes in many languages.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    tome~
+ExDesc       This is a musty tome.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     7501
+Name     A Wide Corridor~
+Sector   inside~
+Flags    tunnel safe prototype~
+Stats    0 0 12
+Desc     This many tiered corridor is built of gray stone. It can 
+easily fit six humans abreast. It has windows high in the
+walls on either side, looking out upon the 
+vast mountain landscape below. The floor is patterned
+with a massive runed mosaic in cool river-rock tiles.
+~
+#EXIT
+Direction north~
+ToRoom    7500
+Keywords  door~
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    7550
+Keywords  door door~
+#ENDEXIT
+
+#EXDESC
+ExDescKey    window~
+ExDesc       Sweeping out below you is the vast expanse of southern Dori.
+You can even spot one of the Lakes of Mapul.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     7550
+Name     Becoming Human~
+Sector   city~
+Flags    nomob prototype~
+Desc     You find yourself in a strange room that seems to you
+both physical and immaterial all at the same time.
+It is as if you are in a dream. The room itself is
+a pale shadow of a familiar place, draped with
+pictures that seem to move when you are not looking
+directly at them. There are windows in every
+cardinal direction, but you cannot see clearly out of
+them without moving closer. 
+~
+#EXIT
+Direction north~
+ToRoom    7501
+Keywords  door door~
+#ENDEXIT
+
+Reset M 0 7550 1 7550
+#EXDESC
+ExDescKey    south~
+ExDesc       The window to the south displays a vast and
+harsh desert. At its northern tips are shimmering
+beaches of pure white sand, and many great
+cities and ports bustle there. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    north~
+ExDesc       The window to the north looks dark and cold,
+filled with snowy, black mountains that seem
+unattainably far.
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    east~
+ExDesc       The window to the east offers a view of many countries
+teeming with life of all kinds. You can see many 
+places that look like they would be hospitable,
+in mountains, forests, cities, plains, and along
+vast beaches bordering the wide open sea. 
+~
+#ENDEXDESC
+
+#EXDESC
+ExDescKey    west~
+ExDesc       Out the west window you can see a vast and welcoming
+plainsland with some old, lowslung mountains
+long eroded by wind and time. There are many rivers and
+lakes here, and one great rise of impassable seeming
+mountains that make you shiver with cold. To your
+delight, there are black-sand beaches bordering 
+this place, and they banish the thought of chill
+from your mind.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum     7551
+Name     Becoming an Elf~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7552
+Name     Becoming a Half-Elf~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7553
+Name     Becoming a Dwarf~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7554
+Name     Becoming a Merfolk~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7555
+Name     Becoming a Catfolk~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7556
+Name     Becoming a Wolffolk~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7557
+Name     Becoming a Dollfolk~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7558
+Name     Becoming a Gryphon~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7559
+Name     Becoming a Dragon~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7560
+Name     Becoming a Unicorn~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7561
+Name     Becoming a Naiad~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7562
+Name     Becoming a Dryad~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7563
+Name     Becoming a Firebird~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7564
+Name     Becoming a Slime~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7565
+Name     Becoming a Salamander~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7566
+Name     Becoming a Lizardfolk~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7567
+Name     Becoming a Gnome~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7568
+Name     Becoming a Cyclops~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7569
+Name     Becoming a Satyr~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7570
+Name     Becoming a Centaur~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7571
+Name     Becoming a Minotaur~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7572
+Name     Becoming a Fairy~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7573
+Name     Becoming a Sphinx~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7574
+Name     Becoming a Naga~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7575
+Name     Becoming a Benn~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     7599
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ENDAREA

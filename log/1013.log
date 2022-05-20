@@ -1,0 +1,463 @@
+Mon Sep  3 17:05:20 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Mon Sep  3 17:05:20 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Mon Sep  3 17:05:20 2012 :: Initializing libdl support...
+Mon Sep  3 17:05:20 2012 :: Loading commands...
+Mon Sep  3 17:05:20 2012 :: Loading spec_funs...
+Mon Sep  3 17:05:20 2012 :: Loading sysdata configuration...
+Mon Sep  3 17:05:20 2012 :: Loading socials
+Mon Sep  3 17:05:20 2012 :: Loading skill table
+Mon Sep  3 17:05:20 2012 :: Sorting skill table...
+Mon Sep  3 17:05:20 2012 :: Creating skill table sorted by type...
+Mon Sep  3 17:05:20 2012 :: Remapping slots to sns
+Mon Sep  3 17:05:20 2012 :: Loading classes
+Mon Sep  3 17:05:20 2012 :: Loading races
+Mon Sep  3 17:05:20 2012 :: Loading news data
+Mon Sep  3 17:05:20 2012 :: Loading fish name data
+Mon Sep  3 17:05:20 2012 :: Loading liquids
+Mon Sep  3 17:05:20 2012 :: Loading mixtures
+Mon Sep  3 17:05:20 2012 :: Loading herb table
+Mon Sep  3 17:05:20 2012 :: Loading tongues
+Mon Sep  3 17:05:20 2012 :: Making wizlist
+Mon Sep  3 17:05:20 2012 :: Building wizinfo
+Mon Sep  3 17:05:20 2012 :: Loading MSSP Data...
+Mon Sep  3 17:05:20 2012 :: Initializing random number generator
+Mon Sep  3 17:05:20 2012 :: Setting time and weather.
+Mon Sep  3 17:05:20 2012 :: Loading holiday chart...
+Mon Sep  3 17:05:20 2012 :: Loading DNS cache...
+Mon Sep  3 17:05:20 2012 :: Assigning gsn's
+Mon Sep  3 17:05:20 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33121.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3560
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33121 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33122.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3561
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33122 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3562
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33139.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3616
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33139 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3617
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33138.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3618
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33138 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33137.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3619
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33137 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33134.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3666
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33134 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33138.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3667
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33138 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33164.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3706
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33164 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33165.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3707
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33165 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33166.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3708
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33166 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33128.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3875
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33128 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33129.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3876
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33129 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33130.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3877
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33130 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33131.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3878
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33131 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33132.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3879
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33132 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33126.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 3913
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33126 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33160.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 6678
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33160 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 6716
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33147.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 6717
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33147 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33153.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 6788
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33153 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33156.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 6789
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33156 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33179.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 8512
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33179 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33180.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 8513
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33180 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33181.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 8514
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33181 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33182.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 8515
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33182 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33168.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 8570
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33168 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33169.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 8571
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33169 doesn't exist.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:05:21 2012 :: [*****] FILE: desert.are LINE: 8624
+Mon Sep  3 17:05:21 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+desert.are    : Rooms: 31000 - 31225 Objs: 31000 - 31063 Mobs: 31000 - 31034
+aina.are      : Rooms:  4700 - 4870  Objs:  4700 - 4840  Mobs:  4700 - 4800
+Mon Sep  3 17:05:21 2012 :: Fixing exits
+Mon Sep  3 17:05:21 2012 :: Initializing economy
+Mon Sep  3 17:05:21 2012 :: Resetting areas
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33121.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33122.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33123.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33139.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33123.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33138.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33137.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33134.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33138.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33164.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33165.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33166.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33128.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33129.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33130.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33131.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33132.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33126.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33160.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33123.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33147.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33153.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33156.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33179.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33180.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33181.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33182.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33168.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33169.
+Mon Sep  3 17:05:21 2012 :: [*****] BUG: reset_room: desert.are: 'E' or 'G': bad obj vnum 33123.
+Mon Sep  3 17:05:21 2012 :: Loading buildlist
+Mon Sep  3 17:05:21 2012 :: ../gods/Wulfen
+Mon Sep  3 17:05:21 2012 :: ../gods/Shadwen
+Mon Sep  3 17:05:21 2012 :: ../gods/Alyarta
+Mon Sep  3 17:05:21 2012 :: ../gods/Zoie
+Mon Sep  3 17:05:21 2012 :: ../gods/Chieftain
+Mon Sep  3 17:05:21 2012 :: Loading boards
+Mon Sep  3 17:05:21 2012 :: ../boards/immortal.brd
+Mon Sep  3 17:05:21 2012 :: ../boards/highgod.brd
+Mon Sep  3 17:05:21 2012 :: Loading Global Boards
+Mon Sep  3 17:05:21 2012 :: Loading clans
+Mon Sep  3 17:05:21 2012 :: Loading clans...
+Mon Sep  3 17:05:21 2012 :: vampire.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: druid.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: warrior.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: augurer.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: thief.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: cleric.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: mage.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: ranger.gui
+Mon Sep  3 17:05:21 2012 :: Cannot open clan vault
+Mon Sep  3 17:05:21 2012 :: $
+Mon Sep  3 17:05:21 2012 ::  Done clans 
+Mon Sep  3 17:05:21 2012 :: Loading councils
+Mon Sep  3 17:05:21 2012 :: Loading councils...
+Mon Sep  3 17:05:21 2012 :: $
+Mon Sep  3 17:05:21 2012 ::  Done councils 
+Mon Sep  3 17:05:21 2012 :: Loading deities
+Mon Sep  3 17:05:21 2012 :: Loading deities...
+Mon Sep  3 17:05:21 2012 :: teacher
+Mon Sep  3 17:05:21 2012 :: $
+Mon Sep  3 17:05:21 2012 ::  Done deities 
+Mon Sep  3 17:05:21 2012 :: Loading watches
+Mon Sep  3 17:05:21 2012 :: Loading bans
+Mon Sep  3 17:05:21 2012 :: Done.
+Mon Sep  3 17:05:21 2012 :: Loading reserved names
+Mon Sep  3 17:05:21 2012 :: Loading corpses
+Mon Sep  3 17:05:21 2012 :: Loading Immortal Hosts
+Mon Sep  3 17:05:21 2012 :: Done.
+Mon Sep  3 17:05:21 2012 :: Loading bounties
+Mon Sep  3 17:05:21 2012 :: Done.
+Mon Sep  3 17:05:21 2012 :: Loading Morphs
+Mon Sep  3 17:05:21 2012 :: Done.
+Mon Sep  3 17:05:21 2012 :: Initializing socket
+Mon Sep  3 17:05:21 2012 :: Njata ready on port 6500.
+Mon Sep  3 17:05:22 2012 :: Preloading player data for: Zoie (3K)
+Mon Sep  3 17:05:22 2012 :: Creating area entry for Zoie
+Mon Sep  3 17:05:23 2012 :: Loading player data for: Zoie (3K)
+Mon Sep  3 17:05:23 2012 :: Updating area entry for Zoie
+Mon Sep  3 17:05:23 2012 :: Zoie (72.223.91.114) has connected.
+Mon Sep  3 17:08:38 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4711.
+Mon Sep  3 17:08:38 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4703.
+Mon Sep  3 17:08:38 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4705.
+Mon Sep  3 17:08:38 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4709.
+Mon Sep  3 17:08:38 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4701.
+Mon Sep  3 17:08:38 2012 :: [*****] BUG: Mptransfer - Private room, Mob #4700.
+Mon Sep  3 17:10:18 2012 :: Log Zoie: hotboot
+Mon Sep  3 17:10:18 2012 :: Hotboot initiated by Zoie.
+Mon Sep  3 17:10:18 2012 :: Preserving world state....
+Mon Sep  3 17:10:18 2012 :: Saving player files and connection states....
+Mon Sep  3 17:10:18 2012 :: Executing hotboot....
+Mon Sep  3 17:10:18 2012 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Mon Sep  3 17:10:18 2012 :: Initializing libdl support...
+Mon Sep  3 17:10:18 2012 :: Loading commands...
+Mon Sep  3 17:10:18 2012 :: Loading spec_funs...
+Mon Sep  3 17:10:18 2012 :: Loading sysdata configuration...
+Mon Sep  3 17:10:18 2012 :: Loading socials
+Mon Sep  3 17:10:18 2012 :: Loading skill table
+Mon Sep  3 17:10:18 2012 :: Sorting skill table...
+Mon Sep  3 17:10:18 2012 :: Creating skill table sorted by type...
+Mon Sep  3 17:10:18 2012 :: Remapping slots to sns
+Mon Sep  3 17:10:18 2012 :: Loading classes
+Mon Sep  3 17:10:18 2012 :: Loading races
+Mon Sep  3 17:10:18 2012 :: Loading news data
+Mon Sep  3 17:10:18 2012 :: Loading fish name data
+Mon Sep  3 17:10:18 2012 :: Loading liquids
+Mon Sep  3 17:10:18 2012 :: Loading mixtures
+Mon Sep  3 17:10:18 2012 :: Loading herb table
+Mon Sep  3 17:10:18 2012 :: Loading tongues
+Mon Sep  3 17:10:18 2012 :: Making wizlist
+Mon Sep  3 17:10:18 2012 :: Building wizinfo
+Mon Sep  3 17:10:18 2012 :: Loading MSSP Data...
+Mon Sep  3 17:10:18 2012 :: Initializing random number generator
+Mon Sep  3 17:10:18 2012 :: Setting time and weather.
+Mon Sep  3 17:10:18 2012 :: Loading holiday chart...
+Mon Sep  3 17:10:18 2012 :: Loading DNS cache...
+Mon Sep  3 17:10:18 2012 :: Assigning gsn's
+Mon Sep  3 17:10:18 2012 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1200  Mobs:  1200 - 1200
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21499
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+immak.are     : Rooms:   400 - 449   Objs:   400 - 449   Mobs:   400 - 449
+forgotten.are : Rooms:  5000 - 5099  Objs:  5000 - 5099  Mobs:  5000 - 5099
+immakwoods.are: Rooms:  8000 - 8099  Objs:  8000 - 8099  Mobs:  8000 - 8099
+newbie.are    : Rooms:  8100 - 8149  Objs:  8100 - 8149  Mobs:  8100 - 8149
+sedna.are     : Rooms:  5100 - 5199  Objs:  5100 - 5199  Mobs:  5100 - 5199
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33121.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3560
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33121 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33122.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3561
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33122 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3562
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33139.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3616
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33139 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3617
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33138.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3618
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33138 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33137.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3619
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33137 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33134.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3666
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33134 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33138.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3667
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33138 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33164.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3706
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33164 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33165.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3707
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33165 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33166.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3708
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33166 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33128.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3875
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33128 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33129.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3876
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33129 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33130.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3877
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33130 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33131.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3878
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33131 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33132.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3879
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33132 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33126.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 3913
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33126 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33160.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 6678
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33160 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 6716
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33147.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 6717
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33147 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33153.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 6788
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33153 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33156.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 6789
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33156 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33179.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 8512
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33179 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33180.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 8513
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33180 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33181.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 8514
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33181 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33182.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 8515
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'G': object 33182 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33168.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 8570
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33168 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33169.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 8571
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33169 doesn't exist.
+Mon Sep  3 17:10:18 2012 :: [*****] BUG: Get_obj_index: bad vnum 33123.
+Mon Sep  3 17:10:18 2012 :: [*****] FILE: desert.are LINE: 8624
+Mon Sep  3 17:10:18 2012 :: [*****] BOOT: load_room_reset: desert.are (1) 'E': object 33123 doesn't exist.
+desert.are    : Rooms: 31000 - 31225 Objs: 31000 - 31063 Mobs: 31000 - 31034
+aina.are      : Rooms:  4700 - 4870  Objs:  4700 - 4840  Mobs:  4700 - 4800
+Mon Sep  3 17:10:18 2012 :: Fixing exits
+Mon Sep  3 17:10:18 2012 :: Initializing economy
+Mon Sep  3 17:10:18 2012 :: Loading world state...
+Mon Sep  3 17:10:18 2012 :: World state: loading mobs
+Mon Sep  3 17:10:18 2012 :: World state: loading objs
+Mon Sep  3 17:10:18 2012 :: Resetting areas
+Mon Sep  3 17:10:18 2012 :: Loading buildlist
+Mon Sep  3 17:10:18 2012 :: ../gods/Wulfen
+Mon Sep  3 17:10:18 2012 :: ../gods/Shadwen
+Mon Sep  3 17:10:18 2012 :: ../gods/Alyarta
+Mon Sep  3 17:10:18 2012 :: ../gods/Zoie
+Mon Sep  3 17:10:18 2012 :: ../gods/Chieftain
+Mon Sep  3 17:10:18 2012 :: Loading boards
+Mon Sep  3 17:10:18 2012 :: ../boards/immortal.brd
+Mon Sep  3 17:10:18 2012 :: ../boards/highgod.brd
+Mon Sep  3 17:10:18 2012 :: Loading Global Boards
+Mon Sep  3 17:10:18 2012 :: Loading clans
+Mon Sep  3 17:10:18 2012 :: Loading clans...
+Mon Sep  3 17:10:18 2012 :: vampire.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: druid.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: warrior.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: augurer.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: thief.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: cleric.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: mage.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: ranger.gui
+Mon Sep  3 17:10:18 2012 :: Cannot open clan vault
+Mon Sep  3 17:10:18 2012 :: $
+Mon Sep  3 17:10:18 2012 ::  Done clans 
+Mon Sep  3 17:10:18 2012 :: Loading councils
+Mon Sep  3 17:10:18 2012 :: Loading councils...
+Mon Sep  3 17:10:18 2012 :: $
+Mon Sep  3 17:10:18 2012 ::  Done councils 
+Mon Sep  3 17:10:18 2012 :: Loading deities
+Mon Sep  3 17:10:18 2012 :: Loading deities...
+Mon Sep  3 17:10:18 2012 :: teacher
+Mon Sep  3 17:10:18 2012 :: $
+Mon Sep  3 17:10:18 2012 ::  Done deities 
+Mon Sep  3 17:10:18 2012 :: Loading watches
+Mon Sep  3 17:10:18 2012 :: Loading bans
+Mon Sep  3 17:10:18 2012 :: Done.
+Mon Sep  3 17:10:18 2012 :: Loading reserved names
+Mon Sep  3 17:10:18 2012 :: Loading corpses
+Mon Sep  3 17:10:18 2012 :: Loading Immortal Hosts
+Mon Sep  3 17:10:18 2012 :: Done.
+Mon Sep  3 17:10:18 2012 :: Loading bounties
+Mon Sep  3 17:10:18 2012 :: Done.
+Mon Sep  3 17:10:18 2012 :: Loading Morphs
+Mon Sep  3 17:10:18 2012 :: Done.
+Mon Sep  3 17:10:18 2012 :: Initializing socket
+Mon Sep  3 17:10:18 2012 :: Njata ready on port 6500.
+Mon Sep  3 17:10:18 2012 :: Initiating hotboot recovery.
+Mon Sep  3 17:10:18 2012 :: Loading player data for: Zoie (3K)
+Mon Sep  3 17:10:18 2012 :: Creating area entry for Zoie
+Mon Sep  3 17:10:18 2012 :: Hotboot recovery complete.

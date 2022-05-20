@@ -1,0 +1,1014 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         Newbie School~
+Author       Shadwen/Zoie~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 60
+Economy      0 31250000
+ResetFreq    3
+Flags        nopkill~
+#ENDAREADATA
+
+#MOBILE
+Vnum       8100
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8101
+Keywords   Brutus, The Trainer.~
+Short      Brutus, The Trainer~
+Long       Brutus, The Trainer stands here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea train practice pacifist~
+Stats1     0 54 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p gear me~
+Comlist   mpoload 8112 1
+give bronze $n
+mpjunk bronze
+mpoload 8111 1
+give cloak $n
+mpjunk cloak
+mpoload 8107 1
+give hat $n
+mpjunk hat
+mpoload 8130 1
+give backpack $n
+mpjunk backpack
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       8102
+Keywords   Elora, The Guide~
+Short      Elora, The Guide.~
+Long       Elora, The Guide stands here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea train practice nowander pacifist~
+Stats1     0 54 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8103
+Keywords   Training Dummy~
+Short      The Training Dummy~
+Long       The Training Dummy is awaiting his defeat.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea nowander noassist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#MUDPROG
+Progtype  death_prog~
+Arglist   100~
+Comlist   mpmload 8103
+mpecho A new training dummy pops out of the floor!
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       8104
+Keywords   Headmaster Willis~
+Short      Headmaster Willis~
+Long       Headmaster Willis rubs his hands together.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea train nowander pacifist~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       8149
+Keywords   lastmob~
+Short      a newly created lastmob~
+Long       Some god abandoned a newly created lastmob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     8100
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8101
+Keywords leather fistwraps~
+Type     weapon~
+Short    a pair of leather fistwraps~
+Long     You see some leather fistwraps here on the ground.~
+WFlags   take wield~
+Values   12 1 6 0 0 0
+Stats    1 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8102
+Keywords dull bronze sword~
+Type     weapon~
+Short    a dull bronze sword~
+Long     You see a dull sword made of bronze here.~
+WFlags   take wield~
+Values   12 1 6 1 1 0
+Stats    3 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8103
+Keywords heavy bronze lance~
+Type     weapon~
+Short    a heavy bronze lance~
+Long     You see a heavy lance made of bronze here.~
+WFlags   take wield~
+Values   12 1 6 7 4 0
+Stats    5 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8104
+Keywords dull knife~
+Type     weapon~
+Short    a dull knife~
+Long     You see a dull knife here on the ground.~
+WFlags   take wield~
+Values   12 1 6 2 2 0
+Stats    1 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8105
+Keywords faded leather cuirass~
+Type     armor~
+Short    a faded leather cuirass~
+Long     A cuirass made of faded leather lies here.~
+WFlags   take body~
+Values   2 2 0 0 0 0
+Stats    1 0 0 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8106
+Keywords metal welded mask~
+Type     armor~
+Short    a welded metal mask~
+Long     A welded metal mask lies here.~
+Flags    prototype~
+WFlags   take face~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8107
+Keywords brown muffin hat~
+Type     armor~
+Short    a brown muffin hat~
+Long     A brown muffin hat lies here.~
+WFlags   take head~
+Values   2 2 0 0 0 0
+Stats    2 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8108
+Keywords tinted glasses~
+Type     armor~
+Short    some tinted glasses~
+Long     Some tinted glasses lay here.~
+Flags    prototype~
+WFlags   take eyes~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8109
+Keywords red cotton earmuffs muffs~
+Type     armor~
+Short    some red cotton earmuffs~
+Long     Some red cotton earmuffs lay here.~
+Flags    prototype~
+WFlags   take ears~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8110
+Keywords beaded necklace~
+Type     armor~
+Short    a beaded necklace~
+Long     A beaded necklace lies here.~
+Flags    prototype~
+WFlags   take neck~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8111
+Keywords white linen cloak~
+Type     armor~
+Short    a white linen cloak~
+Long     A white linen cloak lies here.~
+WFlags   take about~
+Values   2 2 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8112
+Keywords bronze armor~
+Type     armor~
+Short    some bronze armor~
+Long     Some bronze armor lies here.~
+WFlags   take body~
+Values   2 2 0 0 0 0
+Stats    4 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8113
+Keywords quilted cape~
+Type     armor~
+Short    a quilted cape~
+Long     A quilted cape lies here.~
+Flags    prototype~
+WFlags   take back~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8114
+Keywords leather belt~
+Type     armor~
+Short    a leather belt~
+Long     A leather belt lies here.~
+Flags    prototype~
+WFlags   take waist~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8115
+Keywords patchwork patch-work work sleeves~
+Type     armor~
+Short    some patch-work sleeves~
+Long     Some patch-work sleeves lay here.~
+Flags    prototype~
+WFlags   take arms~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8116
+Keywords grass woven grasswoven leggings~
+Type     armor~
+Short    some grass-woven leggings~
+Long     Some grass-woven leggings lie here.~
+Flags    prototype~
+WFlags   take legs~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8117
+Keywords bound leatherbound leather-bound gloves~
+Type     armor~
+Short    a pair of leather-bound gloves~
+Long     A pair of leather-bound gloves lay here.~
+Flags    prototype~
+WFlags   take hands~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8118
+Keywords bell anklets~
+Type     armor~
+Short    a pair of bell anklets~
+Long     A pair of bell anklets lay here.~
+WFlags   take limbs~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8119
+Keywords metal cuff link cufflink~
+Type     armor~
+Short    a metal cuff link~
+Long     A metal cuff link lies here.~
+Flags    prototype~
+WFlags   take wrist~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8120
+Keywords copper ring~
+Type     armor~
+Short    a copper ring~
+Long     A copper ring lies here.~
+Flags    prototype~
+WFlags   take finger~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8121
+Keywords rusty greaves~
+Type     armor~
+Short    a rusty set of greaves~
+Long     A rusty set of greaves lay here.~
+Flags    prototype~
+WFlags   take legs~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8122
+Keywords leaf-woven leggings leafwoven woven~
+Type     armor~
+Short    some leaf-woven leggings~
+Long     Some leaf-woven leggings lay here.~
+Flags    prototype~
+WFlags   take limbs~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8123
+Keywords hand-me-down boots~
+Type     armor~
+Short    a hand-me-down pair of boots~
+Long     A hand-me-down pair of boots lay here.~
+Flags    prototype~
+WFlags   take feet~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8124
+Keywords adjustable spiked ring~
+Type     armor~
+Short    an adjustable spiked ring~
+Long     An adjustable spiked ring lies here.~
+Flags    prototype~
+WFlags   take tail~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8125
+Keywords unlucky horseshoes~
+Type     armor~
+Short    some unlucky horseshoes~
+Long     Some unlucky horseshoes lay here.~
+Flags    prototype~
+WFlags   take hooves~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8126
+Keywords cotton ankle bands~
+Type     armor~
+Short    a pair of cotton ankle bands~
+Long     A pair of cotton ankle bands lay here.~
+WFlags   take ankles~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8127
+Keywords sapphire~
+Type     armor~
+Short    a sapphire~
+Long     A sapphire lies here.~
+Flags    prototype~
+WFlags   take hold~
+Values   0 0 0 0 0 0
+Stats    5 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8130
+Keywords back pack backpack leather~
+Type     container~
+Short    a leather backpack~
+Long     A backpack made from brown leather lies here.~
+WFlags   take back~
+Values   75 0 0 0 0 0
+Stats    1 50 5 1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     8149
+Keywords lastobj~
+Type     trash~
+Short    a newly created lastobj~
+Long     Some god dropped a newly created lastobj here.~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     8100
+Name     Newbie Area - Information Room [OOC]~
+Sector   city~
+Flags    nomob indoors~
+Desc     Name - Newbie School
+Author - Shadwen/Zoie
+Purpose - The first place players are sent to after character creation.
+Here, they learn all the basic commands of Njata and get an idea of what
+kind of game we're running.
+~
+#MUDPROG
+Progtype  speech_prog~
+Arglist   brown~
+Comlist   mpmset $n haircolor 1
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   black~
+Comlist   mpmset $n haircolor 0
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     8101
+Name     Welcome to Njata! [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Welcome to Njata, traveler! Feel free to venture through our mud school in
+order to learn how we differ from other experiences you may be used to.
+Whether new to Muds or a grizzled veteran, make certain to read the room
+descriptions here or else things may get confusing very quickly! If you
+have visited this school before, or feel you need no help. Feel free to
+enter the portal downwards.
+~
+#EXIT
+Direction north~
+ToRoom    8102
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    400
+Keywords  portal~
+Flags     secret hidden can_enter~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8102
+Name     Learning About Yourself [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Here is where you will learn more about yourself. Type [score] to see
+information about your character, [equipment] will show you your worn
+equipment, and [inventory] will show you what you're currently carrying.
+As an option, you may explore our world with a map and compass to guide
+you. Type [config +automap] and [config +compass] to turn these features
+on. When you are ready to proceed, head [east].
+~
+#EXIT
+Direction east~
+ToRoom    8104
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8101
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8103
+Name     Becoming Acquainted with Skills [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     To learn the abilities that you are capable of performing and how practiced
+you are in them, type of one of the following: [Skills] will show you your
+learned non-magic abilities. [Spells] will show you which spells you've
+learned. [Proficiencies] will show you what weapons you're capable of
+handling with any degree of skill. You may wish to shorten that to [Prof],
+most commands can be shortened in Njata for your convenience! You can type
+[Slist] to learn what powers will become available to you as you level up,
+but most skills will have to be learned from the appropriate teacher. If
+you happen to be a Scholar, then do not fret. You will have to find relics
+to [study] to learn your spells, so make sure to look in every nook and
+cranny of the world.
+~
+#EXIT
+Direction south~
+ToRoom    8104
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8109
+#ENDEXIT
+
+Reset M 0 8102 1 8103
+#ENDROOM
+
+#ROOM
+Vnum     8104
+Name     Getting Equipped for the First Time [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Here is where you can get started on your journey, Simply [say gear me] and
+Brutus will hand you a good starting set. The races of Njata have diverse
+body types and thus have different equipment requirements. Some dont even 
+have FEET! These items should fit any race and class, but keep that in
+mind when travelling the world. When you are ready to try on what Brutus
+has given you, [wear armor] will allow you to put on the armor, [wear
+cloak] will allow you to don the cloak, and so on. The backpack is a
+special type of item called a container. Try storing the waterskin in your
+backpack now with  [put waterskin backpack]. When you grow thirsty, you
+can [get waterskin backpack] to retrieve it, and [drink waterskin] to take
+a drink. Proceed to the north when you are ready to learn more.
+~
+#EXIT
+Direction north~
+ToRoom    8103
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8102
+#ENDEXIT
+
+Reset M 0 8101 1 8104
+#ENDROOM
+
+#ROOM
+Vnum     8105
+Name     In-Character Communication [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Now that you know about the out-of-character communication channels, it's
+time to learn about the channels used for in-character communication. To
+speak to an entire room of people, you need only [Say] your message. Some
+jolly people may prefer to [Sing] their message instead, however. To
+direct your message to a specific person while still allowing the whole
+room to hear it, you can [Sayto]. For more private conversations, you can
+[Whisper] to a person and they will be the only one to hear your message.
+If you really need to get the attention of people nearby, you can [Yell]
+what you want to say. Yelling, while rude in some situations, can be very
+useful to get the message across a longer distance than merely saying it.
+~
+#EXIT
+Direction north~
+ToRoom    8106
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    8109
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8106
+Name     Describing Your Hair and Eyes [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     With all that out of the way, it's time to get down to business.  We still
+don't even know what you look like! Here, you will learn how to remedy
+that. Type [Hair] followed by a description to describe how your hair will
+appear to those who look at you. For example, if you wanted to have coarse
+brown hair, you would type [Hair coarse brown hair] and anyone who looks
+at you would see He/She/It has coarse brown hair. Now to describe your
+eyes, type [Eyes] followed by a description. Remember to make certain that
+these descriptions make sense for your race. Dragons should skip
+describing their hair, unless they wanted to use that opportunity to
+describe their horns, pattern, etc.
+~
+#EXIT
+Direction east~
+ToRoom    8110
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8105
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8107
+Name     Your First Taste of Battle [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Combat can be very dangerous and very thrilling, but it's important to
+remember, it's not the only option. If you decide to engage in battle, 
+classes have special abilities to use during combat, and some races have 
+natural weapons or special attacks. To begin attacking something, simply 
+type [Kill] followed by the name of your target. Always remember to
+[Consider] a target before you attack it, if you're unfamiliar with its
+capabilities. Try it out! [Consider dummy], then it you feel you can 
+defeat it, [Kill dummy].
+~
+#EXIT
+Direction north~
+ToRoom    8108
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    8110
+#ENDEXIT
+
+Reset M 0 8103 1 8107
+#ENDROOM
+
+#ROOM
+Vnum     8108
+Name     The Final Consideration [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Now you know the basics of what is required to survive and thrive in Njata,
+but before you go, we must talk about the rules. Rules are what  hold this
+game together, They are something you should know and abide  by. Please
+[Help RULES] and make sure you know and follow them. When you are ready to
+continue your adventure, [Say I agree to follow all rules]
+~
+#EXIT
+Direction south~
+ToRoom    8107
+#ENDEXIT
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   'I agree to follow all rules'~
+Comlist   if class($n) == elementalist
+  mptransfer $n 8111
+  mpat $n mpforce $n look
+else
+  mptransfer $n 400
+  mpat $n mpforce $n look
+endif
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     8109
+Name     Out-of-Character Communication [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Channels allow you to speak with other people in Njata, a very important
+part. If you find yourself confused by anything, feel free to [Ask] about
+it. Know the answer to a question? then you can [Answer] the individual.
+If you just want to socialize with others, then you can [Chat] with them.
+To speak to a single person, you may [Tell (person) (message)]. All of
+these channels are for out-of-character communication. If you ever grow
+tired of hearing what others have to say, you can turn channels off. Type
+[channels] to see a list of channels, and to turn the shout channel off,
+for example, you would type [chan -shout]. To turn it back on, you'd need
+only type [chan +shout].
+~
+#EXIT
+Direction east~
+ToRoom    8103
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8105
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     8110
+Name     Describing Yourself Further [OOC]~
+Sector   city~
+Flags    indoors~
+Desc     Now that your hair and eyes are described, perhaps you wish to describe
+yourself a little further? Here is a [Scroll], if you [Look scroll] you
+will see a list of body types available to you. Once you have decided upon
+your figure, then you would like to try your hand at a more advanced
+description. To write a freeform description, type [Desc]. This will enter
+you into a buffer where you can write anything you please, but please keep
+it within the limits of an appearance reasonable for your race. Humans can
+have hair dyed any color they please, but should never have wings!
+~
+#EXIT
+Direction north~
+ToRoom    8107
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    8106
+#ENDEXIT
+
+#EXDESC
+ExDescKey    scroll~
+ExDesc       regular, lithe, thin, rotund, curvaceous, 
+voluptuous, pear-shaped, fat, corpulent, 
+starved, lanky, muscular, stocky, toned, wiry
+
+[say] one of them to decide.
+e.g. [say stocky]
+~
+#ENDEXDESC
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   regular~
+Comlist   mpmset $n bodyshape 0
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   lithe~
+Comlist   mpmset $n bodyshape 1
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   thin~
+Comlist   mpmset $n bodyshape 2
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   rotund~
+Comlist   mpmset $n bodyshape 3
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   curvaceous~
+Comlist   mpmset $n bodyshape 4
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   voluptuous~
+Comlist   mpmset $n bodyshape 5
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   pear-shaped~
+Comlist   mpmset $n bodyshape 6
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   fat~
+Comlist   mpmset $n bodyshape 7
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   corpulent~
+Comlist   mpmset $n bodyshape 8
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   starved~
+Comlist   mpmset $n bodyshape 9
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   lanky~
+Comlist   mpmset $n bodyshape 10
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   muscular~
+Comlist   mpmset $n bodyshape 11
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   stocky~
+Comlist   mpmset $n bodyshape 12
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   toned~
+Comlist   mpmset $n bodyshape 13
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   wiry~
+Comlist   mpmset $n bodyshape 14
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     8111
+Name     Choose a Specialty, Elementalist [OOC]~
+Sector   city~
+Flags    nomob prototype~
+Desc     In Njata, Elementalists choose to specialize in one of the Six Elements:
+Fire, Water, Air, Earth, Life, and Darkness. To learn about the elements,
+and their differences, Type [Help Elements]. When you have made your
+decision, say the name of the element and you will proceed into the World
+of Njata.
+~
+#MUDPROG
+Progtype  speech_prog~
+Arglist   darkness~
+Comlist   mpecho You are now a Darkness Elementalist!
+mpmset $n subclass 6
+mppractice $n trip 1
+mptransfer $n 400
+mpat $n mpforce $n look
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   life~
+Comlist   mpecho You are now a Life Elementalist!
+mpmset $n subclass 5
+mppractice $n sicken 1
+mptransfer $n 400
+mpat $n mpforce $n look
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   earth~
+Comlist   mpecho You are now a Earth Elementalist!
+mpmset $n subclass 4
+mppractice $n boulder 1
+mptransfer $n 400
+mpat $n mpforce $n look
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   air~
+Comlist   mpecho You are now a Air Elementalist!
+mpmset $n subclass 3
+mppractice $n windslash 1
+mptransfer $n 400
+mpat $n mpforce $n look
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   water~
+Comlist   mpecho You are now a Water Elementalist!
+mpmset $n subclass 2
+mppractice $n chill 1
+mptransfer $n 400
+mpat $n mpforce $n look
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   fire~
+Comlist   mpecho You are now a Fire Elementalist!
+mpmset $n subclass 1
+mppractice $n sear 1
+mptransfer $n 400
+mpat $n mpforce $n look
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     8149
+Name     Last Room~
+Sector   city~
+Flags    nomob indoors~
+Reset M 0 8149 1 8149
+Reset O 0 8149 1 8149
+#ENDROOM
+
+#ENDAREA

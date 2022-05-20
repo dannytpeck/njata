@@ -1,0 +1,119 @@
+#PLAYER
+Version      5
+Name         Kanaan~
+Sex          1
+Class        8
+Subclass     0
+Race         18
+Subrace      0
+Age          0 6 13 609
+Languages    1 1
+Level        3
+Played       1916
+Room         8020
+HpManaMove   1 60 123 123 39 124
+Gold         225
+Exp          13563
+Height       68
+Weight       153
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168778&2
+AffectedBy   512
+Position     106
+Style        2
+Practice     1
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Password     ee6d25d9a3ea021e498cacedbe011dcb5d76e761bb79883fe034aa38a284cd83~
+Title         the Adventurer~
+Flags        512
+PKills       0
+PDeaths      0
+MKills       16
+MDeaths      1
+IllegalPK    0
+Timezone     -1
+AttrPerm     20 7 7 18 18 7 7
+AttrMod      0 0 0 0 0 0 0
+Condition    0 12 12 10
+Site         67.187.122.105
+Tongue       100 'common'
+Skill        11 'enhanced damage'
+Weapon       38 'hand to hand'
+Skill        52 'kick'
+Killed       8005 2
+Killed       8010 1
+Killed       8007 3
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+WearLoc      6
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         8112
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8111
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8107
+WearLoc      1
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         8130
+WearLoc      7
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25
+Level        1
+Timer        10
+Values       7 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Count        5
+Vnum         426
+Level        1
+Values       0 0 24 0 0 0
+End
+
+#OBJECT
+Vnum         8001
+Level        1
+Values       11 287 -1 -1 0 0
+Spell 1      'word of recall'
+End
+
+#END

@@ -1,0 +1,154 @@
+#PLAYER
+Version      5
+Name         Klaz~
+Sex          1
+Class        9
+Subclass     0
+Race         3
+Subrace      0
+Age          0 9 2 608
+Languages    1 1
+Level        7
+Played       56773
+Room         8905
+HpManaMove   73 104 269 269 169 169
+Gold         404461
+Exp          284765
+Height       70
+Weight       157
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168792&10
+Position     108
+Style        2
+Practice     1
+SavingThrows 0 0 0 0 -1
+Alignment    1000
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      1
+Damroll      0
+Armor        130
+Wimpy        20
+Resistant    1048576
+Mentalstate  0
+Password     04a6c1fb399d43b43ba1abc85ea56f7434ff6ec1ff8c891ea90f008ac58c931c~
+Title        &r~
+Flags        512
+PKills       0
+PDeaths      0
+MKills       605
+MDeaths      8
+IllegalPK    0
+Timezone     -1
+AttrPerm     18 7 7 15 18 12 7
+AttrMod      0 0 0 0 0 0 0
+Condition    0 19 26 17
+Site         (Link-Dead)
+Skill        1 'aid'
+Spell        95 'armor'
+Weapon       1 'axes'
+Spell        1 'black hand'
+Spell        69 'bless'
+Spell        1 'burning hands'
+Skill        1 'climb'
+Tongue       100 'common'
+Spell        19 'continual light'
+Skill        3 'cook'
+Spell        5 'create fire'
+Spell        37 'create food'
+Spell        1 'create water'
+Spell        14 'detect evil'
+Spell        100 'detect poison'
+Skill        1 'dig'
+Spell        2 'elven beauty'
+Skill        100 'enhanced damage'
+Spell        1 'faerie fire'
+Weapon       100 'maces and hammers'
+Skill        100 'parry'
+Weapon       1 'polearms'
+Spell        100 'refresh'
+Weapon       1 'spears'
+Weapon       3 'staves'
+Weapon       100 'swords'
+Spell        1 'weaken'
+AffectData   'bless' 206  -1  24 0
+AffectData   'bless' 206   1  18 0
+Killed       8030 6
+Killed       8007 4
+Killed       8021 4
+Killed       8020 13
+Killed       8003 7
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10302
+WearLoc      8
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         10300
+WearLoc      13
+Level        1
+Values       1 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         10300
+WearLoc      14
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+WearLoc      23
+Values       0 0 -1 0 0 0
+End
+
+#OBJECT
+Vnum         410
+Level        1
+Values       12 1 10 1 1 0
+End
+
+#OBJECT
+Vnum         8031
+WearLoc      6
+Level        4
+Values       6 6 0 0 0 0
+End
+
+#OBJECT
+Vnum         8130
+WearLoc      7
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#OBJECT
+Count        3
+Vnum         420
+Level        1
+Values       24 0 0 0 0 0
+End
+
+#MOBILE
+Vnum	8010
+Room	8032
+Description A neck tag says 'I belong to Klaz'.
+~
+Position 12
+Flags 262403
+EndMobile
+#END

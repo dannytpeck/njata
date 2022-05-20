@@ -1,0 +1,106 @@
+#PLAYER
+Version      5
+Name         Meth~
+Sex          2
+Class        7
+Subclass     0
+Race         24
+Subrace      0
+Age          0 11 10 617
+Languages    1 1
+Level        2
+Played       518
+Room         8102
+HpManaMove   32 32 129 129 118 118
+Gold         500
+Exp          2000
+Height       69
+Weight       139
+SkinColor    0
+BodyShape    0
+Act          570426952
+AffectedBy   16
+Position     112
+Style        2
+Practice     0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Mentalstate  0
+Password     34ee925e21f0ddef077a5da8181e87ca978c413a2a6ec36b97a8896f4e02c9bf~
+Title         the Adventurer~
+Boards       5 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0 
+Flags        512
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     18 9 10 18 12 7 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 32 48 10
+Site         72.223.91.114
+Weapon       1 'archery'
+Weapon       1 'axes'
+Skill        1 'bash'
+Skill        1 'blitz'
+Skill        1 'climb'
+Tongue       100 'common'
+Skill        1 'cook'
+Weapon       1 'daggers'
+Skill        1 'dig'
+Skill        1 'disarm'
+Skill        1 'dodge'
+Skill        1 'doorbash'
+Skill        1 'dual wield'
+Skill        1 'elbow'
+Skill        1 'enhanced damage'
+Skill        1 'fifth attack'
+Skill        1 'forage'
+Skill        1 'forge'
+Skill        1 'fourth attack'
+Skill        1 'grip'
+Weapon       1 'hand to hand'
+Skill        1 'headbutt'
+Skill        1 'jab'
+Skill        1 'kick'
+Skill        1 'lunge'
+Weapon       1 'maces and hammers'
+Skill        1 'parry'
+Weapon       1 'polearms'
+Skill        1 'pummel'
+Skill        1 'punch'
+Skill        1 'punt'
+Skill        1 'rescue'
+Skill        1 'roundhouse'
+Skill        1 'scan'
+Skill        1 'second attack'
+Skill        1 'shoulder'
+Tongue       100 'siru'
+Weapon       1 'slings'
+Weapon       1 'spears'
+Weapon       1 'staves'
+Skill        1 'stun'
+Weapon       1 'swords'
+Skill        1 'third attack'
+Skill        1 'track'
+Skill        1 'uppercut'
+Weapon       1 'whips'
+Tongue       100 'wildtongue'
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10333
+WearLoc      6
+Values       1 1 0 0 0 0
+End
+
+#END

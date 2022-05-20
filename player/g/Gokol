@@ -1,0 +1,61 @@
+#PLAYER
+Version      5
+Name         Gokol~
+Sex          2
+Class        12
+Race         15
+Subrace      0
+Age          0 5 7 607
+Languages    1 1
+Level        2
+Played       2355
+Room         21057
+HpManaMove   32 28 104 104 110 110
+Gold         0
+Exp          2000
+Height          72
+Weight          156
+Act          570426952
+AffectedBy   4194304
+Position     112
+Style     2
+Practice     5
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	       0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        50
+Resistant    256
+Susceptible  3
+Mentalstate  0
+Password     f22b40a0e9daacb3b357657580e9326ddc204138ac1730791176a375eb83f321~
+Title         the Spell Student~
+Flags        0
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     11 18 18 10 9 15 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 19 12 10
+Site         71.112.167.106
+Tongue       100 'common'
+Tongue       100 'yranib'
+AffectData   'armor'  30 -20  17 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         819
+WearLoc      6
+Level        1
+Values       3 3 0 0 0 0
+End
+
+#END

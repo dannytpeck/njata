@@ -1,0 +1,120 @@
+#PLAYER
+Version      5
+Name         Applejacks~
+Sex          2
+Class        12
+Subclass     0
+Race         23
+Subrace      0
+Age          0 29 13 607
+Languages    1 1
+Level        44
+Played       6149
+Room         21202
+HpManaMove   857 857 959 959 1048 1048
+Gold         9297
+Exp          79507000
+Height       71
+Weight       157
+HairColor    0
+HairLength   0
+HairStyle    0
+EyeColor     0
+EyeShape     0
+SkinColor    0
+BodyShape    0
+Act          1644168776&2
+Position     112
+Style        2
+Practice     2
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Mentalstate  0
+Password     34ee925e21f0ddef077a5da8181e87ca978c413a2a6ec36b97a8896f4e02c9bf~
+Rank         Dragon~
+Title         is a big scary DRAGON~
+Flags        131584
+PKills       0
+PDeaths      0
+MKills       3
+MDeaths      0
+IllegalPK    0
+Timezone     -1
+AttrPerm     11 18 13 7 8 7 18
+AttrMod      0 0 0 0 0 0 0
+Condition    0 22 46 54
+Site         72.223.91.114
+Skill        1 'aid'
+Spell        5 'black hand'
+Tongue       100 'common'
+Weapon       1 'daggers'
+Spell        1 'detect magic'
+Weapon       19 'hand to hand'
+Killed       8005 3
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 14 14 14 15 15 11 11 9 46 40 12 7 7 10 6 11 9 10 1 15 11 15 6 10 13 12 10 11 12 10 3 12 9 15 11 15 14 2 5 15 9 7 2 9 12 10 2 10 15 7 7 15 12 12 12 10 14 14 14 10 10 10 13 2 10 14 10 10 2 6 1 9 2 10 7 10 15 
+End
+
+#OBJECT
+Vnum         10334
+WearLoc      6
+Values       5 5 0 0 0 0
+End
+
+#OBJECT
+Vnum         413
+WearLoc      24
+Level        1
+Values       12 1 10 0 0 0
+End
+
+#OBJECT
+Vnum         402
+WearLoc      1
+Level        1
+Values       3 3 0 0 0 0
+End
+
+#OBJECT
+Vnum         10308
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         10310
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         10311
+Level        1
+Values       0 0 -1 0 0 0
+End
+
+#OBJECT
+Vnum         10312
+Level        1
+Values       12 1 6 2 2 0
+End
+
+#OBJECT
+Vnum         10333
+Level        1
+Values       5 5 0 0 0 0
+End
+
+#OBJECT
+Vnum         123
+Level        1
+Values       75 0 0 0 0 0
+End
+
+#END

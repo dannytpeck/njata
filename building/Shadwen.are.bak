@@ -1,0 +1,1694 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         {PROTO} Shadwen's area in progress~
+Author       Shadwen~
+WeatherX     0
+WeatherY     0
+Ranges       0 0 0 0
+Flags        prototype~
+#ENDAREADATA
+
+#MOBILE
+Vnum       500
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       501
+Keywords   Guard Fletch Head~
+Short      Fletch, the Head Guard~
+Long       Fletch, the Head Guard floats here, keeping a watch for any contraband and outsiders.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#MUDPROG
+Progtype  greet_prog~
+Arglist   100~
+Comlist   if race($n) == fairy
+say Welcome, fellow Fairy!
+else
+say What are you doing here scum? You have to prove yourself to enter this+
+town.
+endif
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       502
+Keywords   Carrie Backup up guard~
+Short      Carrie, the Back-up Guard~
+Long       Carrie, the Back-up Guard stands here, ever vigilant.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc stayarea prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       503
+Keywords   Holly Backup Up Guard~
+Short      Holly, the Back-up Guard~
+Long       Holly, the Back-up Guard stands here, ever vigilant.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       505
+Keywords   Lily,The Berry Expert ~
+Short      a newly created Lily,The Berry Expert ~
+Long       Some god abandoned a newly created Lily,The Berry Expert  here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       506
+Keywords   Frawn,The Forger~
+Short      a newly created Frawn,The Forger~
+Long       Some god abandoned a newly created Frawn,The Forger here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       507
+Keywords   Brynn,The Clothier~
+Short      a newly created Brynn,The Clothier~
+Long       Some god abandoned a newly created Brynn,The Clothier here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       508
+Keywords   Elwayn,The Breeder~
+Short      a newly created Elwayn,The Breeder~
+Long       Some god abandoned a newly created Elwayn,The Breeder here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       509
+Keywords   Bet Taker~
+Short      the Bet Taker~
+Long       The Bet Taker stands here, taking people's bets and calling out the winning birds.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea nowander noassist pacifist noattack prototype~
+Stats1     0 50 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#MUDPROG
+Progtype  speech_prog~
+Arglist   "Bet Sparrow"~
+Comlist   if goldamt($n) < 5000
+mpsleep 4
+hmm $n
+mpsleep 6
+say I'm sorry, you don't have enough coins to bet!
+else
+mpforce $n give 5000 coins bet
+mpsleep 5
+say Excellent choice! I'm sure your wager will be very profitable! The race+
+will start as soon as the birds are ready!
+mpsleep 6
+mpecho Across a gap in the branches, a line of nests can be seen housing a+
+variety of vicious looking race birds.
+mpsleep 6
+mpecho A voice booms, almost as if magically enhanced.
+mpsleep 4
+mpecho &RThank you for attending todays Skyrace! We hope you have a wonderful+
+time!&D
+mpsleep 9
+mpecho &RIn our first nest, we have Jack, the Sparrow!&D
+mpsleep 9
+mpecho &ROur second nest holds Silverwing, the Snow Owl!&D
+mpsleep 9
+mpecho &RGlaring fiercely over his competition in our third nest, Zach the+
+Peregrine Falcon readies himself.&D
+mpsleep 9
+mpecho &RA Flame Robin going by the name of Christopher sits patiently in the+
+fourth nest.&D
+mpsleep 9
+mpecho &RAnd our last contender, a pelican named Percival awaits the starting+
+horn eagerly!&D
+mpsleep 10
+mpecho The birds abruptly straighten up, as if summoned to by a whistle that is
+
+inaudible except to a bird's ears.
+mpsleep 10
+mpecho &RThe rules are as follows for the birds...They must retrieve their own+
+stick off of the ground and return it to their nest, if+
+they retrieve someone else's stick, the race will have to be rescheduled for+
+another day!&D
+mpsleep 8
+mpecho &RThat is the only rule! The birds will start on the blowhorn!&D
+mpsleep 11
+mpecho &G3&D
+mpsleep 3
+mpecho &R...&D
+mpsleep 2
+mpecho &R..&D
+mpsleep 2
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       510
+Keywords   Teryn Fortune Teller~
+Short      Teryn, the Fortune Teller~
+Long       Teryn, the Fortune Teller sits in a chair in the middle of the room meditating.
+~
+Race       human~
+Class      cleric~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc sentinel stayarea nowander noassist pacifist noattack prototype~
+Affected   detect_invis~
+Stats1     0 50 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#MUDPROG
+Progtype  bribe_prog~
+Arglist   400~
+Comlist   if rand(50)
+whisper $n Ahh, my child, it seems you have wronged many, and karma has+
+come back to haunt you!
+mpsleep 7
+mea $n Teryn, the Fortune Teller skims her hand across the crystal ball+
+on the table, and it starts turning a black foggy color.
+mpsleep 6
+whisper $n Yes, dark times await you my dear, always be prepared, and try+
+not to falter from what is right!
+else
+whisper $n Your aura shines with the radiance of the three suns! Ahh, yes.+
+I can tell this will be an enjoyable session for you!
+mpsleep 7
+mea $n Teryn, the Fortune Teller skims the top of the crystal ball+
+laying on her table, and it turns a cloudy white and pleasant blue color.
+mpsleep 6
+whisper $n Yes, you have walked the path of the righteous, and will be+
+rewarded as such!
+mpsleep 7
+mea $n You feel your holy aura glow with energy!
+c sanc $n
+c bless $n
+endif
+~
+#ENDPROG
+
+#ENDMOBILE
+
+#MOBILE
+Vnum       511
+Keywords   Fetwayn,the Armorsmith~
+Short      Fetwayn,the Armorsmith~
+Long       Fetwayn,the Armorsmith shines a metal plate.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       540
+Keywords   Flenk Imbuer~
+Short      Flenk, the Imbuer~
+Long       Flenk, the Imbuer fiddles around with various trinkets, artifacts, and relics.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       543
+Keywords   Lynin Server~
+Short      Lynin, the Server~
+Long       Lynin, the Server stands near the salad bar, tending to the hungry customers.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       545
+Keywords   Tryle,the Map Salesman~
+Short      a newly created Tryle,the Map Salesman~
+Long       Some god abandoned a newly created Tryle,the Map Salesman here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       546
+Keywords   Verun,the Guide~
+Short      a newly created Verun,the Guide~
+Long       Some god abandoned a newly created Verun,the Guide here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       599
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       human~
+Class      druid~
+Position   standing~
+DefPos     standing~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    13 13 13 13 13 13 13
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     500
+Keywords first obj~
+Type     trash~
+Short    a newly created first obj~
+Long     Some god dropped a newly created first obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     599
+Keywords last obj~
+Type     trash~
+Short    a newly created last obj~
+Long     Some god dropped a newly created last obj here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     500
+Name     A small hole in a tree trunk.~
+Sector   city~
+Flags    nomob prototype~
+Desc     The hole in this tree seems to glow a faint blue. The entry to the fabled
+fairy city cannot be far.
+~
+#EXIT
+Direction north~
+ToRoom    501
+#ENDEXIT
+
+#MUDPROG
+Progtype  leave_prog~
+Arglist   100~
+Comlist   mpechoat $n As you climb through the hole in the tree, you find yourself at the
+
+base of some steps.
+mpsleep 3
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     501
+Name     Climbing the stairs~
+Sector   city~
+Flags    prototype~
+Desc     The steps seem to spiral upwards. Handcarved inside of the tree.
+~
+#EXIT
+Direction south~
+ToRoom    500
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    502
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     502
+Name     Approaching a door~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction up~
+ToRoom    503
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    501
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     503
+Name     The Entrance to Aviatrix.~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    504
+Keywords  door~
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    536
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    537
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    502
+#ENDEXIT
+
+Reset M 0 501 1 503
+Reset D 0 503 0 0
+#ENDROOM
+
+#ROOM
+Vnum     504
+Name     The Enchanted Pathway.~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    505
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    503
+Keywords  door~
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 504 2 1
+#MUDPROG
+Progtype  entry_prog~
+Arglist   100~
+Comlist   if race($n) != Fairy
+mpecho You feel a magical force pulling you back.
+mptransfer $n 503
+endif
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     505
+Name     The Enchanted Pathway~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    506
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    504
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     506
+Name     Where the Branches Meet~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    509
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    507
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    505
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    508
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     507
+Name     The Trusty Stick~
+Sector   city~
+Flags    prototype~
+Desc     Fairy weapon shop, its small..but loaded.
+~
+#EXIT
+Direction west~
+ToRoom    506
+#ENDEXIT
+
+Reset M 0 506 1 507
+#ENDROOM
+
+#ROOM
+Vnum     508
+Name     Berryllium~
+Sector   city~
+Flags    prototype~
+Desc     berry food shop, for those who are tired of leaves.
+~
+#EXIT
+Direction east~
+ToRoom    506
+#ENDEXIT
+
+Reset M 0 505 1 508
+#ENDROOM
+
+#ROOM
+Vnum     509
+Name     The Enchanted Pathway~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    510
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    506
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     510
+Name     The Enchanted Pathway~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    538
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    509
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    511
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     511
+Name     Climbing the Trunk~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction west~
+ToRoom    512
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    510
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     512
+Name     The First Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    513
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    511
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     513
+Name     The First Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    514
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    512
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    539
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     514
+Name     The First Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    515
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    513
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     515
+Name     The First Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    516
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    514
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     516
+Name     The First Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    517
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    515
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     517
+Name     The First Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    516
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    518
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     518
+Name     Climbing The Trunk~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    519
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    517
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     519
+Name     The Second Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    518
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    520
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     520
+Name     The Second Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    519
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    521
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     521
+Name     The Second Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    522
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    540
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    520
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     522
+Name     The Second Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    523
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    521
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     523
+Name     The Second Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    522
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    524
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     524
+Name     Climbing the Trunk~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    525
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    523
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     525
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    526
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    548
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    524
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     526
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    527
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    525
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     527
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    528
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    557
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    526
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     528
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    529
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    527
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     529
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    530
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    528
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     530
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    531
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    529
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     531
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    530
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    532
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     532
+Name     The Third Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    531
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    533
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     533
+Name     Climbing to the Top~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction up~
+ToRoom    534
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    532
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     534
+Name     Approaching the SkyRaces~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    535
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    533
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     535
+Name     The Betting Stable~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    534
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     536
+Name     Guard Shack~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction west~
+ToRoom    503
+#ENDEXIT
+
+#MUDPROG
+Progtype  time_prog~
+Arglist   24~
+Comlist   mpecho There is a loud buzzing sound, indicating the guard change.
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     537
+Name     Guard Shack~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    503
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     538
+Name     The Fashionable Fairy~
+Sector   city~
+Flags    prototype~
+Desc     Fairy Clothing Shop, need to add an armor shop to the west of this
+~
+#EXIT
+Direction east~
+ToRoom    547
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    510
+#ENDEXIT
+
+Reset M 0 507 1 538
+#ENDROOM
+
+#ROOM
+Vnum     539
+Name     Pinion Pals~
+Sector   city~
+Flags    prototype~
+Desc     Mount shop, dragonflies, well kept, and full of healthy creatures. Only big
+enough for tiny chars.
+~
+#EXIT
+Direction east~
+ToRoom    513
+#ENDEXIT
+
+Reset M 0 508 1 539
+#ENDROOM
+
+#ROOM
+Vnum     540
+Name     The Dusty Fairy~
+Sector   city~
+Flags    nomob prototype~
+Desc     There are many floating orbs illuminating the shop, they seem to be
+leading to the front desc, where two artifacts sit, glowing with a
+radiant aura.
+~
+#EXIT
+Direction north~
+ToRoom    521
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    541
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    542
+#ENDEXIT
+
+Reset M 0 540 1 540
+#ENDROOM
+
+#ROOM
+Vnum     541
+Name     Fortunes Seeker~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction west~
+ToRoom    540
+#ENDEXIT
+
+Reset M 0 510 1 541
+#MUDPROG
+Progtype  leave_prog~
+Arglist   100~
+Comlist   mpechoat $n May your dreams guide the way, and nary let them sway.
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum     542
+Name     Path through the Bazaar~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    540
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    544
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    543
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     543
+Name     The Trickling Leaf~
+Sector   city~
+Flags    prototype~
+Desc     Now inside The Trickling Leaf, leaf wraps can be seen on counter-tops
+looking absolutely appetizing. Some creams and spices are in the leaf
+wraps, along with red sugar sticks holding the wraps together. Salads in
+the salad bar are already made with what looks like every combination of
+things possible on them. Lynin, the Server stands closeby, keeping an
+attentive eye out for anyone that may need help.
+~
+#EXIT
+Direction east~
+ToRoom    542
+#ENDEXIT
+
+Reset M 0 543 1 543
+#ENDROOM
+
+#ROOM
+Vnum     544
+Name     Path through the Bazaar~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    542
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    546
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    545
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     545
+Name     The Marked Path~
+Sector   city~
+Flags    prototype~
+Desc     Coming inside a large store, there are hundreds of rolled up pieces of
+parchment that seemingly float against the walls. There are also a few
+floating bubble letters that form a sentence on the back wall, "The maps
+will guide the way" they say. The floor is covered in a mysterious kind of
+sand. It glistens in the light from the floating candles. The sweet scent
+of tree sap lingers in the air. A perky female fairy zips across the room,
+tending to the customers.
+~
+#EXIT
+Direction east~
+ToRoom    544
+#ENDEXIT
+
+Reset M 0 545 1 545
+#ENDROOM
+
+#ROOM
+Vnum     546
+Name     Guiding Wings~
+Sector   city~
+Flags    nomob prototype~
+Desc     There are several buggies lined up on a skinny tree branch. They are used
+to give tour rides to people who haven't seen the whole town. The buggies
+are attached to the branch, but there is no indication that they go
+anywhere. A guide stands nearby, talking about the various wonders of the
+town.
+~
+#EXIT
+Direction west~
+ToRoom    544
+#ENDEXIT
+
+Reset M 0 546 1 546
+#ENDROOM
+
+#ROOM
+Vnum     547
+Name     Wing Guards~
+Sector   city~
+Flags    nomob prototype~
+Desc     Fairy armor shop
+~
+#EXIT
+Direction west~
+ToRoom    538
+#ENDEXIT
+
+Reset M 1 511 1 547
+#ENDROOM
+
+#ROOM
+Vnum     548
+Name     Housing Branch~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    551
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    549
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    552
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    525
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     549
+Name     Housing Branch~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    554
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    550
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    553
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    548
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     550
+Name     Housing Branch~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    555
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    556
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    549
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     551
+Name     House~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    548
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     552
+Name     House~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    548
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     553
+Name     House~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    549
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     554
+Name     House~
+Sector   city~
+Flags    nomob prototype~
+#EXIT
+Direction south~
+ToRoom    549
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     555
+Name     House~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction south~
+ToRoom    550
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     556
+Name     House~
+Sector   city~
+Flags    nomob prototype~
+#EXIT
+Direction north~
+ToRoom    550
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     557
+Name     The Inner Ring~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction east~
+ToRoom    558
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    527
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     558
+Name     The Inner Ring~
+Sector   city~
+Flags    prototype~
+Desc     Inside the tree. Its a hidden staircase. need a hidden door to hide it.
+~
+#EXIT
+Direction west~
+ToRoom    557
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    559
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     559
+Name     Climbing the Inner Rings~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction up~
+ToRoom    560
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    558
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     560
+Name     Climbing the Inner Rings~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    561
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    559
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     561
+Name     Entering the Inner Sanctum~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    562
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    560
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     562
+Name     Through the Gates of the Inner Sanctum~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    563
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    561
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     563
+Name     Within the Inner Sanctum~
+Sector   city~
+Flags    prototype~
+Desc     All of sanctum is made of mystical wood/leaves. it also is a heavyily magical
+place.
+~
+#EXIT
+Direction south~
+ToRoom    562
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    564
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     564
+Name     Climbing the Mystical Staircase.~
+Sector   city~
+Flags    prototype~
+#EXIT
+Direction north~
+ToRoom    565
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    563
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum     565
+Name     The Temple of the Erdin~
+Sector   city~
+Flags    prototype~
+Desc     The king (eldrin) chambers. Has a throne, mystical oak and leaves that make up
+its structure. Guarded.
+~
+#EXIT
+Direction south~
+ToRoom    564
+Flags     isdoor closed~
+#ENDEXIT
+
+Reset D 0 565 2 1
+#ENDROOM
+
+#ROOM
+Vnum     566
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     576
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     586
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     599
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ENDAREA
